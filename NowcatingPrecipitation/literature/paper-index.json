@@ -744,6 +744,127 @@
       "indexed_evidence": "OpenReview page surfaced as a newly crawled result in the 2026-05-28 seven-day scan; the local dedupe script flags OpenReview forum URLs by normalized base URL, so title and ID were manually checked.",
       "priority_dataset_match": "SEVIR",
       "radar_dataset_evidence": "Evaluates on SEVIR-VIL, HKO-7 CAPPI radar reflectivity, and MeteoNet radar observations for radar-echo nowcasting."
+    },
+    {
+      "title": "A two-stage trained hybrid Unet-ConvLSTM2D for enhanced precipitation nowcasting",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364815225002166",
+      "doi": "10.1016/j.envsoft.2025.106532",
+      "source": "Environmental Modelling & Software / ScienceDirect",
+      "date_added": "2026-05-28",
+      "publication_date": "2025-10",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "CIKM",
+      "radar_dataset_evidence": "Uses CIKM 2017 radar images for future-frame precipitation nowcasting from past radar frames."
+    },
+    {
+      "title": "SwinNowcast: A Swin Transformer-Based Model for Radar-Based Precipitation Nowcasting",
+      "url": "https://www.mdpi.com/2072-4292/17/9/1550",
+      "doi": "10.3390/rs17091550",
+      "source": "Remote Sensing / MDPI",
+      "date_added": "2026-05-28",
+      "publication_date": "2025-04-27",
+      "indexed_evidence": "MDPI page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses KNMI radar-derived precipitation maps converted from radar reflectivity through a Z-R relationship."
+    },
+    {
+      "title": "RadarNet: A parallel spatiotemporal encoder network for radar extrapolation",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231224004363",
+      "doi": "10.1016/j.neucom.2024.127665",
+      "source": "Neurocomputing / ScienceDirect",
+      "date_added": "2026-05-28",
+      "publication_date": "2024-06",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Evaluates radar extrapolation on Shijiazhuang and Nanjing real-world radar echo datasets."
+    },
+    {
+      "title": "SWINAT-UNET: A NEW BACKBONE FOR PRECIPITATION NOWCASTING",
+      "url": "https://resourcecenter.ieee.org/conferences/icip-2023/spsicip23vid0426",
+      "doi": "10.17023/aynn-b077",
+      "source": "IEEE Resource Center / ICIP 2023 poster",
+      "date_added": "2026-05-28",
+      "publication_date": "2023-10-10",
+      "indexed_evidence": "IEEE page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "Shanghai/ShangHai signal; public benchmark identity unverified",
+      "radar_dataset_evidence": "Uses high-spatiotemporal-resolution weather radar detection data from Shanghai City for precipitation nowcasting."
+    },
+    {
+      "title": "Improvements in deep learning-based precipitation nowcasting using major atmospheric factors with radar rain rate",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0098300424000128",
+      "doi": "10.1016/j.cageo.2024.105529",
+      "source": "Computers & Geosciences / ScienceDirect",
+      "date_added": "2026-05-28",
+      "publication_date": "2024-02",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses radar rain rate together with major atmospheric factors for deep-learning-based precipitation nowcasting."
+    },
+    {
+      "title": "Effective training strategies for deep-learning-based precipitation nowcasting and estimation",
+      "url": "https://www.sciencedirect.com/science/article/pii/S009830042200036X",
+      "doi": "10.1016/j.cageo.2022.105072",
+      "source": "Computers & Geosciences / ScienceDirect",
+      "date_added": "2026-05-28",
+      "publication_date": "2022-06",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Studies deep-learning precipitation nowcasting and estimation using radar images and precipitation data."
+    },
+    {
+      "title": "trajPredRNN+: A new approach for precipitation nowcasting with weather radar echo images based on deep learning",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2405844024121652",
+      "doi": "10.1016/j.heliyon.2024.e37510",
+      "source": "Heliyon / ScienceDirect",
+      "date_added": "2026-05-28",
+      "publication_date": "2024-09",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses weather radar echo images from Shenzhen Meteorological Bureau for precipitation nowcasting."
+    },
+    {
+      "title": "Location-Refining neural network: A new deep learning-based framework for Heavy Rainfall Forecast",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0098300422001078",
+      "doi": "10.1016/j.cageo.2022.105152",
+      "source": "Computers & Geosciences / ScienceDirect",
+      "date_added": "2026-05-28",
+      "publication_date": "2022-11",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Builds a heavy-rainfall forecast dataset from radar echo maps and predicts future precipitation maps."
+    },
+    {
+      "title": "MLAM: Multi-Layer Attention Module for Radar Extrapolation Based on Spatiotemporal Sequence Neural Network",
+      "url": "https://www.mdpi.com/1424-8220/23/19/8065",
+      "doi": "10.3390/s23198065",
+      "source": "Sensors / MDPI",
+      "date_added": "2026-05-28",
+      "publication_date": "2023-09-25",
+      "indexed_evidence": "PMC/MDPI pages surfaced as newly crawled results in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Evaluates radar echo extrapolation on HKO-7 and HMB radar echo datasets."
+    },
+    {
+      "title": "Personalized federated learning for improving radar based precipitation nowcasting on heterogeneous areas",
+      "url": "https://link.springer.com/article/10.1007/s12145-024-01438-9",
+      "doi": "10.1007/s12145-024-01438-9",
+      "source": "Earth Science Informatics / Springer",
+      "date_added": "2026-05-28",
+      "publication_date": "2024-09-11",
+      "indexed_evidence": "Springer page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses compact X-band meteorological radar VIL products for radar-based precipitation nowcasting."
+    },
+    {
+      "title": "RN-Net: A Deep Learning Approach to 0-2 Hour Rainfall Nowcasting Based on Radar and Automatic Weather Station Data",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7998606/",
+      "doi": "10.3390/s21061981",
+      "source": "Sensors / PMC / MDPI",
+      "date_added": "2026-05-28",
+      "publication_date": "2021-03-19",
+      "indexed_evidence": "PMC page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses radar echo maps and automatic weather station observations for 0-2 hour rainfall nowcasting."
     }
   ]
 }
