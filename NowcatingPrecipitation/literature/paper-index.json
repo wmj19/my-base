@@ -865,6 +865,96 @@
       "indexed_evidence": "PMC page surfaced as a newly crawled result in the 2026-05-28 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Uses radar echo maps and automatic weather station observations for 0-2 hour rainfall nowcasting."
+    },
+    {
+      "title": "S3NN: Exploring Stochastic Modeling in Precipitation Nowcasting Domain",
+      "url": "https://eurekamag.com/research/105/686/105686093.php",
+      "doi": "10.1109/TGRS.2026.3684546",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / EurekaMag / ORCID",
+      "date_added": "2026-05-29",
+      "publication_date": "2026",
+      "indexed_evidence": "EurekaMag record surfaced as a newly crawled result from 2 days ago in the 2026-05-29 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Evaluates S3NN on HKO-7 and MeteoNet radar datasets; MeteoNet is not MetNet."
+    },
+    {
+      "title": "TPDTC-Net: A Decoupled Spatial-Temporal Network for Precipitation Nowcasting",
+      "url": "https://colab.ws/articles/10.1109%2Ftgrs.2025.3611969",
+      "doi": "10.1109/TGRS.2025.3611969",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / CoLab / Ablesci",
+      "date_added": "2026-05-29",
+      "publication_date": "2025-09-19",
+      "indexed_evidence": "Ablesci record surfaced as a last-week crawled result in the 2026-05-29 seven-day scan.",
+      "priority_dataset_match": "CIKM",
+      "radar_dataset_evidence": "Evaluates on KNMI and CIKM AnalytiCup 2017 radar nowcasting benchmark datasets."
+    },
+    {
+      "title": "RSG-GAN: A GAN-Based Precipitation Nowcasting Model Integrating Radar QPE, GOES-16 SWD, and GNSS ZTDs",
+      "url": "https://colab.ws/articles/10.1109%2Ftgrs.2025.3587883",
+      "doi": "10.1109/TGRS.2025.3587883",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / CoLab / Ablesci / ORCID",
+      "date_added": "2026-05-29",
+      "publication_date": "2025-07-10",
+      "indexed_evidence": "Ablesci record surfaced as a today-crawled result in the 2026-05-29 seven-day scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "Integrates Radar QPE with GOES-16 SWD and GNSS ZTDs, and reports transfer learning on SEVIR."
+    },
+    {
+      "title": "RadarDiT: An advanced radar echo extrapolation model for three gorges reservoir area via diffusion transformer",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214581825005324",
+      "doi": "10.1016/j.ejrh.2025.102703",
+      "source": "Journal of Hydrology: Regional Studies / ScienceDirect / DOAJ",
+      "date_added": "2026-05-29",
+      "publication_date": "2025-10",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result from 5 days ago in the 2026-05-29 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Builds a five-year Three Gorges Reservoir Area radar echo dataset and predicts future radar echo images."
+    },
+    {
+      "title": "M4Caster: Multi-source, multi-spatial, multi-temporal modeling for precipitation nowcasting",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0925231225012937",
+      "doi": "10.1016/j.neucom.2025.130621",
+      "source": "Neurocomputing / ScienceDirect / J-GLOBAL",
+      "date_added": "2026-05-29",
+      "publication_date": "2025-10-01",
+      "indexed_evidence": "J-GLOBAL Japanese record surfaced as a today-crawled result in the 2026-05-29 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses satellite observations and ground-based S-band weather radar composite reflectivity to predict future radar echo sequences in the Yangtze River Delta."
+    },
+    {
+      "title": "LangPrecip: Language-Aware Multimodal Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2512.22317",
+      "doi": "10.48550/arXiv.2512.22317",
+      "arxiv_id": "2512.22317",
+      "source": "arXiv / ICML 2026 Downloads / PulseAugur",
+      "date_added": "2026-05-29",
+      "publication_date": "2025-12-26",
+      "indexed_evidence": "ICML 2026 Downloads page and PulseAugur record surfaced in the 2026-05-29 seven-day scan; final ICML status still needs later confirmation.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Fuses textual and radar information, introduces 160k paired radar sequences and motion descriptions, and evaluates on Swedish and MRMS radar datasets."
+    },
+    {
+      "title": "High-Dynamic Radar Sequence Prediction for Weather Nowcasting Using Spatiotemporal Coherent Gaussian Representation",
+      "url": "https://arxiv.org/abs/2502.14895",
+      "doi": "10.48550/arXiv.2502.14895",
+      "arxiv_id": "2502.14895",
+      "source": "arXiv / ICLR 2025 / Project page",
+      "date_added": "2026-05-29",
+      "publication_date": "2025-02-17",
+      "indexed_evidence": "Project page surfaced as a last-week crawled result in the 2026-05-29 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Predicts future radar echo sequences and reports experiments on MOSAIC and NEXRAD 3D weather radar sequences."
+    },
+    {
+      "title": "Skillful Radar-Based Heavy Rainfall Nowcasting Using Task-Segmented Generative Adversarial Network",
+      "url": "https://researchportal.hkust.edu.hk/en/publications/skillful-radar-based-heavy-rainfall-nowcasting-using-task-segment/",
+      "doi": "10.1109/TGRS.2023.3295211",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / HKUST Research Portal / J-GLOBAL",
+      "date_added": "2026-05-29",
+      "publication_date": "2023",
+      "indexed_evidence": "HKUST Research Portal record surfaced as a newly crawled result from 2 days ago in the 2026-05-29 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "HKUST metadata lists Doppler radar reflectivity data and the paper is explicitly radar-based heavy rainfall nowcasting."
     }
   ]
 }
