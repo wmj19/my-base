@@ -955,6 +955,72 @@
       "indexed_evidence": "HKUST Research Portal record surfaced as a newly crawled result from 2 days ago in the 2026-05-29 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "HKUST metadata lists Doppler radar reflectivity data and the paper is explicitly radar-based heavy rainfall nowcasting."
+    },
+    {
+      "title": "Beyond MSE: Improving Precipitation Nowcasting with Multi-Quantile Regression",
+      "url": "https://arxiv.org/abs/2605.30122",
+      "doi": "10.48550/arXiv.2605.30122",
+      "arxiv_id": "2605.30122",
+      "source": "arXiv",
+      "date_added": "2026-05-30",
+      "publication_date": "2026-05-28",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses SmaAt-UNet for radar precipitation nowcasting over the Netherlands and compares MSE, MAE, and multi-quantile pinball-loss training."
+    },
+    {
+      "title": "An NWP-Free, Observation-Driven Deep Learning Approach to Heavy-Rainfall Nowcasting Beyond the Three-Hour Limit",
+      "url": "https://doi.org/10.5194/egusphere-egu26-2056",
+      "doi": "10.5194/egusphere-egu26-2056",
+      "source": "EGU General Assembly 2026 conference abstract",
+      "date_added": "2026-05-30",
+      "presentation_date": "2026-05-03--2026-05-08",
+      "indexed_evidence": "EGU abstract page surfaced as a today-crawled result in the 2026-05-30 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "FlowsNet learns from radar/rain-gauge-analyzed precipitation with surface variables, geostationary satellite imagery, and satellite-derived precipitation context."
+    },
+    {
+      "title": "Advancing Rainfall Nowcasting in Tropical Southeast Asia with Physics-Informed Deep Generative Models",
+      "url": "https://doi.org/10.5194/egusphere-egu26-7775",
+      "doi": "10.5194/egusphere-egu26-7775",
+      "source": "EGU General Assembly 2026 conference abstract",
+      "date_added": "2026-05-30",
+      "presentation_date": "2026-05-03--2026-05-08",
+      "indexed_evidence": "EGU session page surfaced as a yesterday-crawled result in the 2026-05-30 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses high-resolution radar imagery plus Doppler wind, multi-altitude reflectivity, and composite reflectivity for tropical rainfall nowcasting."
+    },
+    {
+      "title": "SA-DGNet: Precipitation Nowcasting with Attention Mechanism and dual-path residual",
+      "url": "https://doi.org/10.21203/rs.3.rs-7945830/v1",
+      "doi": "10.21203/rs.3.rs-7945830/v1",
+      "source": "Research Square preprint / Sciety",
+      "date_added": "2026-05-30",
+      "publication_date": "2026-04-09",
+      "indexed_evidence": "Sciety page surfaced as a last-week crawled result in the 2026-05-30 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Evaluates SA-DGNet on Netherlands radar precipitation maps from the NL-50 dataset."
+    },
+    {
+      "title": "SwinKAN: A Dual-Polarization Radar Extrapolation Model Based on Swin Transformer and Convolutional Kolmogorov-Arnold Networks",
+      "url": "https://ieeexplore.ieee.org/document/11052773/",
+      "doi": "10.1109/TGRS.2025.3583592",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / CoLab / J-GLOBAL",
+      "date_added": "2026-05-30",
+      "publication_date": "2025-06-26",
+      "indexed_evidence": "CoLab and J-GLOBAL records surfaced as newly crawled results in the 2026-05-30 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses dual-polarization radar data and predicts Zh, Zdr, and Kdp variables for severe convective radar extrapolation."
+    },
+    {
+      "title": "Morphology-aware spatiotemporal prediction of cumulonimbus-related radar echoes using CSDP-Net",
+      "url": "https://doi.org/10.1007/s00704-026-06276-x",
+      "doi": "10.1007/s00704-026-06276-x",
+      "source": "Theoretical and Applied Climatology / Springer / Sciety / Research Square",
+      "date_added": "2026-05-30",
+      "publication_date": "2026-04-28",
+      "indexed_evidence": "Sciety and EBSCO records surfaced as newly crawled results in the 2026-05-30 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Predicts cumulonimbus-related radar echo distributions and evaluates on the GCAPPI-2.0 radar echo dataset."
     }
   ]
 }
