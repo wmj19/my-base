@@ -1021,6 +1021,53 @@
       "indexed_evidence": "Sciety and EBSCO records surfaced as newly crawled results in the 2026-05-30 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Predicts cumulonimbus-related radar echo distributions and evaluates on the GCAPPI-2.0 radar echo dataset."
+    },
+    {
+      "title": "FuXi-Nowcast: Environment-conditioned deep learning for severe convection nowcasting",
+      "url": "https://arxiv.org/abs/2512.08974",
+      "doi": "10.48550/arXiv.2512.08974",
+      "arxiv_id": "2512.08974",
+      "source": "arXiv / SciRate / ChatPaper",
+      "date_added": "2026-05-31",
+      "publication_date": "2025-12-03",
+      "last_revised": "2026-05-25",
+      "indexed_evidence": "arXiv v2 was revised on 2026-05-25 and SciRate surfaced the record as a today-crawled result in the 2026-05-31 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Combines high-resolution observations including radar with FuXi-2.0 three-dimensional atmospheric fields, and predicts composite reflectivity and precipitation over East China."
+    },
+    {
+      "title": "Fully differentiable Lagrangian convolutional neural network for physics-informed precipitation nowcasting",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2590197425000783",
+      "doi": "10.1016/j.acags.2025.100296",
+      "arxiv_id": "2402.10747",
+      "source": "Applied Computing and Geosciences / ScienceDirect / DOAJ / arXiv",
+      "date_added": "2026-05-31",
+      "publication_date": "2025-12",
+      "indexed_evidence": "ScienceDirect page surfaced as a last-week crawled result in the 2026-05-31 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "ScienceDirect lists meteorological radar as a keyword and states the original data are available from Maly Javornik Radar."
+    },
+    {
+      "title": "Enhancing Machine Learning Models for Nowcasting and Short-Term Forecasting of Precipitation With a Novel Probability-Matching Loss Function",
+      "url": "https://doi.org/10.1029/2025GL119442",
+      "doi": "10.1029/2025GL119442",
+      "source": "Geophysical Research Letters / Nature Index / J-GLOBAL / Tencent Cloud article mirror",
+      "date_added": "2026-05-31",
+      "publication_date": "2025-12-28",
+      "indexed_evidence": "J-GLOBAL Japanese record surfaced as a today-crawled result in the 2026-05-31 seven-day scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "Chinese article summary states one experiment uses East China multi-source data with radar reflectivity as the precipitation indicator and another uses SEVIR for 1-hour, 5-minute precipitation nowcasting."
+    },
+    {
+      "title": "Multi-scale Physics-informed Transformer With Spatio-temporal Feature Adapter For Extreme Precipitation Nowcasting",
+      "url": "https://doi.org/10.1145/3711896.3737061",
+      "doi": "10.1145/3711896.3737061",
+      "source": "KDD 2025 official research track / ACM DOI / ChatPaper / Researchr",
+      "date_added": "2026-05-31",
+      "publication_date": "2025-08-03",
+      "indexed_evidence": "ChatPaper surfaced as a today-crawled result and Researchr surfaced as a last-week crawled result in the 2026-05-31 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "ChatPaper summary states the proposed MPFormer is evaluated on MRMS radar data from North America at 2 km resolution and 10-minute temporal spacing."
     }
   ]
 }
