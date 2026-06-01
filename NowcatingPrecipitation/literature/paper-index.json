@@ -1068,6 +1068,28 @@
       "indexed_evidence": "ChatPaper surfaced as a today-crawled result and Researchr surfaced as a last-week crawled result in the 2026-05-31 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "ChatPaper summary states the proposed MPFormer is evaluated on MRMS radar data from North America at 2 km resolution and 10-minute temporal spacing."
+    },
+    {
+      "title": "Self-clustered GAN for precipitation nowcasting",
+      "url": "https://www.nature.com/articles/s41598-024-60253-w",
+      "doi": "10.1038/s41598-024-60253-w",
+      "source": "Scientific Reports / Nature / PMC / PubMed",
+      "date_added": "2026-06-01",
+      "publication_date": "2024-04-29",
+      "indexed_evidence": "PMC and PubMed pages surfaced as newly crawled results from 3 days ago in the 2026-06-01 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses KMA composite weather radar CAPPI reflectivity frames to generate future radar frames for 2-hour precipitation nowcasting."
+    },
+    {
+      "title": "Short-Term Precipitation Radar Echo Extrapolation Method Based on the MS-DD3D-RSTN Network and STLoss Function",
+      "url": "https://www.mdpi.com/1424-8220/24/15/5004",
+      "doi": "10.3390/s24155004",
+      "source": "Sensors / MDPI / PMC / Mendeley",
+      "date_added": "2026-06-01",
+      "publication_date": "2024-08-02",
+      "indexed_evidence": "PMC page surfaced as a newly crawled result from 3 days ago and Mendeley surfaced as a 2-day crawled result in the 2026-06-01 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses Sichuan radar echo data and HKO-7 radar echo data; the model predicts future radar echo images from historical radar echo sequences."
     }
   ]
 }
