@@ -1090,6 +1090,153 @@
       "indexed_evidence": "PMC page surfaced as a newly crawled result from 3 days ago and Mendeley surfaced as a 2-day crawled result in the 2026-06-01 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Uses Sichuan radar echo data and HKO-7 radar echo data; the model predicts future radar echo images from historical radar echo sequences."
+    },
+    {
+      "title": "MRDF-Net: A Model with Multidimensional Reconstruction Convolution and Dynamic Force Unit for Radar Nowcasting",
+      "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2025-6488/",
+      "doi": "10.5194/egusphere-2025-6488",
+      "source": "EGUsphere discussion preprint",
+      "date_added": "2026-06-02",
+      "publication_date": "2026-02-23",
+      "last_revised": "2026-05-31",
+      "indexed_evidence": "EGUsphere record surfaced as a today-crawled/update result in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses high-spatiotemporal-resolution Multi-Parameter Phased Array Weather Radar observations for 3D radar nowcasting."
+    },
+    {
+      "title": "DiffCast: A Unified Framework via Residual Diffusion for Precipitation Nowcasting",
+      "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Yu_DiffCast_A_Unified_Framework_via_Residual_Diffusion_for_Precipitation_Nowcasting_CVPR_2024_paper.html",
+      "doi": "",
+      "arxiv_id": "2312.06734",
+      "source": "CVF Open Access / arXiv",
+      "date_added": "2026-06-02",
+      "publication_date": "2024",
+      "indexed_evidence": "CVF/arXiv record surfaced in the 2026-06-02 priority-dataset scan and was not present in the local archive.",
+      "priority_dataset_match": "SEVIR; ShangHai/Shanghai Radar; CIKM",
+      "radar_dataset_evidence": "Evaluates residual diffusion nowcasting on four public radar datasets: SEVIR, MeteoNet, Shanghai Radar, and CIKM; MeteoNet is not counted as MetNet."
+    },
+    {
+      "title": "PreDiff: Precipitation Nowcasting with Latent Diffusion Models",
+      "url": "https://arxiv.org/abs/2307.10422",
+      "doi": "10.48550/arXiv.2307.10422",
+      "arxiv_id": "2307.10422",
+      "source": "arXiv / NeurIPS 2023",
+      "date_added": "2026-06-02",
+      "publication_date": "2023-07-19",
+      "indexed_evidence": "NeurIPS/arXiv record surfaced as a recent search result in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "Evaluates latent diffusion precipitation nowcasting on SEVIR, whose VIL channel is radar-derived."
+    },
+    {
+      "title": "Latent diffusion models for generative precipitation nowcasting with accurate uncertainty quantification",
+      "url": "https://arxiv.org/abs/2304.12891",
+      "doi": "10.48550/arXiv.2304.12891",
+      "arxiv_id": "2304.12891",
+      "source": "arXiv",
+      "date_added": "2026-06-02",
+      "publication_date": "2023-04-25",
+      "indexed_evidence": "The LDCast paper surfaced as a recent search result in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses MeteoSwiss radar precipitation composites and German DWD RADOLAN radar-derived precipitation data."
+    },
+    {
+      "title": "DEUCE v1.0: a neural network for probabilistic precipitation nowcasting with aleatoric and epistemic uncertainties",
+      "url": "https://gmd.copernicus.org/articles/17/3839/2024/",
+      "doi": "10.5194/gmd-17-3839-2024",
+      "source": "Geoscientific Model Development / EGUsphere",
+      "date_added": "2026-06-02",
+      "publication_date": "2024-05-14",
+      "indexed_evidence": "EGUsphere/GMD pages surfaced as newly crawled results from 2 days ago in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses past precipitation radar images to forecast future precipitation radar images while modeling aleatoric and epistemic uncertainty."
+    },
+    {
+      "title": "Skilful nowcasting of extreme precipitation with NowcastNet",
+      "url": "https://www.nature.com/articles/s41586-023-06184-4",
+      "doi": "10.1038/s41586-023-06184-4",
+      "source": "Nature",
+      "date_added": "2026-06-02",
+      "publication_date": "2023-07-05",
+      "indexed_evidence": "Nature/NowcastNet pages surfaced as recent search results in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Learns extreme precipitation nowcasting from radar observations and evaluates on large-scale radar data from China and the United States."
+    },
+    {
+      "title": "Skilful precipitation nowcasting using deep generative models of radar",
+      "url": "https://www.nature.com/articles/s41586-021-03854-z",
+      "doi": "10.1038/s41586-021-03854-z",
+      "source": "Nature / PubMed",
+      "date_added": "2026-06-02",
+      "publication_date": "2021-09-29",
+      "indexed_evidence": "Nature/PubMed DGMR pages surfaced as newly crawled results from the past week in the 2026-06-02 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses weather radar observations to train a deep generative model for probabilistic precipitation nowcasting."
+    },
+    {
+      "title": "Rad-cGAN v1.0: radar-based precipitation nowcasting model with conditional generative adversarial networks for multiple dam domains",
+      "url": "https://gmd.copernicus.org/articles/15/5967/2022/",
+      "doi": "10.5194/gmd-15-5967-2022",
+      "source": "Geoscientific Model Development",
+      "date_added": "2026-06-02",
+      "publication_date": "2022-08-03",
+      "indexed_evidence": "GMD Rad-cGAN page surfaced as a newly crawled result from 2 days ago in the 2026-06-02 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "A radar-based precipitation nowcasting model trained and evaluated on radar precipitation data for multiple Korean dam domains."
+    },
+    {
+      "title": "Long lead-time radar rainfall nowcasting method incorporating atmospheric conditions using long short-term memory networks",
+      "url": "https://www.frontiersin.org/journals/environmental-science/articles/10.3389/fenvs.2022.1054235/full",
+      "doi": "10.3389/fenvs.2022.1054235",
+      "source": "Frontiers in Environmental Science",
+      "date_added": "2026-06-02",
+      "publication_date": "2022-11-22",
+      "indexed_evidence": "Frontiers page surfaced as a newly crawled result in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses radar rainfall nowcasting with atmospheric-condition inputs and LSTM networks."
+    },
+    {
+      "title": "Improving precipitation nowcasting using deep generative models: a case-study and experiences in R2O",
+      "url": "https://meetingorganizer.copernicus.org/EGU24/EGU24-6545.html",
+      "doi": "10.5194/egusphere-egu24-6545",
+      "source": "EGU General Assembly 2024 conference abstract",
+      "date_added": "2026-06-02",
+      "presentation_date": "2024-04-16",
+      "indexed_evidence": "Copernicus meeting abstract surfaced as a newly crawled result from 3 days ago in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses KNMI radar data to train and evaluate deep generative precipitation nowcasting models in an R2O case study."
+    },
+    {
+      "title": "Skillful deep learning-based precipitation nowcasting based on new AI-synthetic radar data",
+      "url": "https://meetingorganizer.copernicus.org/EMS2023/EMS2023-55.html",
+      "doi": "10.5194/ems2023-55",
+      "source": "EMS Annual Meeting 2023 conference abstract",
+      "date_added": "2026-06-02",
+      "presentation_date": "2023-09-06",
+      "indexed_evidence": "Copernicus meeting abstract surfaced as a newly crawled result from 6 days ago in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses TS-RainGAN synthetic radar data learned from KNMI radar data to train the RainMaker precipitation nowcasting model."
+    },
+    {
+      "title": "Ensemble precipitation nowcasting by combination of generative and transformer deep learning models",
+      "url": "https://meetingorganizer.copernicus.org/EGU23/EGU23-15153.html",
+      "doi": "10.5194/egusphere-egu23-15153",
+      "source": "EGU General Assembly 2023 conference abstract",
+      "date_added": "2026-06-02",
+      "presentation_date": "2023-04-28",
+      "indexed_evidence": "Copernicus meeting abstract surfaced as a newly crawled result from 5 days ago in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Combines generative and transformer deep learning models for ensemble precipitation nowcasting using Korean weather radar data."
+    },
+    {
+      "title": "Precipitation Nowcasting by Deep Physics-Constrained Neural Networks",
+      "url": "https://meetingorganizer.copernicus.org/EMS2022/EMS2022-391.html",
+      "doi": "10.5194/ems2022-391",
+      "source": "EMS Annual Meeting 2022 conference abstract",
+      "date_added": "2026-06-02",
+      "presentation_date": "2022-09-08",
+      "indexed_evidence": "Copernicus meeting abstract surfaced as a newly crawled result from 6 days ago in the 2026-06-02 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Discusses deep physics-constrained precipitation nowcasting for radar rainfall fields."
     }
   ]
 }
