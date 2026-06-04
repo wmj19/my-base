@@ -1,0 +1,868 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>2409.07825v1 | 缺失模态多模态学习综述阅读 deck</title>
+  <style>
+    :root {
+      --paper: #faf7ef;
+      --ink: #1c1b18;
+      --muted: #6c675d;
+      --line: #d9d0bf;
+      --teal: #1b7f79;
+      --teal-soft: #d8eeeb;
+      --amber: #bd7b19;
+      --amber-soft: #f5dfb8;
+      --berry: #9f4665;
+      --berry-soft: #f1d8e2;
+      --green: #547b3e;
+      --green-soft: #dcebcf;
+      --panel: #fffdf7;
+      --shadow: 0 18px 50px rgba(40, 32, 18, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      width: 100%;
+      min-height: 100%;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      letter-spacing: 0;
+    }
+
+    body {
+      overflow: hidden;
+    }
+
+    .deck {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .slide {
+      position: absolute;
+      inset: 0;
+      padding: 56px 70px 54px;
+      display: none;
+      overflow: hidden;
+    }
+
+    .slide.active {
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 24px;
+    }
+
+    .kicker {
+      color: var(--amber);
+      font-weight: 700;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3, p {
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 54px;
+      line-height: 1.05;
+      max-width: 980px;
+    }
+
+    h2 {
+      font-size: 40px;
+      line-height: 1.12;
+      max-width: 1040px;
+    }
+
+    h3 {
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .subhead {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 22px;
+      line-height: 1.45;
+      max-width: 980px;
+    }
+
+    .body {
+      display: grid;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .two {
+      grid-template-columns: 0.95fr 1.05fr;
+    }
+
+    .two-even {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .three {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .four {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+
+    .mini-panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .claim {
+      font-size: 30px;
+      line-height: 1.32;
+      font-weight: 750;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.55;
+    }
+
+    .list {
+      display: grid;
+      gap: 14px;
+      margin-top: 6px;
+    }
+
+    .list p {
+      font-size: 20px;
+      line-height: 1.45;
+      border-left: 4px solid var(--teal);
+      padding-left: 14px;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .tag {
+      border: 1px solid var(--line);
+      background: #fffaf0;
+      border-radius: 999px;
+      padding: 7px 12px;
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+    .paper-img {
+      width: 100%;
+      max-height: 470px;
+      object-fit: contain;
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .paper-img.tall {
+      max-height: 560px;
+    }
+
+    .caption {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.35;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .slide-no {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .flow {
+      display: grid;
+      gap: 14px;
+    }
+
+    .flow-row {
+      display: grid;
+      grid-template-columns: 1fr 46px 1fr 46px 1fr;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .box {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: white;
+      min-height: 90px;
+      padding: 18px;
+      display: grid;
+      align-content: center;
+      gap: 8px;
+    }
+
+    .box strong {
+      font-size: 20px;
+    }
+
+    .box span {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .arrow {
+      color: var(--teal);
+      font-size: 32px;
+      text-align: center;
+      font-weight: 800;
+    }
+
+    .matrix {
+      display: grid;
+      grid-template-columns: 1.1fr repeat(3, 1fr);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: white;
+    }
+
+    .matrix div {
+      padding: 13px 14px;
+      border-right: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      font-size: 15px;
+      line-height: 1.35;
+    }
+
+    .matrix div:nth-child(4n) {
+      border-right: 0;
+    }
+
+    .matrix .head {
+      background: var(--teal-soft);
+      font-weight: 750;
+    }
+
+    .matrix .rowhead {
+      font-weight: 750;
+      background: #fff7e8;
+    }
+
+    .pill-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+    }
+
+    .pill {
+      min-height: 90px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      padding: 16px;
+      background: white;
+    }
+
+    .pill strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+
+    .pill p {
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.42;
+    }
+
+    .accent-teal { background: var(--teal-soft); }
+    .accent-amber { background: var(--amber-soft); }
+    .accent-berry { background: var(--berry-soft); }
+    .accent-green { background: var(--green-soft); }
+
+    .big-number {
+      font-size: 84px;
+      line-height: 0.95;
+      color: var(--teal);
+      font-weight: 850;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .quote-card {
+      border-left: 8px solid var(--berry);
+      background: #fffaf8;
+      padding: 26px 28px;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+    }
+
+    .quote-card p {
+      font-size: 28px;
+      line-height: 1.35;
+      font-weight: 750;
+    }
+
+    .source {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .nowcasting {
+      display: grid;
+      grid-template-columns: 0.8fr 1fr 0.8fr;
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .source-stack, .test-stack {
+      display: grid;
+      gap: 10px;
+    }
+
+    .source-card {
+      background: white;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 16px;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .source-card b {
+      font-size: 17px;
+    }
+
+    .source-card span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .model-core {
+      background: #fffdf7;
+      border: 2px solid var(--teal);
+      border-radius: 8px;
+      padding: 26px;
+      display: grid;
+      align-content: center;
+      gap: 16px;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .model-core strong {
+      font-size: 28px;
+    }
+
+    .model-core p {
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.45;
+    }
+
+    .controls {
+      position: fixed;
+      right: 24px;
+      bottom: 20px;
+      display: flex;
+      gap: 8px;
+      z-index: 10;
+    }
+
+    button {
+      appearance: none;
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--ink);
+      border-radius: 8px;
+      padding: 9px 12px;
+      cursor: pointer;
+      font-weight: 750;
+      box-shadow: 0 8px 20px rgba(40, 32, 18, 0.08);
+    }
+
+    button:hover {
+      border-color: var(--teal);
+    }
+
+    .progress {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 5px;
+      background: rgba(0,0,0,0.07);
+      z-index: 11;
+    }
+
+    .bar {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--teal), var(--amber), var(--berry));
+    }
+
+    @media (max-width: 900px) {
+      body { overflow: auto; }
+      .deck { height: auto; }
+      .slide, .slide.active {
+        position: relative;
+        min-height: 100vh;
+        padding: 38px 24px 72px;
+        display: grid;
+      }
+      .slide:not(.active) { display: none; }
+      h1 { font-size: 38px; }
+      h2 { font-size: 30px; }
+      .two, .two-even, .three, .four, .nowcasting { grid-template-columns: 1fr; }
+      .flow-row { grid-template-columns: 1fr; }
+      .arrow { transform: rotate(90deg); }
+      .matrix { grid-template-columns: 1fr; }
+      .matrix div, .matrix div:nth-child(4n) { border-right: 0; }
+      .paper-img { max-height: none; }
+    }
+
+    @media print {
+      body { overflow: visible; background: white; }
+      .deck { height: auto; }
+      .slide {
+        page-break-after: always;
+        position: relative;
+        display: grid !important;
+        height: 100vh;
+      }
+      .controls, .progress { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck" aria-live="polite">
+    <section class="slide active">
+      <header>
+        <div class="kicker">Paper Reading Deck</div>
+        <h1>缺失模态多模态学习综述</h1>
+        <p class="subhead">把 2409.07825v1 从“文献条目”变成“可讲解的阅读材料”：核心问题、方法谱系、关键图表，以及它对多源降水临近预报的启发。</p>
+      </header>
+      <div class="body two">
+        <div class="panel">
+          <p class="claim">这篇文章的价值不是一个新模型，而是一张“缺模态鲁棒性”的方法地图。</p>
+          <div class="tag-row">
+            <span class="tag">arXiv:2409.07825v1</span>
+            <span class="tag">315 papers</span>
+            <span class="tag">13 method families</span>
+            <span class="tag">MLMM</span>
+          </div>
+        </div>
+        <div class="mini-panel">
+          <img class="paper-img tall" src="assets/2409-07825/page-01.png" alt="论文首页截图" />
+          <p class="caption">论文首页截图，仅用于本地阅读辅助。原始文件在 <code>papers/2409.07825v1.pdf</code>。</p>
+        </div>
+      </div>
+      <footer class="footer"><span>阅读目标：理解 MLMM taxonomy，并转译到 radar-satellite-station nowcasting</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Reading Mode</div>
+        <h2>辅助阅读和收集论文，是两种完全不同的产物</h2>
+      </header>
+      <div class="body two-even">
+        <div class="panel">
+          <h3>收集论文</h3>
+          <div class="list">
+            <p>目标是去重、分类、保留来源和核验日期。</p>
+            <p>重点是题名、链接、数据集、方法标签和为什么相关。</p>
+            <p>适合进入日报、索引、综述候选池。</p>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>辅助阅读</h3>
+          <div class="list">
+            <p>目标是把论文讲明白，让后续能复述、使用和迁移。</p>
+            <p>重点是文章结构、关键图表、概念关系和方法取舍。</p>
+            <p>适合做成 deck、讲义、实验设计清单。</p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"><span>本 deck 按“讲解”而不是“摘要”组织</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Core Problem</div>
+        <h2>论文研究的问题：模型不能假设所有模态永远完整</h2>
+      </header>
+      <div class="body two">
+        <div class="panel">
+          <p class="claim">MLFM 假设训练和推理都能拿到全部模态；MLMM 要处理训练或推理时只剩部分模态的样本。</p>
+          <div class="list">
+            <p>缺失可能来自传感器故障、成本、隐私、传输损坏、时空不同步。</p>
+            <p>难点不是“填空”本身，而是动态融合任意数量的可用模态。</p>
+          </div>
+        </div>
+        <div>
+          <img class="paper-img" src="assets/2409-07825/fig-1-missing-modality.png" alt="论文 Figure 1：多模态模型与缺失模态样本" />
+          <p class="caption">原文 Figure 1：右侧用透明虚线表示缺失模态。阅读时先抓住这个输入设定，后面的所有方法都是围绕它展开。</p>
+        </div>
+      </div>
+      <footer class="footer"><span>关键词：MLFM vs MLMM</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Paper Spine</div>
+        <h2>整篇综述的主线：四个维度，十三类方法</h2>
+      </header>
+      <div class="body two">
+        <div>
+          <img class="paper-img" src="assets/2409-07825/fig-2-taxonomy.png" alt="论文 Figure 2：MLMM 方法 taxonomy" />
+          <p class="caption">原文 Figure 2：作者提出的核心 taxonomy。它是读这篇论文最重要的一张图。</p>
+        </div>
+        <div class="panel">
+          <div class="list">
+            <p><strong>Modality augmentation</strong>：在原始数据层面补模态。</p>
+            <p><strong>Feature space engineering</strong>：在表征层面约束、组合或生成。</p>
+            <p><strong>Architecture engineering</strong>：用注意力、蒸馏、图结构或 MLLM 适配缺失。</p>
+            <p><strong>Model selection</strong>：不同模态组合调用不同模型或专家。</p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"><span>读法：先分清“补原始数据、补特征、改架构、换模型”</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Mental Model</div>
+        <h2>可以把 13 类方法压缩成一条处理链</h2>
+      </header>
+      <div class="body">
+        <div class="flow panel">
+          <div class="flow-row">
+            <div class="box accent-amber"><strong>原始模态层</strong><span>零填充、检索补齐、AE/GAN/Diffusion 生成缺失图像或序列</span></div>
+            <div class="arrow">→</div>
+            <div class="box accent-teal"><strong>特征层</strong><span>相关性约束、池化/合并、生成 missing representation</span></div>
+            <div class="arrow">→</div>
+            <div class="box accent-berry"><strong>架构层</strong><span>masked attention、teacher-student、graph fusion、MLLM token 统一建模</span></div>
+          </div>
+          <div class="flow-row">
+            <div class="box"><strong>低成本 baseline</strong><span>容易实现，但可能把缺失当成真实弱信号</span></div>
+            <div class="arrow">→</div>
+            <div class="box"><strong>主流折中点</strong><span>特征补全比原始数据生成更轻，也更少引入像素级伪影</span></div>
+            <div class="arrow">→</div>
+            <div class="box"><strong>系统级鲁棒</strong><span>模型知道哪些模态缺失，并在结构上能忽略或替代它们</span></div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"><span>这张是阅读用重画图，不是论文原图</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Dimension 1</div>
+        <h2>Modality Augmentation：最直觉，但风险也最直觉</h2>
+      </header>
+      <div class="body two-even">
+        <div class="panel">
+          <h3>Composition：拿东西先垫上</h3>
+          <div class="list">
+            <p>零值、随机值、复制过去帧、检索相似样本。</p>
+            <p>优点：简单、可做 baseline、保留样本量。</p>
+            <p>风险：高缺失率或像素级任务里，容易制造误导。</p>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>Generation：生成缺失模态</h3>
+          <div class="list">
+            <p>AE、U-Net、GAN、Diffusion 生成原始模态。</p>
+            <p>优点：可恢复更丰富的信息。</p>
+            <p>风险：生成器重，且可能产生看似合理但不可靠的模态。</p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"><span>转译到 nowcasting：卫星生成雷达代理可以有用，但强回波幻觉要专门评估</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Dimension 2</div>
+        <h2>Feature Space Engineering：多数时候，比补原图更稳</h2>
+      </header>
+      <div class="body">
+        <div class="pill-grid">
+          <div class="pill accent-teal"><strong>Regularization</strong><p>用张量秩、结构正则等让表征更稳，对新模态扩展相对灵活。</p></div>
+          <div class="pill accent-green"><strong>Correlation driven</strong><p>用 CCA、最大似然、HSIC 等约束跨模态关联。</p></div>
+          <div class="pill accent-amber"><strong>Representation composition</strong><p>池化、加和、sign-max、token merging，直接把可用模态合成固定维度。</p></div>
+          <div class="pill accent-berry"><strong>Representation generation</strong><p>生成 missing representation，不必重建完整原始数据，比较适合接现有模型。</p></div>
+        </div>
+      </div>
+      <footer class="footer"><span>转译到 nowcasting：radar-only、radar+satellite、radar+station 应该共享一套可变输入表征接口</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Dimension 3</div>
+        <h2>Architecture Engineering：让模型显式知道“谁缺席”</h2>
+      </header>
+      <div class="body four">
+        <div class="mini-panel">
+          <h3>Attention</h3>
+          <p class="note">用 mask、fusion token 或 cross-attention 忽略缺失模态，适合 Transformer 类融合。</p>
+        </div>
+        <div class="mini-panel">
+          <h3>Distillation</h3>
+          <p class="note">全模态 teacher 教缺模态 student。强但常要求训练集有完整模态。</p>
+        </div>
+        <div class="mini-panel">
+          <h3>Graph</h3>
+          <p class="note">把模态、样本或传感器关系构成图，适合站网和不规则观测。</p>
+        </div>
+        <div class="mini-panel">
+          <h3>MLLM</h3>
+          <p class="note">统一 token 接口天然支持任意模态数，但缺少专门 benchmark，成本也高。</p>
+        </div>
+      </div>
+      <footer class="footer"><span>关键提醒：不要只用零值暗示缺失，最好把 missing mask 作为显式条件</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Dimension 4</div>
+        <h2>Model Selection：工程上可用，但会带来维护成本</h2>
+      </header>
+      <div class="body two">
+        <div class="panel">
+          <div class="list">
+            <p><strong>Ensemble</strong>：不同单模态/多模态专家投票或加权，灵活但跨模态关系弱。</p>
+            <p><strong>Dedicated</strong>：为每种缺失组合训练专门模型，效果可控但组合爆炸。</p>
+            <p><strong>Discrete scheduler</strong>：用调度器按输入模态选择模块，适合系统工程。</p>
+          </div>
+        </div>
+        <div class="quote-card">
+          <p>模态越多，模型选择路线越像“平台工程”而不是“单模型论文”。</p>
+          <div class="source">对业务 nowcasting 尤其明显：雷达、卫星、站点、GNSS、NWP 的组合数很快增长。</div>
+        </div>
+      </div>
+      <footer class="footer"><span>设计时要把存储、推理延迟、模型监控一起算进去</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Evidence Table</div>
+        <h2>作者对 13 类方法的利弊做了横向归纳</h2>
+      </header>
+      <div class="body two">
+        <div>
+          <img class="paper-img tall" src="assets/2409-07825/table-1-method-summary.png" alt="论文 Table 1：13 类方法优缺点" />
+          <p class="caption">原文 Table 1 截图。deck 中只作为阅读锚点，细节以本地 PDF 为准。</p>
+        </div>
+        <div class="panel">
+          <div class="list">
+            <p>生成式和蒸馏式方法常见、有效，但很依赖完整训练样本。</p>
+            <p>注意力方法扩展性好，但训练资源和数据量要求更高。</p>
+            <p>模型选择路线适合具体任务，却容易被模态组合数拖累。</p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"><span>读表时不要背分类名，要看每类方法依赖什么假设</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Key Statistics</div>
+        <h2>Recovery 是主流，但不是唯一答案</h2>
+      </header>
+      <div class="body two">
+        <div class="panel">
+          <div class="big-number">75.5%</div>
+          <p class="claim" style="font-size:26px;margin-top:12px;">论文统计中，大多数工作专注于恢复缺失模态信息。</p>
+          <p class="note" style="margin-top:12px;">作者也指出，中间特征恢复占比最大，因为它比恢复原始数据少一些噪声和偏差，又比 late feature 保留更多模态特异信息。</p>
+        </div>
+        <div>
+          <img class="paper-img" src="assets/2409-07825/table-2-recovery-stage.png" alt="论文 Table 2：Recovery 与 Non-Recovery 分类" />
+          <p class="caption">原文 Table 2 截图：按 early / intermediate / late / hybrid，以及 recovery / non-recovery 重新分类。</p>
+        </div>
+      </div>
+      <footer class="footer"><span>转译到实验设计：需要区分“恢复缺失源”与“只用可用源推理”</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Datasets</div>
+        <h2>缺失模态研究还偏应用孤岛，科学场景相对不足</h2>
+      </header>
+      <div class="body two">
+        <div>
+          <img class="paper-img" src="assets/2409-07825/table-3-datasets.png" alt="论文 Table 3：MLMM 常见应用与数据集" />
+          <p class="caption">原文 Table 3 截图：sentiment、medical、retrieval、remote sensing、robotic vision 是主要应用场景。</p>
+        </div>
+        <div class="panel">
+          <div class="list">
+            <p>论文指出，很多公开数据集本身是完整的，缺失模态常通过人工随机丢弃来模拟。</p>
+            <p>自然科学、流式数据和多模态大模型缺失模态 benchmark 仍不足。</p>
+            <p>这正是天气多源融合可以补上的空白：缺失不是人为设定，而是业务常态。</p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"><span>气象数据的优势：真实存在传感器覆盖、延迟和质量控制问题</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Open Issues</div>
+        <h2>论文最后的问题，其实很适合转成研究选题</h2>
+      </header>
+      <div class="body">
+        <div class="matrix">
+          <div class="head">开放问题</div><div class="head">论文含义</div><div class="head">nowcasting 转译</div><div class="head">实验抓手</div>
+          <div class="rowhead">Recovery or not</div><div>恢复信息可能被现有模态支配。</div><div>生成雷达代理可能不如直接 radar-only 稳。</div><div>比较 recovery 与 non-recovery。</div>
+          <div class="rowhead">Efficiency</div><div>每种缺失组合一个模型会太重。</div><div>业务系统不能靠一堆大模型硬撑。</div><div>报告参数量、延迟、降级策略。</div>
+          <div class="rowhead">Streaming data</div><div>长序列缺失研究不足。</div><div>雷达/卫星就是典型流式多模态。</div><div>连续缺帧、延迟到达、异步输入。</div>
+          <div class="rowhead">Science</div><div>自然科学 MLMM 仍少。</div><div>天气多源观测有真实缺失机制。</div><div>构建气象缺失模态 benchmark。</div>
+        </div>
+      </div>
+      <footer class="footer"><span>这张是阅读用重画表，结合第 4 节 open issues</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Nowcasting Translation</div>
+        <h2>放到多源降水临近预报里，缺失模态不是边角问题</h2>
+      </header>
+      <div class="body">
+        <div class="nowcasting">
+          <div class="source-stack">
+            <div class="source-card"><b>Radar</b><span>核心结构</span></div>
+            <div class="source-card"><b>Satellite</b><span>云顶与水汽</span></div>
+            <div class="source-card"><b>Station / Gauge</b><span>地面校正</span></div>
+            <div class="source-card"><b>GNSS / NWP</b><span>水汽与背景场</span></div>
+          </div>
+          <div class="model-core">
+            <strong>Missing-aware fusion model</strong>
+            <p>每个模态都带 availability mask；模型在 full-source、single-source、leave-one-source-out、random missing 下都能推理。</p>
+          </div>
+          <div class="test-stack">
+            <div class="source-card"><b>0-30 min</b><span>雷达缺帧敏感</span></div>
+            <div class="source-card"><b>30-90 min</b><span>卫星和环境先兆更重要</span></div>
+            <div class="source-card"><b>强降水</b><span>不能只看 MAE</span></div>
+            <div class="source-card"><b>业务部署</b><span>延迟和兜底策略</span></div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"><span>核心动作：从“多源融合有效”升级为“多源缺失时仍可靠”</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Experiment Checklist</div>
+        <h2>如果把这篇综述转成你的实验设计，至少要加这 6 组测试</h2>
+      </header>
+      <div class="body two-even">
+        <div class="panel">
+          <div class="list">
+            <p><strong>Full-source</strong>：所有输入源都可用。</p>
+            <p><strong>Radar-only</strong>：业务兜底，必须稳定。</p>
+            <p><strong>Leave-one-source-out</strong>：逐个移除卫星、站点、GNSS、NWP。</p>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="list">
+            <p><strong>Random missing</strong>：随机缺失，报告均值和方差。</p>
+            <p><strong>Severe missing</strong>：连续缺失或高缺失率。</p>
+            <p><strong>Train vs test missing</strong>：区分训练集不完整和推理时缺失。</p>
+          </div>
+        </div>
+      </div>
+      <footer class="footer"><span>指标：MSE/MAE + CSI/POD/FAR/HSS + reliability + latency</span><span class="slide-no"></span></footer>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="kicker">Takeaways</div>
+        <h2>读完这篇，应该带走三件事</h2>
+      </header>
+      <div class="body three">
+        <div class="panel">
+          <h3>1. 先判断缺失发生在哪里</h3>
+          <p class="note" style="margin-top:12px;">训练时缺失和推理时缺失不是同一个问题；很多方法只适合后者。</p>
+        </div>
+        <div class="panel">
+          <h3>2. 特征级恢复是重要折中</h3>
+          <p class="note" style="margin-top:12px;">相比原始模态生成，representation generation 更轻，也更少引入视觉伪影。</p>
+        </div>
+        <div class="panel">
+          <h3>3. 气象多源融合有选题空间</h3>
+          <p class="note" style="margin-top:12px;">真实业务缺失、流式异步、多源传感器，是 MLMM 综述里仍不足的科学应用场景。</p>
+        </div>
+      </div>
+      <footer class="footer"><span>下一步：把缺失模态测试加入多源 nowcasting baseline</span><span class="slide-no"></span></footer>
+    </section>
+  </main>
+
+  <div class="controls" aria-label="slide controls">
+    <button type="button" id="prev" aria-label="上一页">‹</button>
+    <button type="button" id="next" aria-label="下一页">›</button>
+  </div>
+  <div class="progress"><div class="bar" id="bar"></div></div>
+
+  <script>
+    const slides = Array.from(document.querySelectorAll('.slide'));
+    const numbers = Array.from(document.querySelectorAll('.slide-no'));
+    const bar = document.getElementById('bar');
+    let current = 0;
+
+    function show(index) {
+      current = Math.max(0, Math.min(slides.length - 1, index));
+      slides.forEach((slide, i) => slide.classList.toggle('active', i === current));
+      numbers.forEach((n, i) => { n.textContent = `${i + 1} / ${slides.length}`; });
+      bar.style.width = `${((current + 1) / slides.length) * 100}%`;
+      history.replaceState(null, '', `#${current + 1}`);
+    }
+
+    document.getElementById('prev').addEventListener('click', () => show(current - 1));
+    document.getElementById('next').addEventListener('click', () => show(current + 1));
+    window.addEventListener('keydown', (event) => {
+      if (['ArrowRight', 'PageDown', ' '].includes(event.key)) {
+        event.preventDefault();
+        show(current + 1);
+      }
+      if (['ArrowLeft', 'PageUp'].includes(event.key)) {
+        event.preventDefault();
+        show(current - 1);
+      }
+      if (event.key === 'Home') show(0);
+      if (event.key === 'End') show(slides.length - 1);
+    });
+
+    const initial = Number((location.hash || '').replace('#', '')) - 1;
+    show(Number.isFinite(initial) && initial >= 0 ? initial : 0);
+  </script>
+</body>
+</html>

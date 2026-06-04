@@ -154,7 +154,18 @@
 
 如果目标是**业务落地和可维护性**，两阶段方法更现实：雷达或光流先外推，站点/雨量计/GNSS/卫星再订正。MMF-RNN、RST-RainNet、Nwf-Net、qPrec/FlowsNet 比全端到端大模型更容易解释和灰度部署。
 
-## 11. 后续待核验问题
+## 11. 缺失模态鲁棒性
+
+多源融合模型还需要单独处理“输入源缺失”问题。业务系统中，雷达、卫星、地面站、GNSS、NWP 或基础模型先验都可能因为传感器故障、覆盖不足、传输延迟、质量控制或权限限制而缺失。2409.07825v1 这篇 MLMM 综述虽然不是 nowcasting 论文，但给出了可迁移的方法谱系：原始模态补全、特征补全、masked attention、蒸馏、图传播、ensemble/dedicated model 和调度式模型选择。
+
+对降水临近预报来说，最关键的是区分两类设定：
+
+- **推理缺失**：训练时多源完整，部署时某个源临时不可用。可用 modality dropout、missing mask、蒸馏到 radar-only/radar+satellite student，或维护多个轻量组合模型。
+- **训练缺失**：历史数据本身不完整，不同年份、区域或站网的可用模态不同。此时依赖 full-modality teacher 或重建监督的方法会受限，更适合特征级组合、直接特征生成、图传播或能在不完整训练集上学习的方法。
+
+后续评估多源 nowcasting 时，建议增加 full-source、radar-only、leave-one-source-out、random missing、severe missing 和 train-missing/test-missing 区分实验。指标除 MSE/MAE 外，还应报告高阈值 CSI/POD/FAR/HSS、可靠性和推理延迟，避免模型只在输入完整的理想条件下成立。
+
+## 12. 后续待核验问题
 
 - 这些多源方法是否在相同 lead time、分辨率、阈值和降水单位下可比？多数区域数据集不可直接横比。
 - 多源收益是否有严格消融：radar-only、satellite-only、radar+satellite、radar+satellite+GNSS/站点。
@@ -163,10 +174,11 @@
 - 站点/GNSS 网络密度变化时，模型是否还能泛化？
 - 对业务系统而言，卫星、雷达、站点和 NWP 的时间延迟是否会抵消模型收益？
 
-## 12. 参考入口
+## 13. 参考入口
 
 - 文献总览：[近三年深度学习临近降水预报论文/模型调研](../literature/2026-05-12_recent-3y-dl-precip-nowcasting.md)
 - 文献索引：[paper-index.json](../literature/paper-index.json)
+- 交叉方法笔记：[缺失模态多模态学习综述笔记](missing-modality-multimodal-learning.md)
 - 相关日报：
   - [2026-05-13](../literature/daily/2026-05-13.md)：qPrec、多源业务山洪应用
   - [2026-05-14](../literature/daily/2026-05-14.md)：MS-FTNet、CastDiffuser、TriPhysGAN-Attn

@@ -1,22 +1,8 @@
 # Papers
 
-用于保存已下载的降水临近预报论文 PDF。
+历史目录。论文原始文件已统一迁移到仓库根目录的 [`papers/`](../../papers/)。
 
-## 目录
+## 维护说明
 
-- `pdf/`：论文原文 PDF。
-
-## 命名建议
-
-优先使用：
-
-`YYYY-first-author-short-title.pdf`
-
-示例：
-
-`2026-shi-vmu-diff.pdf`
-
-如果同一论文有 arXiv 和正式发表版本，可以在文件名中标注版本来源，例如：
-
-- `2026-shi-vmu-diff-arxiv.pdf`
-- `2026-shi-vmu-diff-published.pdf`
+- 不再向本目录新增 PDF 或其他论文原始文件。
+- 本专题内的笔记、日报和综述需要引用原文时，使用相对路径指向根目录 `papers/`。
