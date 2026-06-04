@@ -1237,6 +1237,39 @@
       "indexed_evidence": "Copernicus meeting abstract surfaced as a newly crawled result from 6 days ago in the 2026-06-02 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Discusses deep physics-constrained precipitation nowcasting for radar rainfall fields."
+    },
+    {
+      "title": "A Deep Learning Method Integrating Meteorological Data for Heavy Precipitation Nowcasting in the Alps Region",
+      "url": "https://doi.org/10.3390/app16094481",
+      "doi": "10.3390/app16094481",
+      "source": "Applied Sciences / ResearchGate / EBSCO metadata",
+      "date_added": "2026-06-04",
+      "publication_date": "2026-05",
+      "indexed_evidence": "ResearchGate and EBSCO metadata surfaced as newly crawled/indexed results from 4-6 days ago in the 2026-06-04 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Nwf-Net combines upper-air winds and optical flow to model radar-echo displacement and morphology, then uses a recurrent network to correct strong-convective echo intensity in Alpine-region experiments."
+    },
+    {
+      "title": "TSPF-GAN: A lightweight temporal-spatial-pixel feature fusion GAN for radar-based precipitation nowcasting",
+      "url": "https://doi.org/10.1007/s12145-025-02056-9",
+      "doi": "10.1007/s12145-025-02056-9",
+      "source": "Earth Science Informatics / EBSCO / ResearchGate metadata",
+      "date_added": "2026-06-04",
+      "publication_date": "2025-12-12",
+      "indexed_evidence": "EBSCO metadata surfaced as a newly crawled result from 6 days ago in the 2026-06-04 scan.",
+      "priority_dataset_match": "ShangHai",
+      "radar_dataset_evidence": "Forecasts radar echo sequences, evaluates on a real Netherlands precipitation radar dataset, and compares with diffusion methods on the Shanghai radar dataset."
+    },
+    {
+      "title": "MMF-RNN: A Multimodal Fusion Model for Precipitation Nowcasting Using Radar and Ground Station Data",
+      "url": "https://doi.org/10.1109/TGRS.2025.3528423",
+      "doi": "10.1109/TGRS.2025.3528423",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Monash University metadata / DBLP",
+      "date_added": "2026-06-04",
+      "publication_date": "2025",
+      "indexed_evidence": "DBLP/researchr metadata surfaced as newly crawled results from the past week in the 2026-06-04 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses a dual-branch encoder for radar and ground station data and evaluates MMF-RNN on the RAIN-F radar-station precipitation nowcasting dataset."
     }
   ]
 }
