@@ -269,10 +269,17 @@
     {
       "title": "Probabilistic Precipitation Nowcasting With Rectified Flow Transformers",
       "url": "https://mcml.ai/publications/sws%2B26/",
+      "doi": "10.48550/arXiv.2605.31204",
+      "arxiv_id": "2605.31204",
+      "arxiv_url": "https://arxiv.org/abs/2605.31204",
+      "code_url": "https://github.com/CompVis/weather-rf",
       "source": "Munich Center for Machine Learning publication page / CVPR 2026 accepted paper listing",
       "date_added": "2026-05-18",
+      "publication_date": "2026-05-29",
       "presentation_date": "2026-06-03--2026-06-07",
+      "metadata_updated": "2026-06-05",
       "indexed_evidence": "MCML/CVPR publication entry surfaced as a newly indexed/crawled result in the 2026-05-18 seven-day scan.",
+      "update_evidence": "arXiv v1 and official CompVis weather-rf model/code page surfaced in the 2026-06-05 scan; title was already collected, so this is a metadata-only dedupe update.",
       "priority_dataset_match": "SEVIR",
       "radar_dataset_evidence": "The MCML abstract reports precipitation nowcasting on the SEVIR benchmark; SEVIR includes NEXRAD VIL radar-derived imagery for radar-based precipitation nowcasting."
     },
@@ -1270,6 +1277,62 @@
       "indexed_evidence": "DBLP/researchr metadata surfaced as newly crawled results from the past week in the 2026-06-04 scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Uses a dual-branch encoder for radar and ground station data and evaluates MMF-RNN on the RAIN-F radar-station precipitation nowcasting dataset."
+    },
+    {
+      "title": "SepConv-ens: An ensemble of separable convolution-based deep learning models for weather radar echo temporal extrapolation",
+      "url": "https://www.sciencedirect.com/science/article/pii/S1877050924025262",
+      "doi": "10.1016/j.procs.2024.09.482",
+      "source": "Procedia Computer Science / ScienceDirect",
+      "date_added": "2026-06-05",
+      "publication_date": "2024",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result from yesterday in the 2026-06-05 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses real radar data from the Romanian National Meteorological Administration to predict radar data and radar echo evolution more than 40 minutes ahead."
+    },
+    {
+      "title": "The MS-RadarFormer: A Transformer-Based Multi-Scale Deep Learning Model for Radar Echo Extrapolation",
+      "url": "https://www.mdpi.com/2072-4292/16/2/274",
+      "doi": "10.3390/rs16020274",
+      "source": "Remote Sensing / MDPI and AGRIS metadata",
+      "date_added": "2026-06-05",
+      "publication_date": "2024-01-10",
+      "indexed_evidence": "AGRIS/search result surfaced as a newly crawled result from yesterday in the 2026-06-05 seven-day scan; MDPI page verified the paper details.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Predicts future movement and intensity changes of radar echoes from historical radar observations using Jiangsu Meteorological Observatory radar echo data."
+    },
+    {
+      "title": "RainNet v1.0: a convolutional neural network for radar-based precipitation nowcasting",
+      "url": "https://gmd.copernicus.org/articles/13/2631/2020/gmd-13-2631-2020.html",
+      "doi": "10.5194/gmd-13-2631-2020",
+      "source": "Geoscientific Model Development",
+      "date_added": "2026-06-05",
+      "publication_date": "2020-06-11",
+      "indexed_evidence": "GMD article page surfaced as a newly crawled result today in the 2026-06-05 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Trains a U-Net-like CNN on German Weather Service DWD RY quality-controlled precipitation composites from 17 operational Doppler radars."
+    },
+    {
+      "title": "Machine Learning for Precipitation Nowcasting from Radar Images",
+      "url": "https://arxiv.org/abs/1912.12132",
+      "doi": "10.48550/arXiv.1912.12132",
+      "arxiv_id": "1912.12132",
+      "source": "arXiv / Google Research publication page",
+      "date_added": "2026-06-05",
+      "publication_date": "2019-12-11",
+      "indexed_evidence": "Google Research page surfaced as a newly crawled result today in the 2026-06-05 seven-day scan; arXiv record and PDF verified the radar-data experiment.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses NOAA MRMS precipitation-rate maps derived from the NEXRAD Doppler weather radar network for one-hour precipitation nowcasting."
+    },
+    {
+      "title": "Skillful Precipitation Nowcasting Using Physical-Driven Diffusion Networks",
+      "url": "https://researchportal.hkust.edu.hk/en/publications/skillful-precipitation-nowcasting-using-physical-driven-diffusion/",
+      "doi": "10.1029/2024GL110832",
+      "source": "Geophysical Research Letters / HKUST Research Portal",
+      "date_added": "2026-06-05",
+      "publication_date": "2024-12-28",
+      "indexed_evidence": "HKUST institutional repository result surfaced as a newly crawled result from 3 days ago in the 2026-06-05 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "PDDN combines radar and WRF data, using latent diffusion models and autoencoders to predict future radar images for precipitation nowcasting."
     }
   ]
 }
