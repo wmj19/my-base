@@ -1333,6 +1333,95 @@
       "indexed_evidence": "HKUST institutional repository result surfaced as a newly crawled result from 3 days ago in the 2026-06-05 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "PDDN combines radar and WRF data, using latent diffusion models and autoencoders to predict future radar images for precipitation nowcasting."
+    },
+    {
+      "title": "LMcast: A pretrained language model guided long-term memory transformer for precipitation nowcasting",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0893608025010482",
+      "doi": "10.1016/j.neunet.2025.108168",
+      "source": "Neural Networks / ScienceDirect",
+      "date_added": "2026-06-06",
+      "publication_date": "2025-10",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result from 2 days ago in the 2026-06-06 seven-day scan.",
+      "priority_dataset_match": "CIKM; ShangHai; SEVIR",
+      "radar_dataset_evidence": "Experiments use four public radar datasets for precipitation nowcasting: SEVIR, MeteoNet, Shanghai Radar, and CIKM; MeteoNet is not counted as the priority MetNet tag."
+    },
+    {
+      "title": "Improving precipitation nowcasting via multiphysical parameter fusion in radar echo extrapolation",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426000442",
+      "doi": "10.1016/j.jhydrol.2026.134947",
+      "source": "Journal of Hydrology / ScienceDirect",
+      "date_added": "2026-06-06",
+      "publication_date": "2026-04",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result from 2 days ago in the 2026-06-06 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "PIEE integrates radar echo reflectivity and four additional radar-derived physical parameters, with experiments on a real multimodal radar echo dataset."
+    },
+    {
+      "title": "MS-nowcasting: Operational Precipitation Nowcasting with Convolutional LSTMs at Microsoft Weather",
+      "url": "https://www.climatechange.ai/papers/neurips2021/19",
+      "doi": "10.48550/arXiv.2111.09954",
+      "arxiv_id": "2111.09954",
+      "source": "Climate Change AI / arXiv",
+      "date_added": "2026-06-06",
+      "publication_date": "2021-11-18",
+      "indexed_evidence": "Climate Change AI page surfaced as a newly crawled result from last week in the 2026-06-06 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The model takes weather radar mosaics as input and predicts future radar reflectivity at lead times up to 6 hours, with HRRR used as conditioning information."
+    },
+    {
+      "title": "Improving precipitation nowcasting using a three-dimensional convolutional neural network model from Multi Parameter Phased Array Weather Radar observations",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0169809521003306",
+      "doi": "10.1016/j.atmosres.2021.105774",
+      "source": "Atmospheric Research / ScienceDirect",
+      "date_added": "2026-06-06",
+      "publication_date": "2021-11",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result from 2 days ago in the 2026-06-06 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses unique 3-D observations from Multi-Parameter Phased Array Weather Radar over Tokyo and evaluates radar reflectivity thresholds of 10 dBZ and 37.5 dBZ."
+    },
+    {
+      "title": "Improving radar echo extrapolation models using autoencoder-based perceptual losses",
+      "url": "https://www.sciencedirect.com/science/article/pii/S187705092301308X",
+      "doi": "10.1016/j.procs.2023.10.150",
+      "source": "Procedia Computer Science / ScienceDirect",
+      "date_added": "2026-06-06",
+      "publication_date": "2023",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result from 2 days ago in the 2026-06-06 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Experiments use radar reflectivity data collected by MET Norway to improve the visual quality of predicted radar maps."
+    },
+    {
+      "title": "Physics-Guided Deep Learning for Radar Rainfall Nowcasting in Flash-Flood Early Warning: Lead-Time Skill and an Illustrative Utility Proxy",
+      "url": "https://www.sciencedirect.com/science/article/pii/S266659212600003X",
+      "doi": "10.1016/j.nhres.2026.01.003",
+      "source": "Natural Hazards Research / ScienceDirect",
+      "date_added": "2026-06-06",
+      "publication_date": "2026-01-27",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result from 2 days ago in the 2026-06-06 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses 5 minute KNMI radar composites over Amsterdam to construct 60 minute input and 60 minute output radar rainfall nowcasting sequences."
+    },
+    {
+      "title": "Enhanced radar echo extrapolation for precipitation nowcasting quality using the convolutional Kolmogorov-Arnold networks",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169425014726",
+      "doi": "10.1016/j.jhydrol.2025.134134",
+      "source": "Journal of Hydrology / ScienceDirect",
+      "date_added": "2026-06-06",
+      "publication_date": "2025",
+      "indexed_evidence": "ScienceDirect page surfaced as a newly crawled result from 2 days ago in the 2026-06-06 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Develops ConvKAN and KAN&evOnet for radar image extrapolation and evaluates 0-1 hour convective nowcasting on the public MeteoNet dataset from France; MeteoNet is not counted as MetNet."
+    },
+    {
+      "title": "Convolutional Residual-Attention: A Deep Learning Approach for Precipitation Nowcasting",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1155/2020/6484812",
+      "doi": "10.1155/2020/6484812",
+      "source": "Advances in Meteorology / Wiley Online Library",
+      "date_added": "2026-06-06",
+      "publication_date": "2020-02-29",
+      "indexed_evidence": "Wiley article page surfaced as a newly crawled result today in the 2026-06-06 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses a Shenzhen Meteorological Bureau two-year meteorological radar intensity dataset with multi-time and multi-height radar reflectivity images."
     }
   ]
 }
