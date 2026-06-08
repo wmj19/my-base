@@ -1422,6 +1422,140 @@
       "indexed_evidence": "Wiley article page surfaced as a newly crawled result today in the 2026-06-06 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Uses a Shenzhen Meteorological Bureau two-year meteorological radar intensity dataset with multi-time and multi-height radar reflectivity images."
+    },
+    {
+      "title": "Deep Learning Model for Precipitation Nowcasting Based on Residual and Attention Mechanisms",
+      "url": "https://www.mdpi.com/2072-4292/17/7/1123",
+      "doi": "10.3390/rs17071123",
+      "source": "Remote Sensing / MDPI",
+      "date_added": "2026-06-08",
+      "publication_date": "2025-03-21",
+      "indexed_evidence": "MDPI article page surfaced as a newly crawled result today in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Experiments use 6 minute China CMA/CINRAD radar echo reflectivity mosaics from March-August 2024 for precipitation nowcasting."
+    },
+    {
+      "title": "Radar-Based Precipitation Nowcasting Based on Improved U-Net Model",
+      "url": "https://www.mdpi.com/2072-4292/16/10/1681",
+      "doi": "10.3390/rs16101681",
+      "source": "Remote Sensing / MDPI",
+      "date_added": "2026-06-08",
+      "publication_date": "2024-05-09",
+      "indexed_evidence": "MDPI article page surfaced as a newly crawled result today in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "DR2A-UNet is trained for radar echo extrapolation and rainfall nowcasting using radar echo reflectivity data from Liulin watershed rainfall events."
+    },
+    {
+      "title": "A Deep Learning-Based Methodology for Precipitation Nowcasting With Radar",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019EA000812",
+      "doi": "10.1029/2019EA000812",
+      "source": "Earth and Space Science / AGU Wiley",
+      "date_added": "2026-06-08",
+      "publication_date": "2020-01-26",
+      "indexed_evidence": "AGU/Wiley article page surfaced as a newly crawled result from 2 days ago in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "ShangHai/Shanghai signal; public benchmark identity unverified",
+      "radar_dataset_evidence": "Uses a radar echo dataset for end-to-end precipitation nowcasting; searchable article text identifies Shanghai WSR-88D composite reflectivity radar data."
+    },
+    {
+      "title": "A Customized Multi-Scale Deep Learning Framework for Storm Nowcasting",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL103979",
+      "doi": "10.1029/2023GL103979",
+      "source": "Geophysical Research Letters / AGU Wiley",
+      "date_added": "2026-06-08",
+      "publication_date": "2023-07-03",
+      "indexed_evidence": "AGU/Wiley article page surfaced as a newly crawled result from 2 days ago in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "Uses SEVIR NEXRAD vertically integrated liquid (VIL) sequences for storm nowcasting experiments."
+    },
+    {
+      "title": "SEVIR: A Storm Event Imagery Dataset for Deep Learning Applications in Radar and Satellite Meteorology",
+      "url": "https://proceedings.neurips.cc/paper/2020/hash/fa78a16157fed00d7a80515818432169-Abstract.html",
+      "source": "NeurIPS Proceedings",
+      "date_added": "2026-06-08",
+      "publication_date": "2020",
+      "indexed_evidence": "NeurIPS proceedings page surfaced as a newly crawled result today in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "SEVIR contains NEXRAD vertically integrated liquid mosaics and includes deep learning examples for precipitation nowcasting and synthetic weather radar generation."
+    },
+    {
+      "title": "PCT-CycleGAN: Paired Complementary Temporal Cycle-Consistent Adversarial Networks for Radar-Based Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2211.15046",
+      "doi": "10.48550/arXiv.2211.15046",
+      "arxiv_id": "2211.15046",
+      "source": "arXiv / CIKM 2023",
+      "date_added": "2026-06-08",
+      "publication_date": "2022-11-28",
+      "version_date": "2023-08-21",
+      "indexed_evidence": "SIGWEB/CIKM table-of-contents result surfaced as a newly crawled result from 5 days ago in the 2026-06-08 seven-day scan; arXiv verified the paper details.",
+      "priority_dataset_match": "None; CIKM is the venue signal here, not the CIKM AnalytiCup dataset",
+      "radar_dataset_evidence": "The arXiv abstract states that PCT-CycleGAN learns time-dependent radar-based precipitation data and generates future radar-based precipitation data."
+    },
+    {
+      "title": "GRENet: GNSS-Enhanced Radar Extrapolation Network for Precipitation Nowcasting",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025GL120787",
+      "doi": "10.1029/2025GL120787",
+      "source": "Geophysical Research Letters / AGU Wiley",
+      "date_added": "2026-06-08",
+      "publication_date": "2026-05-15",
+      "indexed_evidence": "AGU/Wiley article page surfaced as a newly crawled result from 2 days ago in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "GRENet integrates GNSS water vapor information with radar observations and is trained/validated on German radar precipitation data."
+    },
+    {
+      "title": "LPT-QPN: A Lightweight Physics-Informed Transformer for Quantitative Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2023.3328945",
+      "doi": "10.1109/TGRS.2023.3328945",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / OUCI / ResearchGate metadata",
+      "date_added": "2026-06-08",
+      "publication_date": "2023",
+      "indexed_evidence": "OUCI metadata page surfaced as a newly crawled result yesterday in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "None; accessible metadata references SEVIR literature but does not verify SEVIR experiments in this paper",
+      "radar_dataset_evidence": "Accessible abstract metadata states that LPT-QPN uses vertical cumulative liquid water content (VIL) products for quantitative precipitation nowcasting; exact dataset name needs follow-up verification."
+    },
+    {
+      "title": "Precipitation Nowcasting Using Physics Informed Discriminator Generative Models",
+      "url": "https://arxiv.org/abs/2406.10108",
+      "doi": "10.48550/arXiv.2406.10108",
+      "arxiv_id": "2406.10108",
+      "source": "arXiv / EUSIPCO 2024 / TU Delft PDF",
+      "date_added": "2026-06-08",
+      "publication_date": "2024-06-14",
+      "indexed_evidence": "TU Delft PDF surfaced as a newly published/indexed result from 5 days ago in the 2026-06-08 seven-day scan; arXiv verified the paper metadata.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv abstract uses KNMI precipitation and meteorological data, and the TU Delft/EUSIPCO PDF snippet explicitly states that the experiments use radar precipitation maps."
+    },
+    {
+      "title": "TyrainNow: A Deep Learning-Based Model for Typhoon Rainfall Nowcast With Radar Products",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025WR039897",
+      "doi": "10.1029/2025WR039897",
+      "source": "Water Resources Research / AGU Wiley",
+      "date_added": "2026-06-08",
+      "publication_date": "2025-08-12",
+      "indexed_evidence": "AGU/Wiley article page surfaced as a newly crawled result from 2 days ago in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Verified on 1 km / 6 minute South China typhoon radar composite reflectivity products from 2010-2022, with public composite radar data archived on Zenodo."
+    },
+    {
+      "title": "Key Factors for Quantitative Precipitation Nowcasting Using Ground Weather Radar Data Based on Deep Learning",
+      "url": "https://gmd.copernicus.org/articles/16/5895/2023/",
+      "doi": "10.5194/gmd-16-5895-2023",
+      "source": "Geoscientific Model Development / Copernicus",
+      "date_added": "2026-06-08",
+      "publication_date": "2023-10-18",
+      "indexed_evidence": "GMD article page surfaced as a newly crawled result today in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Studies deep-learning quantitative precipitation nowcasting using South Korea ground weather radar data, with supplementary code and data on Zenodo."
+    },
+    {
+      "title": "Physical-Dynamic-Driven AI-Synthetic Precipitation Nowcasting Using Task-Segmented Generative Model",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2023GL106084",
+      "doi": "10.1029/2023GL106084",
+      "source": "Geophysical Research Letters / AGU Wiley",
+      "date_added": "2026-06-08",
+      "publication_date": "2023-11-01",
+      "indexed_evidence": "AGU/Wiley article page surfaced as a newly crawled result from 2 days ago in the 2026-06-08 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses Tai Mo Shan, Hong Kong PPI radar data at 150 m / 6 minute resolution and synthetic radar data generated from observed radar images and WRF variables."
     }
   ]
 }
