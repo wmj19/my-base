@@ -1556,6 +1556,40 @@
       "indexed_evidence": "AGU/Wiley article page surfaced as a newly crawled result from 2 days ago in the 2026-06-08 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Uses Tai Mo Shan, Hong Kong PPI radar data at 150 m / 6 minute resolution and synthetic radar data generated from observed radar images and WRF variables."
+    },
+    {
+      "title": "More realistic and accurate precipitation nowcasting with Conditional Rectified Flow Transformers",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0952197625034335",
+      "doi": "10.1016/j.engappai.2025.113402",
+      "code_url": "https://github.com/RuntimeWarning/CRFT",
+      "source": "Engineering Applications of Artificial Intelligence / ScienceDirect",
+      "date_added": "2026-06-09",
+      "publication_date": "2026-02-01",
+      "indexed_evidence": "ScienceDirect article page surfaced as a newly crawled result from 5 days ago in the 2026-06-09 seven-day scan.",
+      "priority_dataset_match": "CIKM",
+      "radar_dataset_evidence": "Experiments include the CIKM dataset, described as Doppler weather radar observations with 15 radar echo maps per sequence at six-minute intervals."
+    },
+    {
+      "title": "G2Lcast: A global-to-local adversarial network for high-fidelity precipitation nowcasting",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0022169426006736",
+      "doi": "10.1016/j.jhydrol.2026.135576",
+      "source": "Journal of Hydrology / ScienceDirect",
+      "date_added": "2026-06-09",
+      "publication_date": "2026-04-30",
+      "indexed_evidence": "ScienceDirect article page surfaced as a newly crawled result from 5 days ago in the 2026-06-09 seven-day scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "Experiments use KNMI radar composite precipitation maps and SEVIR; the ScienceDirect dataset snippet identifies KNMI as radar composite precipitation maps with 5 minute resolution."
+    },
+    {
+      "title": "RISE-net: A deep-learning model for improving fine-scale summer precipitation nowcasting in the Beijing-Tianjin-Hebei region",
+      "url": "https://doi.org/10.1002/qj.70202",
+      "doi": "10.1002/qj.70202",
+      "source": "Quarterly Journal of the Royal Meteorological Society / Wiley",
+      "date_added": "2026-06-09",
+      "publication_date": "2026-04-22",
+      "indexed_evidence": "Wiley article page surfaced as a newly crawled result from 3 days ago in the 2026-06-09 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Uses high spatiotemporal resolution rainfall data from the RISE system; RISE system documentation identifies weather-radar-based QPE and VDRAS nowcasting data as inputs."
     }
   ]
 }
