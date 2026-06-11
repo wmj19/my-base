@@ -1590,6 +1590,18 @@
       "indexed_evidence": "Wiley article page surfaced as a newly crawled result from 3 days ago in the 2026-06-09 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Uses high spatiotemporal resolution rainfall data from the RISE system; RISE system documentation identifies weather-radar-based QPE and VDRAS nowcasting data as inputs."
+    },
+    {
+      "title": "Temporal Context Conditioning for Seasonality-Aware Precipitation Nowcasting of High-Intensity Rainfall",
+      "url": "https://arxiv.org/abs/2606.09959",
+      "doi": "10.48550/arXiv.2606.09959",
+      "arxiv_id": "2606.09959",
+      "code_url": "https://github.com/gijsvn/TA-SmaAt-UNet",
+      "source": "arXiv",
+      "date_added": "2026-06-11",
+      "publication_date": "2026-06-08",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv abstract states that the model learns from recent radar observations and is evaluated on KNMI radar precipitation data for high-intensity rainfall nowcasting."
     }
   ]
 }
