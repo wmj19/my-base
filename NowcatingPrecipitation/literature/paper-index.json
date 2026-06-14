@@ -1602,6 +1602,85 @@
       "publication_date": "2026-06-08",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The arXiv abstract states that the model learns from recent radar observations and is evaluated on KNMI radar precipitation data for high-intensity rainfall nowcasting."
+    },
+    {
+      "title": "Self-Supervised Radar Nowcasting of Typhoon Cloud Evolution",
+      "url": "https://doi.org/10.1029/2025JH001191",
+      "doi": "10.1029/2025JH001191",
+      "source": "Journal of Geophysical Research: Machine Learning and Computation / Crossref",
+      "date_added": "2026-06-14",
+      "publication_date": "2026-06-11",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-11 and records online publication on 2026-06-11.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The title and abstract identify radar nowcasting of typhoon cloud evolution, report 40 dBZ evaluation, and Crossref references list a Typhoon radar images Zenodo dataset."
+    },
+    {
+      "title": "Weather radar nowcasting of rainfall using optical flow with Recurrent All-Pairs Field Transforms (RAFT)",
+      "url": "https://doi.org/10.1016/j.atmosres.2026.109007",
+      "doi": "10.1016/j.atmosres.2026.109007",
+      "source": "Atmospheric Research / Crossref",
+      "date_added": "2026-06-14",
+      "publication_date": "2026-04-11",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-10 and records online publication on 2026-04-11.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The OpenAlex abstract states that RAFT is evaluated for weather radar nowcasting using C-band weather radar data from 51 rainfall events."
+    },
+    {
+      "title": "A Patch-Wise Mechanism for Enhancing Sparse Radar Echo Extrapolation in Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2025.3543386",
+      "doi": "10.1109/JSTARS.2025.3543386",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / Crossref",
+      "date_added": "2026-06-14",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-09.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The abstract describes sparse radar echo extrapolation from radar echo frames and reports CSI improvements at 20, 30, and 45 dBZ across Chinese-region radar experiments."
+    },
+    {
+      "title": "PiCNet: Physics-infused Convolution Network for Radar-Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/ICASSP49660.2025.10890850",
+      "doi": "10.1109/ICASSP49660.2025.10890850",
+      "source": "ICASSP 2025 / Crossref",
+      "date_added": "2026-06-14",
+      "publication_date": "2025-04-06",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-09 and records the ICASSP 2025 proceedings date.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The OpenAlex abstract identifies the task as radar-based precipitation nowcasting and states that experiments use the KNMI radar echo dataset."
+    },
+    {
+      "title": "Self-attention UNet Model for Radar Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/DSC53577.2021.00079",
+      "doi": "10.1109/DSC53577.2021.00079",
+      "source": "2021 IEEE Conference on Dependable and Secure Computing / Crossref",
+      "date_added": "2026-06-14",
+      "publication_date": "2021-10",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-11.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The title is radar based precipitation nowcasting; the abstract discusses radar echo images and experiments on Netherlands-region precipitation maps."
+    },
+    {
+      "title": "SSA-UNet: Advanced Precipitation Nowcasting via Channel Shuffling",
+      "url": "https://doi.org/10.1109/IJCNN64981.2025.11227654",
+      "doi": "10.1109/IJCNN64981.2025.11227654",
+      "source": "IJCNN 2025 / Crossref",
+      "date_added": "2026-06-14",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The OpenAlex abstract states that experiments include a French cloud-cover dataset containing radar images and precipitation-map nowcasting targets."
+    },
+    {
+      "title": "SynCast: Synergizing Contradictions in Precipitation Nowcasting via Diffusion Sequential Preference Optimization",
+      "url": "https://doi.org/10.1109/TCSVT.2026.3660882",
+      "doi": "10.1109/TCSVT.2026.3660882",
+      "arxiv_id": "2510.21847",
+      "code_url": "https://github.com/Dtdtxuky/SynCast",
+      "source": "IEEE Transactions on Circuits and Systems for Video Technology / Crossref",
+      "date_added": "2026-06-14",
+      "publication_date": "2026-06",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-08 and records the article in IEEE TCSVT volume 36 issue 6.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The arXiv PDF experiment section states that SynCast is evaluated on three radar precipitation datasets: SEVIR with NEXRAD radar mosaics, MeteoNet radar-based precipitation data, and HKO-7 CAPPI radar precipitation data."
     }
   ]
 }
