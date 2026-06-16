@@ -1703,6 +1703,39 @@
       "indexed_evidence": "Crossref indexed the Springer chapter on 2026-06-10.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Springer abstract defines the task as 0-2 h radar echo nowcasting and reports strong-echo evaluation at >=30 dBZ on 2025 northern China severe convection cases."
+    },
+    {
+      "title": "When the Past Matters: FlashBack Memory for Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2606.16342",
+      "doi": "10.48550/arXiv.2606.16342",
+      "arxiv_id": "2606.16342",
+      "source": "arXiv",
+      "date_added": "2026-06-16",
+      "publication_date": "2026-06-15",
+      "priority_dataset_match": "CIKM; ShangHai; SEVIR",
+      "radar_dataset_evidence": "The arXiv PDF formulates precipitation nowcasting as predicting future radar reflectivity maps from historical observations and reports experiments on CIKM2017, Shanghai2020, and SEVIR."
+    },
+    {
+      "title": "DYNA-PRUNER: Input-Adaptive Data-Model Co-Pruning for Efficient and Scalable Spatio-Temporal Media Prediction",
+      "url": "https://arxiv.org/abs/2606.15346",
+      "doi": "10.48550/arXiv.2606.15346",
+      "arxiv_id": "2606.15346",
+      "source": "arXiv",
+      "date_added": "2026-06-16",
+      "publication_date": "2026-06-13",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The arXiv PDF states that Dyna-Pruner supports radar/satellite nowcasting and evaluates on SEVIR, cited as a storm event imagery dataset for radar and satellite meteorology."
+    },
+    {
+      "title": "Real-Time Aircraft Rerouting Optimization in Thunderstorm Environments Leveraging Deep Learning-Based Nowcasting",
+      "url": "https://doi.org/10.3390/aerospace13060545",
+      "doi": "10.3390/aerospace13060545",
+      "source": "Aerospace / Crossref",
+      "date_added": "2026-06-16",
+      "publication_date": "2026-06-11",
+      "indexed_evidence": "Crossref records online publication on 2026-06-11 and indexing on 2026-06-12.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that the perception layer uses a RainNet deep learning model for short-term recursive nowcasting of radar reflectivity before constructing dynamic avoidance zones."
     }
   ]
 }
