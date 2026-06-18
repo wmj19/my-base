@@ -1736,6 +1736,17 @@
       "indexed_evidence": "Crossref records online publication on 2026-06-11 and indexing on 2026-06-12.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Crossref abstract states that the perception layer uses a RainNet deep learning model for short-term recursive nowcasting of radar reflectivity before constructing dynamic avoidance zones."
+    },
+    {
+      "title": "Pointwise is Pointless? A Multimodal Ablation Study for Precipitation Nowcasting with Graph Neural Networks",
+      "url": "https://arxiv.org/abs/2606.18436",
+      "doi": "10.48550/arXiv.2606.18436",
+      "arxiv_id": "2606.18436",
+      "source": "arXiv",
+      "date_added": "2026-06-18",
+      "publication_date": "2026-06-16",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv HTML states that the primary target is a Nordic radar composite covering Norway, Sweden, and Finland at approximately 1 km / 5 min, and that the model uses past radar composites to predict future rain-rate fields every five minutes for the next two hours."
     }
   ]
 }
