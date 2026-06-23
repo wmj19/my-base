@@ -1747,6 +1747,130 @@
       "publication_date": "2026-06-16",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The arXiv HTML states that the primary target is a Nordic radar composite covering Norway, Sweden, and Finland at approximately 1 km / 5 min, and that the model uses past radar composites to predict future rain-rate fields every five minutes for the next two hours."
+    },
+    {
+      "title": "STADEN: A Dual-Branch Deep Learning Framework With Multithreshold Loss for Robust Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1155/adme/6492939",
+      "doi": "10.1155/adme/6492939",
+      "source": "Advances in Meteorology / Wiley / Crossref",
+      "date_added": "2026-06-23",
+      "publication_date": "2026-06-18",
+      "indexed_evidence": "Crossref created/deposited/indexed the Wiley DOI on 2026-06-18.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref/Wiley abstract defines radar echo extrapolation and reports 2-hour extrapolation on the Sichuan dataset plus robustness experiments on HKO-7."
+    },
+    {
+      "title": "TITAN-LSTM: A Weather Radar Nowcasting Tool",
+      "url": "https://doi.org/10.22541/essoar.174534290.09062305/v1",
+      "doi": "10.22541/essoar.174534290.09062305/v1",
+      "source": "ESS Open Archive / Crossref",
+      "date_added": "2026-06-23",
+      "publication_date": "2025-04-22",
+      "indexed_evidence": "Crossref records the ESS Open Archive preprint as deposited and indexed on 2026-06-17.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states the algorithm was trained and validated with 2016-2019 rainstorms observed by the DAEE-SPOL weather radar (SAO-SPOL)."
+    },
+    {
+      "title": "A Heterogeneous Spatiotemporal Attention Fusion Prediction Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2023.3310361",
+      "doi": "10.1109/JSTARS.2023.3310361",
+      "source": "IEEE JSTARS / OpenAlex / Crossref",
+      "date_added": "2026-06-23",
+      "publication_date": "2023",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-19.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states HST-AFP fuses historical radar echo observations with NWP data and evaluates on a South China real-world dataset."
+    },
+    {
+      "title": "MM-RNN: A Multimodal RNN for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2023.3264545",
+      "doi": "10.1109/TGRS.2023.3264545",
+      "source": "IEEE TGRS / OpenAlex / Crossref",
+      "date_added": "2026-06-23",
+      "publication_date": "2023",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-19.",
+      "priority_dataset_match": "None; MeteoNet is not MetNet",
+      "radar_dataset_evidence": "OpenAlex abstract reports experiments on MeteoNet and RAIN-F and compares against a single radar modality baseline."
+    },
+    {
+      "title": "MPFNet: Multiproduct Fusion Network for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1109/TGRS.2024.3496081",
+      "doi": "10.1109/TGRS.2024.3496081",
+      "source": "IEEE TGRS / OpenAlex / Crossref",
+      "date_added": "2026-06-23",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-19.",
+      "priority_dataset_match": "None; MeteoNet is not MetNet",
+      "radar_dataset_evidence": "OpenAlex abstract states MPFNet performs radar echo extrapolation from multiple radar products, including composite reflectivity, and evaluates on SWAN and MeteoNet."
+    },
+    {
+      "title": "STAM-LSGRU: a spatiotemporal radar echo extrapolation algorithm with edge computing for short-term forecasting",
+      "url": "https://doi.org/10.1186/s13677-024-00660-6",
+      "doi": "10.1186/s13677-024-00660-6",
+      "source": "Journal of Cloud Computing / Crossref",
+      "date_added": "2026-06-23",
+      "publication_date": "2024-05-14",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-19.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states the model processes and predicts radar echo data and reports short-term weather forecasting experiments in an edge-computing setting."
+    },
+    {
+      "title": "Three-Dimensional Gridded Radar Echo Extrapolation for Convective Storm Nowcasting Based on 3D-ConvLSTM Model",
+      "url": "https://doi.org/10.3390/rs14174256",
+      "doi": "10.3390/rs14174256",
+      "source": "Remote Sensing / Crossref",
+      "date_added": "2026-06-23",
+      "publication_date": "2022-08-29",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-19.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states the model uses 3D grid radar volumes and evaluates on a public NCAR Data Archive radar dataset."
+    },
+    {
+      "title": "MLC-LSTM: Exploiting the Spatiotemporal Correlation between Multi-Level Weather Radar Echoes for Echo Sequence Extrapolation",
+      "url": "https://doi.org/10.3390/s19183988",
+      "doi": "10.3390/s19183988",
+      "source": "Sensors / Crossref",
+      "date_added": "2026-06-23",
+      "publication_date": "2019-09-15",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-19.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states the authors built a multi-level weather radar echo dataset from raw CINRAD/SA radar observations from the National Meteorological Information Center, China."
+    },
+    {
+      "title": "SmaAt-UNet: Precipitation nowcasting using a small attention-UNet architecture",
+      "url": "https://doi.org/10.1016/j.patrec.2021.01.036",
+      "doi": "10.1016/j.patrec.2021.01.036",
+      "arxiv_id": "2007.04417",
+      "source": "Pattern Recognition Letters / Crossref / arXiv source",
+      "date_added": "2026-06-23",
+      "publication_date": "2021-05",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-19; arXiv source was checked for radar dataset details.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv source states the precipitation maps are cartographic radar images generated by two KNMI C-band Doppler weather radar stations in De Bilt and Den Helder."
+    },
+    {
+      "title": "RNDiff: Rainfall nowcasting with Condition Diffusion Model",
+      "url": "https://doi.org/10.1016/j.patcog.2024.111193",
+      "doi": "10.1016/j.patcog.2024.111193",
+      "arxiv_id": "2402.13737",
+      "source": "Pattern Recognition / Crossref / arXiv source",
+      "date_added": "2026-06-23",
+      "publication_date": "2025-04",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-18; arXiv source was checked for radar dataset details.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv source states experiments use the open-source nimrod-uk-1km dataset containing UK Nimrod rainfall radar information from 2016-2019."
+    },
+    {
+      "title": "Hybrid physics-AI outperforms numerical weather prediction for extreme precipitation nowcasting",
+      "url": "https://doi.org/10.1038/s41612-024-00834-8",
+      "doi": "10.1038/s41612-024-00834-8",
+      "arxiv_id": "2407.11317",
+      "source": "npj Climate and Atmospheric Science / OpenAlex / arXiv PDF",
+      "date_added": "2026-06-23",
+      "publication_date": "2024-11-18",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-18; arXiv PDF was checked for MRMS radar evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv PDF states MRMS QPE is used as reference observations and incorporates about 180 operational US WSR-88D weather radars; NowcastNet uses radar data/composite reflectivity."
     }
   ]
 }
