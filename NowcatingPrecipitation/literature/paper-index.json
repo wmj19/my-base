@@ -1871,6 +1871,61 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-06-18; arXiv PDF was checked for MRMS radar evidence.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The arXiv PDF states MRMS QPE is used as reference observations and incorporates about 180 operational US WSR-88D weather radars; NowcastNet uses radar data/composite reflectivity."
+    },
+    {
+      "title": "Enhanced AI-Based Growth and Decay Rate Estimation for Radar Precipitation Nowcasting in Korea",
+      "url": "https://doi.org/10.5194/ems2026-435",
+      "doi": "10.5194/ems2026-435",
+      "source": "EMS Annual Meeting 2026 / Copernicus Meetings / Crossref",
+      "date_added": "2026-06-25",
+      "publication_date": "2026-06-22",
+      "indexed_evidence": "Crossref indexed the EMS2026 abstract on 2026-06-22.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that KMA's MOTION system uses radar echo extrapolation and that the study replaces numerical GDR estimation with MLP, DGMR, and RainNet AI models for operational radar precipitation nowcasting."
+    },
+    {
+      "title": "Improving Urban Flood Predictability Using Deep Learning-Based Radar Rainfall Nowcasting and an Inundation Model",
+      "url": "https://doi.org/10.5194/ems2026-786",
+      "doi": "10.5194/ems2026-786",
+      "source": "EMS Annual Meeting 2026 / Copernicus Meetings / Crossref",
+      "date_added": "2026-06-25",
+      "publication_date": "2026-06-24",
+      "indexed_evidence": "Crossref indexed the EMS2026 abstract on 2026-06-24.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that the study uses radar-based rainfall nowcasting and KICT-RAIN-AI predicted rainfall at 10-180 minute lead times to drive urban flood prediction."
+    },
+    {
+      "title": "Probabilistic precipitation and flood risk nowcasting on pan-European scale by using deep learning",
+      "url": "https://doi.org/10.5194/ems2026-484",
+      "doi": "10.5194/ems2026-484",
+      "source": "EMS Annual Meeting 2026 / Copernicus Meetings / Crossref",
+      "date_added": "2026-06-25",
+      "publication_date": "2026-06-22",
+      "indexed_evidence": "Crossref indexed the EMS2026 abstract on 2026-06-22.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that the warning tools use deep learning and weather radar observations, with pan-European precipitation nowcasts produced from OPERA rain rate composites using a SimVP-based convolutional neural network."
+    },
+    {
+      "title": "COALITION-4: Probabilistic Multi-Hazard Thunderstorm Nowcasting with Deep Learning for Robust Automated Early Warnings",
+      "url": "https://doi.org/10.5194/ems2026-302",
+      "doi": "10.5194/ems2026-302",
+      "source": "EMS Annual Meeting 2026 / Copernicus Meetings / Crossref",
+      "date_added": "2026-06-25",
+      "publication_date": "2026-06-22",
+      "indexed_evidence": "Crossref indexed the EMS2026 abstract on 2026-06-22.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that COALITION-4 ingests data from the Swiss dual-polarization radar network and uses a recurrent-convolutional encoder-forecaster to nowcast accumulated precipitation, lightning, and hail probability."
+    },
+    {
+      "title": "A self-attention integrated spatiotemporal LSTM approach to edge-radar echo extrapolation in the Internet of Radars",
+      "url": "https://doi.org/10.1016/j.isatra.2022.06.046",
+      "doi": "10.1016/j.isatra.2022.06.046",
+      "source": "ISA Transactions / Elsevier core metadata / Crossref",
+      "date_added": "2026-06-25",
+      "publication_date": "2023-01",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-22; Elsevier core metadata confirms the ISA Transactions article title and DOI.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Elsevier core metadata and Crossref title define the task as edge-radar echo extrapolation using a self-attention spatiotemporal LSTM; accessible metadata does not expose the specific dataset name."
     }
   ]
 }
