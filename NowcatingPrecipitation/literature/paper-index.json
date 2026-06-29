@@ -1926,6 +1926,61 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-06-22; Elsevier core metadata confirms the ISA Transactions article title and DOI.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Elsevier core metadata and Crossref title define the task as edge-radar echo extrapolation using a self-attention spatiotemporal LSTM; accessible metadata does not expose the specific dataset name."
+    },
+    {
+      "title": "MvReNowcast: Disentangling radar product features for improved nowcasting of raincloud evolution",
+      "url": "https://doi.org/10.1016/j.jhydrol.2026.135938",
+      "doi": "10.1016/j.jhydrol.2026.135938",
+      "source": "Journal of Hydrology / Crossref / OpenAlex / Elsevier DOI metadata",
+      "date_added": "2026-06-29",
+      "publication_date": "2026-06",
+      "indexed_evidence": "Crossref created and indexed the DOI on 2026-06-27; OpenAlex updated the work on 2026-06-28.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref, OpenAlex, and Elsevier metadata confirm the title as a radar-product-feature method for nowcasting raincloud evolution; accessible metadata does not expose the specific dataset name."
+    },
+    {
+      "title": "Prediction of Radar Echo Space-Time Sequence Based on Improving TrajGRU Deep-Learning Model",
+      "url": "https://doi.org/10.3390/rs14195042",
+      "doi": "10.3390/rs14195042",
+      "source": "Remote Sensing / Crossref / OpenAlex / Semantic Scholar",
+      "date_added": "2026-06-29",
+      "publication_date": "2022-10-09",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-28; OpenAlex updated the work on 2026-06-28.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref/OpenAlex/Semantic Scholar abstracts state that the study performs radar echo extrapolation using radar historical data and radar echoes with a CNN-RNN T-UNet/TrajGRU model."
+    },
+    {
+      "title": "ConvLSTM Network-Based Rainfall Nowcasting Method with Combined Reflectance and Radar-Retrieved Wind Field as Inputs",
+      "url": "https://doi.org/10.3390/atmos13030411",
+      "doi": "10.3390/atmos13030411",
+      "source": "Atmosphere / Crossref / OpenAlex",
+      "date_added": "2026-06-29",
+      "publication_date": "2022-03-03",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-28; OpenAlex updated the work on 2026-06-28.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref/OpenAlex abstracts state that the ConvLSTM rainfall nowcasting model uses combined reflectance and radar-retrieved wind field inputs."
+    },
+    {
+      "title": "Nowcasting Echo Top for Aviation Operations Using CNN-Transformer",
+      "url": "https://doi.org/10.1109/tits.2025.3612976",
+      "doi": "10.1109/TITS.2025.3612976",
+      "source": "IEEE Transactions on Intelligent Transportation Systems / Crossref / OpenAlex",
+      "date_added": "2026-06-29",
+      "publication_date": "2025-12",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-26; OpenAlex updated the work on 2026-06-26.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that the CNN-Transformer model uses Doppler weather radar Echo Top, Vertically Integrated Liquid, and Basic Reflectivity variables plus ERA5 data for echo-top nowcasting."
+    },
+    {
+      "title": "Extreme and severe convective weather disasters: A dual-polarization radar nowcasting method based on physical constraints and a deep neural network model",
+      "url": "https://doi.org/10.1016/j.atmosres.2023.106750",
+      "doi": "10.1016/j.atmosres.2023.106750",
+      "source": "Atmospheric Research / Crossref / OpenAlex / Elsevier core metadata",
+      "date_added": "2026-06-29",
+      "publication_date": "2023-07",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-27; Elsevier core metadata and OpenAlex metadata were checked on 2026-06-29.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref and Elsevier metadata define the paper as a dual-polarization radar nowcasting method based on physical constraints and a deep neural network; accessible metadata does not expose the specific dataset name."
     }
   ]
 }
