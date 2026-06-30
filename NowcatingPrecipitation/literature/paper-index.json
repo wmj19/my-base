@@ -1981,6 +1981,40 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-06-27; Elsevier core metadata and OpenAlex metadata were checked on 2026-06-29.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Crossref and Elsevier metadata define the paper as a dual-polarization radar nowcasting method based on physical constraints and a deep neural network; accessible metadata does not expose the specific dataset name."
+    },
+    {
+      "title": "A novel spatiotemporal GAN for radar nowcasting with multi-branch intensity separation and 3D temporal attention",
+      "url": "https://doi.org/10.1007/s10791-026-10285-9",
+      "doi": "10.1007/s10791-026-10285-9",
+      "source": "Discover Computing / Crossref / Springer PDF",
+      "date_added": "2026-06-30",
+      "publication_date": "2026-06-29",
+      "indexed_evidence": "Crossref created and indexed the DOI on 2026-06-29; Springer PDF metadata was modified on 2026-06-30.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Springer PDF states that S2R-GAN++ is for short-term rainfall nowcasting using weather radar, uses radar reflectivity fields in dBZ, and evaluates on PhaDin and DWD radar datasets."
+    },
+    {
+      "title": "FsrGAN: A Satellite and Radar-Based Fusion Prediction Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2024.3376987",
+      "doi": "10.1109/JSTARS.2024.3376987",
+      "source": "IEEE J-STARS / Crossref / OpenAlex / Semantic Scholar",
+      "date_added": "2026-06-30",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-26; OpenAlex and Semantic Scholar abstracts were checked on 2026-06-30.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex/Semantic Scholar abstracts state that FsrGAN fuses meteorological satellite and radar echo data, predicts radar maps, and evaluates on a Yangtze River Delta meteorological dataset."
+    },
+    {
+      "title": "Distributed Deep Learning for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/HPEC.2019.8916416",
+      "doi": "10.1109/HPEC.2019.8916416",
+      "arxiv_id": "1908.10964",
+      "source": "IEEE HPEC 2019 / Crossref / arXiv PDF / OpenAlex / Semantic Scholar",
+      "date_added": "2026-06-30",
+      "publication_date": "2019-09",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-30; the arXiv PDF was checked for radar-data evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv PDF states that the CNN uses CIWS national mosaic VIL images estimated from WSR-88D/NEXRAD weather radar measurements via ORPG Level III VIL products."
     }
   ]
 }
