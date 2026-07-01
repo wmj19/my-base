@@ -2015,6 +2015,29 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-06-30; the arXiv PDF was checked for radar-data evidence.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The arXiv PDF states that the CNN uses CIWS national mosaic VIL images estimated from WSR-88D/NEXRAD weather radar measurements via ORPG Level III VIL products."
+    },
+    {
+      "title": "RainODE: Continuous-Time Precipitation Forecasting with Latent Neural ODEs",
+      "url": "https://arxiv.org/abs/2606.29855",
+      "doi": "10.48550/arXiv.2606.29855",
+      "arxiv_id": "2606.29855",
+      "source": "arXiv / arXiv HTML",
+      "date_added": "2026-07-01",
+      "publication_date": "2026-06-29",
+      "indexed_evidence": "arXiv v1 was submitted on 2026-06-29 and surfaced in the 2026-07-01 scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The arXiv abstract and HTML state that experiments use SEVIR and the new Radar-based Precipitation Integrated Dataset (RAPID); the paper defines radar-based precipitation forecasting from radar observation sequences, with SEVIR future VIL and RAPID operational HSP radar-only data."
+    },
+    {
+      "title": "S2R-GAN: A Spatio-Temporal Generative Adversarial Network for Radar Image Nowcasting from Image Sequences",
+      "url": "https://doi.org/10.1007/978-3-032-18159-6_26",
+      "doi": "10.1007/978-3-032-18159-6_26",
+      "source": "Springer Nature Link / Crossref",
+      "date_added": "2026-07-01",
+      "publication_date": "2026-04-01",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-30; Springer metadata lists first online on 2026-04-01 and ICTA 2025 conference dates in November 2025.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Springer abstract states that S2R-GAN uses the Z-R relationship to convert radar reflectivity to rainfall rate, proposes a GAN for radar image nowcasting, and evaluates on radar reflectivity images collected from the Phadin station."
     }
   ]
 }
