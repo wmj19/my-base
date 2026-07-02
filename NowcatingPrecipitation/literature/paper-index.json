@@ -2038,6 +2038,17 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-06-30; Springer metadata lists first online on 2026-04-01 and ICTA 2025 conference dates in November 2025.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The Springer abstract states that S2R-GAN uses the Z-R relationship to convert radar reflectivity to rainfall rate, proposes a GAN for radar image nowcasting, and evaluates on radar reflectivity images collected from the Phadin station."
+    },
+    {
+      "title": "Joint Intensity and Spatio-Temporal Representation Learning for Extreme Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2025.3590059",
+      "doi": "10.1109/JSTARS.2025.3590059",
+      "source": "IEEE J-STARS / Crossref / IEEE Xplore page mirror",
+      "date_added": "2026-07-02",
+      "publication_date": "2025-07-17",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-06-30; IEEE Xplore metadata and article text were checked through a page mirror on 2026-07-02.",
+      "priority_dataset_match": "CIKM (RadarCIKM)",
+      "radar_dataset_evidence": "The IEEE Xplore dataset section states that experiments use China Meteorological Administration radar observations, US MRMS radar observation data/radar composite reflectivity maps, and RadarCIKM AnalytiCup 2017 radar echo maps."
     }
   ]
 }
