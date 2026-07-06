@@ -2049,6 +2049,138 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-06-30; IEEE Xplore metadata and article text were checked through a page mirror on 2026-07-02.",
       "priority_dataset_match": "CIKM (RadarCIKM)",
       "radar_dataset_evidence": "The IEEE Xplore dataset section states that experiments use China Meteorological Administration radar observations, US MRMS radar observation data/radar composite reflectivity maps, and RadarCIKM AnalytiCup 2017 radar echo maps."
+    },
+    {
+      "title": "3D-UNet-LSTM: A Deep Learning-Based Radar Echo Extrapolation Model for Convective Nowcasting",
+      "url": "https://doi.org/10.3390/rs15061529",
+      "doi": "10.3390/rs15061529",
+      "source": "Remote Sensing / Crossref",
+      "date_added": "2026-07-06",
+      "publication_date": "2023-03-10",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-02; Crossref official abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None; MeteoNet is not MetNet",
+      "radar_dataset_evidence": "Crossref abstract states that the model extracts spatiotemporal features from input radar images and conducts 0-1 h convective nowcasting experiments on the public MeteoNet dataset."
+    },
+    {
+      "title": "Strong Spatiotemporal Radar Echo Nowcasting Combining 3DCNN and Bi-Directional Convolutional LSTM",
+      "url": "https://doi.org/10.3390/atmos11060569",
+      "doi": "10.3390/atmos11060569",
+      "source": "Atmosphere / Crossref",
+      "date_added": "2026-07-06",
+      "publication_date": "2020-05-29",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-02; Crossref official abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that experiments use radar echo images recorded by Shenzhen and Hong Kong meteorological stations."
+    },
+    {
+      "title": "Advancing Radar Nowcasting Through Deep Transfer Learning",
+      "url": "https://doi.org/10.1109/TGRS.2021.3056470",
+      "doi": "10.1109/TGRS.2021.3056470",
+      "source": "IEEE TGRS / Crossref / Semantic Scholar",
+      "date_added": "2026-07-06",
+      "publication_date": "2022",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-04; Semantic Scholar abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Semantic Scholar abstract states that the base CNN nowcasting model is trained using Beijing-area radar data and transferred to Guangzhou-area radar data."
+    },
+    {
+      "title": "VRNet: A Vivid Radar Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2024.3382172",
+      "doi": "10.1109/TGRS.2024.3382172",
+      "source": "IEEE TGRS / Crossref / Semantic Scholar",
+      "date_added": "2026-07-06",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-04; Semantic Scholar abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Semantic Scholar abstract defines the work as radar echo extrapolation for precipitation nowcasting and uses radar echo intensity weighted loss for the extrapolation task."
+    },
+    {
+      "title": "Fusion of Rain Radar Images and Wind Forecasts in a Deep Learning Model Applied to Rain Nowcasting",
+      "url": "https://doi.org/10.3390/rs13020246",
+      "doi": "10.3390/rs13020246",
+      "source": "Remote Sensing / Crossref",
+      "date_added": "2026-07-06",
+      "publication_date": "2021-01-13",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-04; Crossref official abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that the deep learning model fuses rainfall radar images with wind velocity forecasts and compares against a radar-only architecture."
+    },
+    {
+      "title": "Improving Nowcasting of Convective Development by Incorporating Polarimetric Radar Variables Into a Deep-Learning Model",
+      "url": "https://doi.org/10.1029/2021GL095302",
+      "doi": "10.1029/2021GL095302",
+      "source": "Geophysical Research Letters / Crossref",
+      "date_added": "2026-07-06",
+      "publication_date": "2021-10-29",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-02; Crossref official abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that FURENet incorporates polarimetric radar variables KDP and ZDR to improve convective organization and initiation nowcasting."
+    },
+    {
+      "title": "Weather Radar Echo Extrapolation Method Based on Deep Learning",
+      "url": "https://doi.org/10.3390/atmos13050815",
+      "doi": "10.3390/atmos13050815",
+      "source": "Atmosphere / Crossref",
+      "date_added": "2026-07-06",
+      "publication_date": "2022-05-16",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-02; Crossref official abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that the study collected 11,000 high-spatiotemporal-resolution weather radar echo samples and trained a Conv-LSTM encoder-decoder for radar echo extrapolation."
+    },
+    {
+      "title": "Radar Echo Spatiotemporal Sequence Prediction Using an Improved ConvGRU Deep Learning Model",
+      "url": "https://doi.org/10.3390/atmos13010088",
+      "doi": "10.3390/atmos13010088",
+      "source": "Atmosphere / Crossref",
+      "date_added": "2026-07-06",
+      "publication_date": "2022-01-06",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-03; Crossref official abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that the M-ConvGRU encoder-forecaster captures spatiotemporal correlation in radar echo maps for precipitation nowcasting."
+    },
+    {
+      "title": "A spatiotemporal deep learning model ST-LSTM-SA for hourly rainfall forecasting using radar echo images",
+      "url": "https://doi.org/10.1016/j.jhydrol.2022.127748",
+      "doi": "10.1016/j.jhydrol.2022.127748",
+      "source": "Journal of Hydrology / Crossref / Elsevier API / Semantic Scholar",
+      "date_added": "2026-07-06",
+      "publication_date": "2022-06",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-02; Elsevier and Semantic Scholar official metadata were checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Official metadata title states that the ST-LSTM-SA hourly rainfall forecasting model uses radar echo images; accessible abstract was not available."
+    },
+    {
+      "title": "PrecipLSTM: A Meteorological Spatiotemporal LSTM for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2022.3198222",
+      "doi": "10.1109/TGRS.2022.3198222",
+      "source": "IEEE TGRS / Crossref / Semantic Scholar",
+      "date_added": "2026-07-06",
+      "publication_date": "2022",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-04; Semantic Scholar abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Semantic Scholar abstract states that PrecipLSTM captures spatiotemporal dependencies of radar data and is evaluated on four radar datasets."
+    },
+    {
+      "title": "ConvLSTM-Based Precipitation Nowcasting for Urban Flood Forecasting",
+      "url": "https://doi.org/10.1061/9780784486931.022",
+      "doi": "10.1061/9780784486931.022",
+      "source": "World Environmental and Water Resources Congress 2026 / Crossref / OpenAlex / Semantic Scholar",
+      "date_added": "2026-07-06",
+      "publication_date": "2026-04-23",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-01; OpenAlex abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that the ConvLSTM generates short-term radar-based precipitation forecasts and blends model outputs and actual radar rainfall with rain gauge measurements."
+    },
+    {
+      "title": "Explainable image segmentation for spatio-temporal and multivariate image data in precipitation nowcasting",
+      "url": "https://doi.org/10.1016/j.rineng.2025.105595",
+      "doi": "10.1016/j.rineng.2025.105595",
+      "source": "Results in Engineering / Crossref / OpenAlex / Semantic Scholar",
+      "date_added": "2026-07-06",
+      "publication_date": "2025-06",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-04; OpenAlex abstract was checked on 2026-07-06.",
+      "priority_dataset_match": "None; Meteonet is not MetNet",
+      "radar_dataset_evidence": "OpenAlex abstract states that the study uses the Meteonet dataset as rain radar, satellite, and wind image sequences for 30-minute-ahead rainfall prediction."
     }
   ]
 }
