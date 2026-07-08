@@ -2181,6 +2181,95 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-07-04; OpenAlex abstract was checked on 2026-07-06.",
       "priority_dataset_match": "None; Meteonet is not MetNet",
       "radar_dataset_evidence": "OpenAlex abstract states that the study uses the Meteonet dataset as rain radar, satellite, and wind image sequences for 30-minute-ahead rainfall prediction."
+    },
+    {
+      "title": "Rainformer: Features Extraction Balanced Network for Radar-Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/LGRS.2022.3162882",
+      "doi": "10.1109/LGRS.2022.3162882",
+      "source": "IEEE Geoscience and Remote Sensing Letters / Crossref / OpenAlex",
+      "date_added": "2026-07-08",
+      "publication_date": "2022",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-04; OpenAlex metadata was checked on 2026-07-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref/OpenAlex official title states radar-based precipitation nowcasting; OpenAlex abstract describes Rainformer for precipitation nowcasting and high-intensity rainfall prediction."
+    },
+    {
+      "title": "SFTformer: A Spatial-Frequency-Temporal Correlation-Decoupling Transformer for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1109/TGRS.2024.3367857",
+      "doi": "10.1109/TGRS.2024.3367857",
+      "arxiv_id": "2402.18044",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / arXiv / OpenAlex",
+      "date_added": "2026-07-08",
+      "publication_date": "2024-02-28",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-07; arXiv and OpenAlex abstracts were checked on 2026-07-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "arXiv abstract states that SFTformer extrapolates future weather radar echoes from past observations and evaluates on HKO-7 and ChinaNorth-2021 for 1h, 2h, and 3h precipitation nowcasting."
+    },
+    {
+      "title": "Convective Precipitation Nowcasting Using U-Net Model",
+      "url": "https://doi.org/10.1109/TGRS.2021.3100847",
+      "doi": "10.1109/TGRS.2021.3100847",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / OpenAlex",
+      "date_added": "2026-07-08",
+      "publication_date": "2021-08-06",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-06; OpenAlex abstract was checked on 2026-07-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that the model takes five consecutive radar images as input and predicts a radar reflectivity image."
+    },
+    {
+      "title": "A convolutional recurrent neural network for strong convective rainfall nowcasting using weather radar data in Southeastern Brazil",
+      "url": "https://doi.org/10.1016/j.aiig.2022.06.001",
+      "doi": "10.1016/j.aiig.2022.06.001",
+      "source": "Artificial Intelligence in Geosciences / Crossref / OpenAlex",
+      "date_added": "2026-07-08",
+      "publication_date": "2022-06-13",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-02; OpenAlex abstract was checked on 2026-07-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that the convolutional recurrent neural network is trained on rainfall-rate image time series derived from weather radar data for heavy rainfall events around Campinas, Brazil."
+    },
+    {
+      "title": "Convolutional Neural Network for Convective Storm Nowcasting Using 3-D Doppler Weather Radar Data",
+      "url": "https://doi.org/10.1109/TGRS.2019.2948070",
+      "doi": "10.1109/TGRS.2019.2948070",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / OpenAlex / arXiv metadata",
+      "date_added": "2026-07-08",
+      "publication_date": "2019-11-12",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-04; OpenAlex abstract and arXiv metadata were checked on 2026-07-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that the CNN uses 3-D Doppler weather radar images and operational historical data from the Beijing-Tianjin-Hebei region for convective storm nowcasting."
+    },
+    {
+      "title": "XNow: A deep learning technique for nowcasting based on radar products' values prediction",
+      "url": "https://doi.org/10.1109/SACI49304.2020.9118849",
+      "doi": "10.1109/SACI49304.2020.9118849",
+      "source": "2020 IEEE SACI / Crossref / OpenAlex",
+      "date_added": "2026-07-08",
+      "publication_date": "2020-05",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-06; OpenAlex abstract was checked on 2026-07-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that XNow uses real radar data from the Romanian National Meteorological Administration to predict radar products' values for nowcasting warnings."
+    },
+    {
+      "title": "A Deep Learning-Based Precipitation Nowcasting Model Fusing GNSS-PWV and Radar Echo Observations",
+      "url": "https://doi.org/10.1109/TGRS.2025.3554745",
+      "doi": "10.1109/TGRS.2025.3554745",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / OpenAlex",
+      "date_added": "2026-07-08",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-07; OpenAlex abstract was checked on 2026-07-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that the model fuses GNSS-derived PWV data with radar observations and evaluates on Hong Kong radar and GNSS data."
+    },
+    {
+      "title": "ST-Mamba-LDM: An Attention-Mamba Hybrid Spatio-Temporal Latent Diffusion Model for Radar Echo-Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2026.3710785",
+      "doi": "10.1109/JSTARS.2026.3710785",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / Crossref",
+      "date_added": "2026-07-08",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-07; IEEE page command-line access was blocked, so this entry uses Crossref official metadata.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref official title identifies the work as a radar echo-based precipitation nowcasting model; accessible metadata did not expose the dataset name."
     }
   ]
 }
