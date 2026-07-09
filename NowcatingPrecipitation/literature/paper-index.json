@@ -2270,6 +2270,61 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-07-07; IEEE page command-line access was blocked, so this entry uses Crossref official metadata.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Crossref official title identifies the work as a radar echo-based precipitation nowcasting model; accessible metadata did not expose the dataset name."
+    },
+    {
+      "title": "RadarEchoMamba: A Fast, High-Fidelity Pyramidal Bidirectional Mamba Model for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.3390/rs18142287",
+      "doi": "10.3390/rs18142287",
+      "source": "Remote Sensing / Crossref",
+      "date_added": "2026-07-09",
+      "publication_date": "2026-07-08",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-08; MDPI page command-line access was blocked, so this entry uses Crossref official metadata.",
+      "priority_dataset_match": "ShangHai/Shanghai-2020",
+      "radar_dataset_evidence": "Crossref abstract states that RadarEchoMamba is a radar echo extrapolation model and reports experiments on South China and Shanghai-2020 datasets."
+    },
+    {
+      "title": "ViViT-Prob: A Radar Echo Extrapolation Model Based on Video Vision Transformer and Spatiotemporal Sparse Attention",
+      "url": "https://doi.org/10.3390/rs17121966",
+      "doi": "10.3390/rs17121966",
+      "source": "Remote Sensing / Crossref",
+      "date_added": "2026-07-09",
+      "publication_date": "2025-06-06",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-08; MDPI page command-line access was blocked, so this entry uses Crossref official metadata.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that ViViT-Prob is evaluated on Moving MNIST and a real radar echo dataset for radar echo extrapolation and short-term precipitation forecasting."
+    },
+    {
+      "title": "A Deep Learning Model for Precipitation Nowcasting Using Multiple Optical Flow Algorithms",
+      "url": "https://doi.org/10.1175/WAF-D-23-0104.1",
+      "doi": "10.1175/WAF-D-23-0104.1",
+      "source": "Weather and Forecasting / Crossref",
+      "date_added": "2026-07-09",
+      "publication_date": "2024-01",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-07; AMS page command-line access was blocked by human verification, so this entry uses Crossref official metadata.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that the deep-learning-enhanced optical-flow model tracks precipitation fields using ground radar datasets and evaluates precipitation cases in South Korea."
+    },
+    {
+      "title": "A Case Study on Deep Learning Approach for Multicellular Thunderstorm Classification and Nowcasting Using X-Band Weather Radar Data in East Coast Station of India",
+      "url": "https://doi.org/10.1109/ingarss67683.2025.11583856",
+      "doi": "10.1109/ingarss67683.2025.11583856",
+      "source": "2025 IEEE India Geoscience and Remote Sensing Symposium (InGARSS) / Crossref",
+      "date_added": "2026-07-09",
+      "publication_date": "2025-12-10",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-08; IEEE Xplore command-line access was blocked by a CloudFront challenge, so this entry uses Crossref official metadata.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref official title identifies the work as a deep-learning case study for multicellular thunderstorm classification and nowcasting using X-band weather radar data at an east coast station of India."
+    },
+    {
+      "title": "Flash flood nowcasting based on deep learning and radar rainfall estimates",
+      "url": "https://doi.org/10.36334/modsim2025.c07.hou",
+      "doi": "10.36334/modsim2025.c07.hou",
+      "source": "MODSIM2025 PDF / Crossref",
+      "date_added": "2026-07-09",
+      "publication_date": "2026-05-01",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-08; the DOI-resolved MODSIM PDF was checked on 2026-07-09.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MODSIM PDF abstract states that the encoder-decoder LSTM is trained on 15-minute Bureau of Meteorology RAINFIELDS radar rainfall inputs and conditioned on near-real-time radar nowcasts from STEPS-ADV and STEPS-NWP."
     }
   ]
 }
