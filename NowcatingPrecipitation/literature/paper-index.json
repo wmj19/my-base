@@ -2325,6 +2325,40 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-07-08; the DOI-resolved MODSIM PDF was checked on 2026-07-09.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The MODSIM PDF abstract states that the encoder-decoder LSTM is trained on 15-minute Bureau of Meteorology RAINFIELDS radar rainfall inputs and conditioned on near-real-time radar nowcasts from STEPS-ADV and STEPS-NWP."
+    },
+    {
+      "title": "Enhancing Radar Echo Extrapolation by ConvLSTM2D for Precipitation Nowcasting",
+      "url": "https://doi.org/10.3390/s24020459",
+      "doi": "10.3390/s24020459",
+      "source": "Sensors / Crossref / OpenAlex",
+      "date_added": "2026-07-10",
+      "publication_date": "2024-01-11",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; Crossref and OpenAlex metadata were checked on 2026-07-10.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref and OpenAlex metadata title the work as radar echo extrapolation for precipitation nowcasting and describe radar echo extrapolation experiments on a real-world weather dataset."
+    },
+    {
+      "title": "Thunderstorm Nowcasting With Deep Learning: A Multi-Hazard Data Fusion Model",
+      "url": "https://doi.org/10.1029/2022gl101626",
+      "doi": "10.1029/2022gl101626",
+      "arxiv_id": "2211.01001",
+      "source": "Geophysical Research Letters / Crossref / OpenAlex / arXiv",
+      "date_added": "2026-07-10",
+      "publication_date": "2023-04-19",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; Crossref, OpenAlex, and arXiv metadata were checked on 2026-07-10.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref/OpenAlex abstract states that the deep learning model uses weather radar with lightning detection, satellite visible/infrared imagery, NWP, and DEM, and predicts lightning, hail, and heavy precipitation up to 60 minutes."
+    },
+    {
+      "title": "Improving hail nowcasting using multi-source data and a WMHDA-enhanced DIFF-Transformer",
+      "url": "https://doi.org/10.1016/j.aosl.2025.100723",
+      "doi": "10.1016/j.aosl.2025.100723",
+      "source": "Atmospheric and Oceanic Science Letters / Crossref / OpenAlex / Elsevier LinkingHub",
+      "date_added": "2026-07-10",
+      "publication_date": "2025-10-01",
+      "indexed_evidence": "Crossref deposited and indexed the DOI on 2026-07-09; Crossref, OpenAlex, and Elsevier LinkingHub metadata were checked on 2026-07-10.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that HailPre integrates weather radar mosaics with Himawari-8/9 infrared imagery, lightning strike records, gridded precipitation, topography, land cover, and expert-verified hail observations for 60-minute hail nowcasting."
     }
   ]
 }
