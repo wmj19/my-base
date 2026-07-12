@@ -2359,6 +2359,17 @@
       "indexed_evidence": "Crossref deposited and indexed the DOI on 2026-07-09; Crossref, OpenAlex, and Elsevier LinkingHub metadata were checked on 2026-07-10.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "OpenAlex abstract states that HailPre integrates weather radar mosaics with Himawari-8/9 infrared imagery, lightning strike records, gridded precipitation, topography, land cover, and expert-verified hail observations for 60-minute hail nowcasting."
+    },
+    {
+      "title": "TISE-LSTM: A LSTM model for precipitation nowcasting with temporal interactions and spatial extract blocks",
+      "url": "https://doi.org/10.1016/j.neucom.2024.127700",
+      "doi": "10.1016/j.neucom.2024.127700",
+      "source": "Neurocomputing / Crossref / OpenAlex / ScienceDirect",
+      "date_added": "2026-07-12",
+      "publication_date": "2024-04-16",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-12; ScienceDirect landing metadata, Crossref, and OpenAlex metadata were checked on 2026-07-12.",
+      "priority_dataset_match": "CIKM",
+      "radar_dataset_evidence": "OpenAlex abstract states that TISE-LSTM uses past real images to predict future radar echo images and evaluates on CIKM23017 and AHEM real radar echo datasets."
     }
   ]
 }
