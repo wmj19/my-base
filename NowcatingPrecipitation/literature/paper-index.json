@@ -2370,6 +2370,62 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-07-12; ScienceDirect landing metadata, Crossref, and OpenAlex metadata were checked on 2026-07-12.",
       "priority_dataset_match": "CIKM",
       "radar_dataset_evidence": "OpenAlex abstract states that TISE-LSTM uses past real images to predict future radar echo images and evaluates on CIKM23017 and AHEM real radar echo datasets."
+    },
+    {
+      "title": "All convolutional neural networks for radar-based precipitation nowcasting",
+      "url": "https://doi.org/10.1016/j.procs.2019.02.036",
+      "doi": "10.1016/j.procs.2019.02.036",
+      "source": "Procedia Computer Science / Crossref / OpenAlex / Semantic Scholar",
+      "date_added": "2026-07-13",
+      "publication_date": "2019",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; OpenAlex and Semantic Scholar metadata were checked on 2026-07-13.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Semantic Scholar and OpenAlex abstracts state that the study uses deep all convolutional neural networks for radar-based precipitation nowcasting and compares against optical-flow nowcasting models."
+    },
+    {
+      "title": "GA-SmaAt-GNet: Generative adversarial small attention GNet for extreme precipitation nowcasting",
+      "url": "https://doi.org/10.1016/j.knosys.2024.112612",
+      "doi": "10.1016/j.knosys.2024.112612",
+      "arxiv_id": "2401.09881",
+      "source": "Knowledge-Based Systems / Crossref / arXiv / ar5iv",
+      "date_added": "2026-07-13",
+      "publication_date": "2024-12",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; arXiv metadata and ar5iv full text were checked on 2026-07-13.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The ar5iv full text states that experiments use 25 years of KNMI climatological radar rainfall data, with 5-minute precipitation depths on a 2.4 km grid adjusted by KNMI rain-gauge networks."
+    },
+    {
+      "title": "Research on precipitation nowcasting based on spatiotemporal cooperative attention",
+      "url": "https://doi.org/10.1007/s12040-024-02508-8",
+      "doi": "10.1007/s12040-024-02508-8",
+      "source": "Journal of Earth System Science / Springer Nature / Crossref / OpenAlex",
+      "date_added": "2026-07-13",
+      "publication_date": "2025-02-14",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; Springer and OpenAlex metadata were checked on 2026-07-13.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Springer abstract states that the work models radar precipitation images with STC-UNet and validates on Netherlands precipitation data; the article page acknowledges the KNMI precipitation dataset."
+    },
+    {
+      "title": "MBFE-UNet: A Multi-Branch Feature Extraction UNet with Temporal Cross Attention for Radar Echo Extrapolation",
+      "url": "https://www.mdpi.com/2072-4292/16/21/3956",
+      "doi": "10.3390/rs16213956",
+      "source": "Remote Sensing / MDPI / Crossref",
+      "date_added": "2026-07-13",
+      "publication_date": "2024-10-24",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-11; MDPI full text and Crossref metadata were checked on 2026-07-13.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI data section states that experiments use quality-controlled networked S-band weather radar data from South China, with 2018-2022 radar reflectivity sequences at about 1 km and 6-minute resolution."
+    },
+    {
+      "title": "Exploiting radar polarimetry for nowcasting thunderstorm hazards using deep learning",
+      "url": "https://doi.org/10.5194/nhess-24-133-2024",
+      "doi": "10.5194/nhess-24-133-2024",
+      "source": "Natural Hazards and Earth System Sciences / Copernicus / Crossref",
+      "date_added": "2026-07-13",
+      "publication_date": "2024-01-19",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; Copernicus full text and Crossref metadata were checked on 2026-07-13.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Copernicus full text states that training uses the Swiss operational polarimetric C-band radar network, single-pol radar products, dual-polarization variables, radar quality indices, and CombiPrecip radar-gauge precipitation targets."
     }
   ]
 }
