@@ -2426,6 +2426,29 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; Copernicus full text and Crossref metadata were checked on 2026-07-13.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The Copernicus full text states that training uses the Swiss operational polarimetric C-band radar network, single-pol radar products, dual-polarization variables, radar quality indices, and CombiPrecip radar-gauge precipitation targets."
+    },
+    {
+      "title": "ST-HFNet: A Spatiotemporal Hierarchical Fusion Network for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1007/978-981-92-3384-7_50",
+      "doi": "10.1007/978-981-92-3384-7_50",
+      "source": "Springer Nature Link / Crossref",
+      "date_added": "2026-07-14",
+      "publication_date": "2026-07-14",
+      "indexed_evidence": "Springer page lists Published 14 July 2026; Crossref created and indexed the DOI on 2026-07-13; Springer and Crossref metadata were checked on 2026-07-14.",
+      "priority_dataset_match": "ShangHai / Shanghai",
+      "radar_dataset_evidence": "The Springer abstract states that the work addresses radar echo extrapolation with deep learning and reports superior performance on the Shanghai Dataset."
+    },
+    {
+      "title": "Spread/Error relationship and spatial error structure of precipitation ensemble nowcasting: Comparison of STEPS and generative AI",
+      "url": "https://doi.org/10.5194/egusphere-2026-1460",
+      "doi": "10.5194/egusphere-2026-1460",
+      "arxiv_id": "2601.19298",
+      "source": "EGUsphere / Crossref / arXiv",
+      "date_added": "2026-07-14",
+      "publication_date": "2026-04-23",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-08; EGUsphere discussion-page author replies were updated on 2026-07-08; EGUsphere, Crossref, and arXiv full text were checked on 2026-07-14.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv full text states that STEPS and the generative AI model LDCast are evaluated using the Belgian radar composite RADCLIM; EGUsphere discussion describes the study as comparing ensemble radar nowcasting systems."
     }
   ]
 }
