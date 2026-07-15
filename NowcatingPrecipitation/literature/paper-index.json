@@ -2449,6 +2449,73 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-07-08; EGUsphere discussion-page author replies were updated on 2026-07-08; EGUsphere, Crossref, and arXiv full text were checked on 2026-07-14.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The arXiv full text states that STEPS and the generative AI model LDCast are evaluated using the Belgian radar composite RADCLIM; EGUsphere discussion describes the study as comparing ensemble radar nowcasting systems."
+    },
+    {
+      "title": "ST-TriMambaUNet: A Weather Radar Echo Extrapolation-Based Spatiotemporal Sequence Prediction Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.3390/s26144461",
+      "doi": "10.3390/s26144461",
+      "source": "Sensors / Crossref",
+      "date_added": "2026-07-15",
+      "publication_date": "2026-07-14",
+      "indexed_evidence": "Crossref created and indexed the DOI on 2026-07-14; Crossref official abstract was checked on 2026-07-15.",
+      "priority_dataset_match": "SEVIR; CIKM",
+      "radar_dataset_evidence": "Crossref official abstract states that ST-TriMambaUNet is a weather radar echo extrapolation model using radar echo sequences and that experiments were conducted on the public SEVIR and CIKM datasets."
+    },
+    {
+      "title": "FDNet: A Deep Learning Approach with Two Parallel Cross Encoding Pathways for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1007/s11390-021-1103-8",
+      "doi": "10.1007/s11390-021-1103-8",
+      "arxiv_id": "2105.02585",
+      "source": "Journal of Computer Science and Technology / Crossref / arXiv",
+      "date_added": "2026-07-15",
+      "publication_date": "2023-09-30",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-14; arXiv abstract and PDF experiment section were checked on 2026-07-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv abstract states that FDNet predicts future radar echo images from historical radar echo images; the PDF experiment section states that the two real-world radar echo datasets are HKO-7 and SRAD2020."
+    },
+    {
+      "title": "Radar precipitation nowcasting based on ConvLSTM model in a small watershed in north China",
+      "url": "https://doi.org/10.1007/s11069-023-06193-6",
+      "doi": "10.1007/s11069-023-06193-6",
+      "source": "Natural Hazards / Springer Nature Link / Crossref",
+      "date_added": "2026-07-15",
+      "publication_date": "2023-09-25",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; Springer abstract and acknowledgements were checked on 2026-07-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Springer abstract states that ConvLSTM uses sequences of radar reflectivity maps to forecast future reflectivity maps; the article acknowledges radar observations from Hebei Xingtai Meteorological Bureau."
+    },
+    {
+      "title": "A Short-Long Term Sequence Learning Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/tgrs.2024.3424250",
+      "doi": "10.1109/tgrs.2024.3424250",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / OpenAlex",
+      "date_added": "2026-07-15",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-14; OpenAlex abstract was checked on 2026-07-15.",
+      "priority_dataset_match": "CIKM / RadarCIKM",
+      "radar_dataset_evidence": "OpenAlex abstract states that the model takes radar echo sequences as input and reports experiments on RadarCIKM, TAASRAD19, and RadarKNMI."
+    },
+    {
+      "title": "Developing Deep Learning Models for Storm Nowcasting",
+      "url": "https://doi.org/10.1109/tgrs.2021.3110180",
+      "doi": "10.1109/tgrs.2021.3110180",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / OpenAlex",
+      "date_added": "2026-07-15",
+      "publication_date": "2022",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-09; OpenAlex abstract was checked on 2026-07-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that storm nowcasting relies on reasonably fast sampled radar data and that the paper develops and compares deep learning nowcasting models using the experimental results."
+    },
+    {
+      "title": "MSPTS-Net: Multiscale Parallel Temporal-Spatial Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/lgrs.2024.3520326",
+      "doi": "10.1109/lgrs.2024.3520326",
+      "source": "IEEE Geoscience and Remote Sensing Letters / Crossref / OpenAlex",
+      "date_added": "2026-07-15",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-14; OpenAlex abstract was checked on 2026-07-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract frames the work as radar echo extrapolation, describes modeling temporal-spatial characteristics of radar echoes, and reports performance advantages of the proposed MSPTS-Net structure."
     }
   ]
 }
