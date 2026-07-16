@@ -2516,6 +2516,83 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-07-14; OpenAlex abstract was checked on 2026-07-15.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "OpenAlex abstract frames the work as radar echo extrapolation, describes modeling temporal-spatial characteristics of radar echoes, and reports performance advantages of the proposed MSPTS-Net structure."
+    },
+    {
+      "title": "SCECA-Net: A Deep Learning-Based Model for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/tgrs.2025.3534278",
+      "doi": "10.1109/tgrs.2025.3534278",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / Semantic Scholar / ResearchGate metadata snippet",
+      "date_added": "2026-07-16",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-11; Crossref metadata and Semantic Scholar abstract were checked on 2026-07-16.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Semantic Scholar abstract states that precipitation nowcasting is treated as radar echo map prediction; ResearchGate metadata snippet states experiments use dual-polarization radar echo datasets from Shijiazhuang and Nanjing."
+    },
+    {
+      "title": "RainHCNet: Hybrid High-Low Frequency and Cross-Scale Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/jstars.2025.3549678",
+      "doi": "10.1109/jstars.2025.3549678",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / Crossref / Semantic Scholar / GitHub",
+      "date_added": "2026-07-16",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-14; Crossref metadata, Semantic Scholar abstract, and official GitHub README were checked on 2026-07-16.",
+      "priority_dataset_match": "ShangHai / Shanghai; SEVIR",
+      "radar_dataset_evidence": "Semantic Scholar abstract states that RainHCNet addresses radar echo extrapolation and reports experiments on KNMI, Shanghai, and SEVIR; official GitHub README lists KNMI, SEVIR, and Shanghai dataset requirements and IEEE keywords include Radar and Meteorological radar."
+    },
+    {
+      "title": "MS-DIMNet: A Multiscale Dual-Branch Interactive Memory Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/lgrs.2026.3708143",
+      "doi": "10.1109/lgrs.2026.3708143",
+      "source": "IEEE Geoscience and Remote Sensing Letters / Crossref / Semantic Scholar / EurekaMag",
+      "date_added": "2026-07-16",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-14; Crossref metadata, Semantic Scholar metadata, and EurekaMag abstract summary were checked on 2026-07-16.",
+      "priority_dataset_match": "CIKM / RadarCIKM",
+      "radar_dataset_evidence": "EurekaMag abstract summary states that experiments were conducted on RadarCIKM and RadarKNMI datasets for long-term precipitation nowcasting."
+    },
+    {
+      "title": "Experimental Study on Generative Adversarial Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/tgrs.2022.3177625",
+      "doi": "10.1109/tgrs.2022.3177625",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / Semantic Scholar / GitHub",
+      "date_added": "2026-07-16",
+      "publication_date": "2022",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-14; Crossref metadata, Semantic Scholar abstract, and official GitHub README were checked on 2026-07-16.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Semantic Scholar abstract states that the task's key challenge is radar echo map prediction and that experiments use a real-world radar data set; official GitHub README runs the first seven models under experiment/radar and provides original test samples."
+    },
+    {
+      "title": "PredRANN: The spatiotemporal attention Convolution Recurrent Neural Network for precipitation nowcasting",
+      "url": "https://doi.org/10.1016/j.knosys.2021.107900",
+      "doi": "10.1016/j.knosys.2021.107900",
+      "source": "Knowledge-Based Systems / ScienceDirect / Crossref / Harbin Institute of Technology / GitHub",
+      "date_added": "2026-07-16",
+      "publication_date": "2022-03-05",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-14; Crossref metadata, HIT publication page, and official GitHub README were checked on 2026-07-16.",
+      "priority_dataset_match": "CIKM",
+      "radar_dataset_evidence": "The HIT publication page states that radar echo maps forecasting is the main challenge; official GitHub README states the method is for radar echo sequence prediction and experiments use CIKM AnalytiCup 2017 datasets."
+    },
+    {
+      "title": "PFST-LSTM: A SpatioTemporal LSTM Model With Pseudoflow Prediction for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/jstars.2020.3040648",
+      "doi": "10.1109/jstars.2020.3040648",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / Crossref / Semantic Scholar / GitHub",
+      "date_added": "2026-07-16",
+      "publication_date": "2021",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-15; Crossref metadata, Semantic Scholar abstract, and official GitHub README were checked on 2026-07-16.",
+      "priority_dataset_match": "CIKM",
+      "radar_dataset_evidence": "Semantic Scholar abstract states that experiments include CIKM AnalytiCup 2017; official GitHub README calls PFST-LSTM a precipitation nowcasting/radar echo extrapolation model and states that experiments use CIKM AnalytiCup 2017 datasets."
+    },
+    {
+      "title": "Precipitation Nowcasting with Weather Radar Images and Deep Learning in São Paulo, Brasil",
+      "url": "https://doi.org/10.3390/atmos11111157",
+      "doi": "10.3390/atmos11111157",
+      "source": "Atmosphere / MDPI / Crossref / Semantic Scholar",
+      "date_added": "2026-07-16",
+      "publication_date": "2020-10-27",
+      "indexed_evidence": "Crossref indexed the DOI on 2026-07-15; Crossref metadata and Semantic Scholar abstract were checked on 2026-07-16.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Semantic Scholar abstract states that the study uses PredRNN++ and sequences of radar reflectivity images to predict future reflectivity images for São Paulo, Brazil, up to a 1-hour lead time."
     }
   ]
 }
