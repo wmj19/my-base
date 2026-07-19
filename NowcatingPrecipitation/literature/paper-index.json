@@ -2593,6 +2593,51 @@
       "indexed_evidence": "Crossref indexed the DOI on 2026-07-15; Crossref metadata and Semantic Scholar abstract were checked on 2026-07-16.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Semantic Scholar abstract states that the study uses PredRNN++ and sequences of radar reflectivity images to predict future reflectivity images for São Paulo, Brazil, up to a 1-hour lead time."
+    },
+    {
+      "title": "A Margin-Based Decomposition Framework via Intensity Flow Matching for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2026.3704556",
+      "doi": "10.1109/TGRS.2026.3704556",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Harbin Institute of Technology Pure / Crossref",
+      "date_added": "2026-07-19",
+      "publication_date": "2026",
+      "indexed_evidence": "HIT Pure publication page surfaced as a newly crawled result in the 2026-07-19 seven-day web search; Crossref indexed the DOI on 2026-07-06.",
+      "priority_dataset_match": "SEVIR; ShangHai / Shanghai; CIKM",
+      "radar_dataset_evidence": "HIT Pure abstract states that experiments use four public radar datasets: SEVIR, MeteoNet, Shanghai Radar, and CIKM."
+    },
+    {
+      "title": "SimNowcasting: Enhancing Precipitation Nowcasting via Lightweight Multiscale Convolution and Channel-Wise Attention Mechanism",
+      "url": "https://doi.org/10.1109/JIOT.2026.3670117",
+      "doi": "10.1109/JIOT.2026.3670117",
+      "source": "IEEE Internet of Things Journal / Crossref / DBLP / ResearchGate metadata snippet",
+      "date_added": "2026-07-19",
+      "publication_date": "2026-06-01",
+      "indexed_evidence": "IEEE Xplore page surfaced as a newly crawled result in the 2026-07-19 seven-day web search; Crossref and DBLP metadata were checked on 2026-07-19.",
+      "priority_dataset_match": "ShangHai / Shanghai",
+      "radar_dataset_evidence": "ResearchGate metadata abstract states that SimNowcasting models radar echo sequences and reports experiments on Shanghai radar data."
+    },
+    {
+      "title": "A Space-Time Transformer for Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2511.11090",
+      "doi": "10.48550/arXiv.2511.11090",
+      "arxiv_id": "2511.11090",
+      "source": "arXiv / NeurIPS Weather4Cast Challenge 2025",
+      "date_added": "2026-07-19",
+      "publication_date": "2025-11-14",
+      "last_revised": "2026-07-14",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv paper states that Weather4Cast uses HRIT satellite inputs to predict OPERA high-resolution radar precipitation fields, with 2025 targets derived from OPERA high-resolution rain-rate fields."
+    },
+    {
+      "title": "Precipitation Nowcasting Based on Radar Echo Images via Multiscale Spatiotemporal LSTM",
+      "url": "https://doi.org/10.1109/TGRS.2025.3584824",
+      "doi": "10.1109/TGRS.2025.3584824",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / NASA ADS / ResearchGate metadata snippet",
+      "date_added": "2026-07-19",
+      "publication_date": "2025-07-02",
+      "indexed_evidence": "IEEE Xplore page surfaced as a newly crawled result in the 2026-07-19 seven-day web search; ADS, DBLP, and ORCID metadata also surfaced as recently crawled results.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "IEEE and ResearchGate metadata snippets identify the task as precipitation nowcasting based on radar echo images and radar echo extrapolation."
     }
   ]
 }
