@@ -2638,6 +2638,27 @@
       "indexed_evidence": "IEEE Xplore page surfaced as a newly crawled result in the 2026-07-19 seven-day web search; ADS, DBLP, and ORCID metadata also surfaced as recently crawled results.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "IEEE and ResearchGate metadata snippets identify the task as precipitation nowcasting based on radar echo images and radar echo extrapolation."
+    },
+    {
+      "title": "Physically-Guided Data-Space Rectified Flow for Precipitation Nowcasting",
+      "url": "https://openreview.net/forum?id=UCfAMteKOc",
+      "source": "OpenReview / Papers.cool OpenReview mirror / ICML 2026 / Yibin University news and profile / related public patent metadata",
+      "date_added": "2026-07-20",
+      "publication_date": "2026-04-30",
+      "indexed_evidence": "OpenReview metadata and mirror pages surfaced as newly crawled results in the 2026-07-20 seven-day web search; accessible metadata identifies the work as an ICML 2026 poster.",
+      "priority_dataset_match": "SEVIR; ShangHai / Shanghai; CIKM",
+      "radar_dataset_evidence": "Papers.cool mirrors the OpenReview abstract and states that the work evaluates precipitation nowcasting on four public benchmarks; OpenReview/PDF index snippets and related public patent metadata identify SEVIR, MeteoNet, Shanghai, and CIKM radar precipitation datasets."
+    },
+    {
+      "title": "A Radar-Based AI Framework for Nowcasting Severe Hailstorms",
+      "url": "https://doi.org/10.5194/egusphere-plinius19-34",
+      "doi": "10.5194/egusphere-plinius19-34",
+      "source": "Plinius19 Conference Abstracts / Crossref / Copernicus Meeting Organizer",
+      "date_added": "2026-07-20",
+      "publication_date": "2026-07-17",
+      "presentation_date": "2026-07-17",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Crossref abstract states that the radar-based AI nowcasting framework is trained using composite radar reflectivity fields and evaluated on 15 severe hail events using a 40 dBZ reflectivity threshold."
     }
   ]
 }
