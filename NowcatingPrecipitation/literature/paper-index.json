@@ -2659,6 +2659,101 @@
       "presentation_date": "2026-07-17",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Crossref abstract states that the radar-based AI nowcasting framework is trained using composite radar reflectivity fields and evaluated on 15 severe hail events using a 40 dBZ reflectivity threshold."
+    },
+    {
+      "title": "Physics-Based Deep Spatiotemporal Hyperlocal Radar Nowcasting with a Multi-Variable U-Net for High-Resolution Precipitation Forecasting",
+      "url": "https://arxiv.org/abs/2607.16080",
+      "doi": "10.48550/arXiv.2607.16080",
+      "arxiv_id": "2607.16080",
+      "source": "arXiv / arXiv HTML / arXiv cs.LG and eess.IV new listings",
+      "date_added": "2026-07-21",
+      "publication_date": "2026-07-17",
+      "indexed_evidence": "arXiv new listings and arXiv abstract page showed the paper as submitted on 2026-07-17 during the 2026-07-21 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "arXiv metadata and HTML state that the model is a radar-only nowcasting framework trained with Mumbai Doppler radar observations and predicts future composite reflectivity fields from the most recent radar volume scan."
+    },
+    {
+      "title": "Learning to Refine: Spectral-Decoupled Iterative Refinement Framework for Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2606.02661",
+      "doi": "10.48550/arXiv.2606.02661",
+      "arxiv_id": "2606.02661",
+      "source": "arXiv / arXiv HTML / ICML 2026 metadata / OpenReview PDF search index",
+      "date_added": "2026-07-21",
+      "publication_date": "2026-06-01",
+      "indexed_evidence": "The paper was previously excluded for unclear radar-data evidence; the 2026-07-21 scan surfaced arXiv/OpenReview-indexed evidence confirming ICML 2026 status and benchmark datasets.",
+      "priority_dataset_match": "CIKM; ShangHai / Shanghai; SEVIR",
+      "radar_dataset_evidence": "The arXiv HTML dataset details identify CIKM Shenzhen weather radar observations, Shanghai radar composite reflectivity, and SEVIR NEXRAD radar VIL mosaics."
+    },
+    {
+      "title": "Precipitation Nowcasting Using Diffusion Transformer With Causal Attention",
+      "url": "https://doi.org/10.1109/TGRS.2024.3510693",
+      "doi": "10.1109/TGRS.2024.3510693",
+      "arxiv_id": "2410.13314",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / arXiv / OpenAlex / CatalyzeX",
+      "date_added": "2026-07-21",
+      "publication_date": "2024",
+      "indexed_evidence": "arXiv HTML and related metadata surfaced as newly crawled results in the 2026-07-21 seven-day web search; OpenAlex and DOI metadata were checked on 2026-07-21.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv paper evaluates on Sweden and MRMS datasets, and related metadata identifies them as MRMS and Swedish radar datasets for precipitation nowcasting."
+    },
+    {
+      "title": "Long-term Radar Echo Extrapolation Method Based on Optical Flow and Deep Learning Hybrid Model",
+      "url": "https://doi.org/10.1109/ICSIDP62679.2024.10869147",
+      "doi": "10.1109/ICSIDP62679.2024.10869147",
+      "source": "Beijing Institute of Technology Pure / IEEE ICSIDP 2024 / Crossref",
+      "date_added": "2026-07-21",
+      "publication_date": "2024",
+      "presentation_date": "2024-11-22",
+      "indexed_evidence": "The Beijing Institute of Technology Pure page and IEEE search result surfaced as newly crawled results in the 2026-07-21 seven-day web search; Crossref metadata was checked on 2026-07-21.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The BIT Pure abstract states that the model handles radar echo extrapolation, uses radar echoes as spatiotemporal sequences for the 0-1 hour range, and evaluates long-term radar echo extrapolation over 0-2 hours."
+    },
+    {
+      "title": "AENN: A GENERATIVE ADVERSARIAL NEURAL NETWORK FOR WEATHER RADAR ECHO EXTRAPOLATION",
+      "url": "https://doi.org/10.5194/isprs-archives-XLII-3-W9-89-2019",
+      "doi": "10.5194/isprs-archives-XLII-3-W9-89-2019",
+      "source": "ISPRS Archives / OpenAlex",
+      "date_added": "2026-07-21",
+      "publication_date": "2019-10-25",
+      "indexed_evidence": "The ISPRS page appeared as a newly crawled result in the 2026-07-21 seven-day web search and showed a 2026-07-13 page last-change marker.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The ISPRS abstract identifies weather radar echo extrapolation as the task and reports experiments extrapolating 0.5h, 1h, and 1.5h imminent future echoes."
+    },
+    {
+      "title": "ConvMFP-A Convolution-based Multi-source Fusion Prediction Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/CAC63892.2024.10865191",
+      "doi": "10.1109/CAC63892.2024.10865191",
+      "source": "IEEE Xplore / Crossref / OpenAlex",
+      "date_added": "2026-07-21",
+      "publication_date": "2024-11-01",
+      "presentation_date": "2024-11-01",
+      "indexed_evidence": "IEEE Xplore search snippets surfaced as newly crawled results in the 2026-07-21 seven-day web search; Crossref and OpenAlex metadata were checked on 2026-07-21.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "OpenAlex abstract states that ConvMFP is based on radar echo and satellite cloud image data for multi-source precipitation nowcasting."
+    },
+    {
+      "title": "A New Improved Method of Recurrent Memory Perception for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1109/QRS-C63300.2024.00104",
+      "doi": "10.1109/QRS-C63300.2024.00104",
+      "source": "IEEE Xplore / Crossref / OpenAlex / NASA ADS search index",
+      "date_added": "2026-07-21",
+      "publication_date": "2024-07-01",
+      "presentation_date": "2024-07-01",
+      "indexed_evidence": "IEEE Xplore and NASA ADS search results surfaced as newly crawled results in the 2026-07-21 seven-day web search; Crossref and OpenAlex metadata were checked on 2026-07-21.",
+      "priority_dataset_match": "CIKM",
+      "radar_dataset_evidence": "OpenAlex abstract identifies radar echo extrapolation as the precipitation nowcasting task; IEEE and NASA ADS snippets state that the real-world CIKM 2017 radar echo dataset is used for evaluation."
+    },
+    {
+      "title": "Thunderstorm Nowcasting with Recurrent-Convolution Deep Learning: A Case Study in Ho Chi Minh City",
+      "url": "https://doi.org/10.1109/ACOMPA64883.2024.00014",
+      "doi": "10.1109/ACOMPA64883.2024.00014",
+      "source": "IEEE Computer Society / IEEE Xplore / Crossref / ResearchGate metadata",
+      "date_added": "2026-07-21",
+      "publication_date": "2024-11-27",
+      "presentation_date": "2024-11-27",
+      "indexed_evidence": "IEEE Computer Society and IEEE Xplore pages surfaced as newly crawled results in the 2026-07-21 seven-day web search; Crossref and ResearchGate metadata were checked on 2026-07-21.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "ResearchGate and IEEE metadata state that the recurrent-convolution nowcasting network was trained and validated using real-world Doppler radar data from Nha Be, Ho Chi Minh City; the IEEE PDF snippet references radar reflectivity images."
     }
   ]
 }
