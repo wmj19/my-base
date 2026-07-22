@@ -2754,6 +2754,84 @@
       "indexed_evidence": "IEEE Computer Society and IEEE Xplore pages surfaced as newly crawled results in the 2026-07-21 seven-day web search; Crossref and ResearchGate metadata were checked on 2026-07-21.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "ResearchGate and IEEE metadata state that the recurrent-convolution nowcasting network was trained and validated using real-world Doppler radar data from Nha Be, Ho Chi Minh City; the IEEE PDF snippet references radar reflectivity images."
+    },
+    {
+      "title": "Exploring the ability of regional extrapolation for precipitation nowcasting with deep learning",
+      "url": "https://doi.org/10.1127/metz/2024/1189",
+      "doi": "10.1127/metz/2024/1189",
+      "source": "Crossref / Refubium / Freie Universitaet Berlin publication page",
+      "date_added": "2026-07-22",
+      "publication_date": "2024-11-14",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-20 during the 2026-07-22 seven-day scan; Refubium and FU Berlin pages were checked for radar-data evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The FU Berlin abstract states that TrajGRU is applied to radar data of the German Meteorological Service; Refubium/PDF metadata identifies RADOLAN as the dataset keyword."
+    },
+    {
+      "title": "Higher-resolution data improves deep learning-based precipitation nowcasting",
+      "url": "https://doi.org/10.1016/j.atmosres.2025.108010",
+      "doi": "10.1016/j.atmosres.2025.108010",
+      "source": "ScienceDirect / Crossref",
+      "date_added": "2026-07-22",
+      "publication_date": "2025-06",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-21 during the 2026-07-22 seven-day scan; ScienceDirect abstract and section snippets were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "ScienceDirect states that two U-Net models were trained with radar data at 1000 m, 500 m, and 100 m resolutions; the data section identifies one S-band and nine X-band dual-polarimetric radars from the CINRAD network in North China."
+    },
+    {
+      "title": "Mutual Information Boosted Precipitation Nowcasting from Radar Images",
+      "url": "https://doi.org/10.3390/rs15061639",
+      "doi": "10.3390/rs15061639",
+      "source": "Remote Sensing / Crossref / MDPI search metadata",
+      "date_added": "2026-07-22",
+      "publication_date": "2023-03-17",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-17 during the 2026-07-22 seven-day scan; MDPI and ResearchGate metadata snippets were checked for radar evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Accessible full-text snippets describe historical and future radar echo images, radar echo intensity prediction, and experiments on ECP, TAASRAD19, and HKO-7 radar datasets."
+    },
+    {
+      "title": "A Method of Weather Radar Echo Extrapolation Based on Convolutional Neural Networks",
+      "url": "https://doi.org/10.1007/978-3-319-73603-7_2",
+      "doi": "10.1007/978-3-319-73603-7_2",
+      "source": "SpringerLink / Crossref",
+      "date_added": "2026-07-22",
+      "publication_date": "2018-01-13",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-17 during the 2026-07-22 seven-day scan; SpringerLink abstract was checked for task and radar-data evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "SpringerLink abstract identifies the task as weather radar echo extrapolation and states that the CNN method improves utilization of radar data for short-term nowcasting."
+    },
+    {
+      "title": "LLMDiff: Diffusion Model Using Frozen LLM Transformers for Precipitation Nowcasting",
+      "url": "https://doi.org/10.3390/s24186049",
+      "doi": "10.3390/s24186049",
+      "source": "Sensors / Crossref / MDPI",
+      "date_added": "2026-07-22",
+      "publication_date": "2024-09-19",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-20 during the 2026-07-22 seven-day scan; MDPI article text was checked for dataset and radar-map evidence.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "MDPI abstract reports experiments on SEVIR; keywords include radar echo map, and the article states that precipitation nowcasting uses radar echo maps as input and reconstructs future radar echo images."
+    },
+    {
+      "title": "DSADNet: A Dual-Source Attention Dynamic Neural Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.3390/su16093696",
+      "doi": "10.3390/su16093696",
+      "source": "Sustainability / Crossref / MDPI",
+      "date_added": "2026-07-22",
+      "publication_date": "2024-04-28",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-18 during the 2026-07-22 seven-day scan; MDPI article text was checked for radar and dataset evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "MDPI abstract and method section state that DSADNet extracts information from radar maps and rainfall maps and uses historical radar echo and rainfall sequences on a real Jiangsu, China dataset."
+    },
+    {
+      "title": "Hybrid Weighting Loss for Precipitation Nowcasting from Radar Images",
+      "url": "https://doi.org/10.1109/ICASSP43922.2022.9746758",
+      "doi": "10.1109/ICASSP43922.2022.9746758",
+      "source": "IEEE Xplore / Crossref / DBLP / ResearchGate metadata",
+      "date_added": "2026-07-22",
+      "publication_date": "2022-05-23",
+      "presentation_date": "2022-05-23",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-21 during the 2026-07-22 seven-day scan; IEEE, DBLP, and ResearchGate metadata were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "IEEE, Crossref, and DBLP metadata identify the work as precipitation nowcasting from radar images; related metadata lists it as an ICASSP 2022 radar-image nowcasting paper."
     }
   ]
 }
