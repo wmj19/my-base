@@ -2832,6 +2832,84 @@
       "indexed_evidence": "Crossref metadata showed indexed date 2026-07-21 during the 2026-07-22 seven-day scan; IEEE, DBLP, and ResearchGate metadata were checked.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "IEEE, Crossref, and DBLP metadata identify the work as precipitation nowcasting from radar images; related metadata lists it as an ICASSP 2022 radar-image nowcasting paper."
+    },
+    {
+      "title": "RainPredRNN: A New Approach for Precipitation Nowcasting with Weather Radar Echo Images Based on Deep Learning",
+      "url": "https://doi.org/10.3390/axioms11030107",
+      "doi": "10.3390/axioms11030107",
+      "source": "Axioms / MDPI / Crossref",
+      "date_added": "2026-07-23",
+      "publication_date": "2022-02-28",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-22 during the 2026-07-23 seven-day scan; MDPI/Crossref abstract was checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI/Crossref abstract states that RainPredRNN performs precipitation nowcasting with weather radar echo images and validates on real reflectivity fields from the Phadin weather radar station in Vietnam."
+    },
+    {
+      "title": "Deep learning model based on multi-scale feature fusion for precipitation nowcasting",
+      "url": "https://doi.org/10.5194/gmd-17-53-2024",
+      "doi": "10.5194/gmd-17-53-2024",
+      "source": "Geoscientific Model Development / Crossref",
+      "date_added": "2026-07-23",
+      "publication_date": "2024-01-04",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-22 during the 2026-07-23 seven-day scan; GMD/Crossref abstract was checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The GMD/Crossref abstract states that the MFF model uses four years of radar echo data from 2018-2021 for training and 2022 data for testing."
+    },
+    {
+      "title": "HPRNN: A Hierarchical Sequence Prediction Model for Long-Term Weather Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1109/ICASSP40776.2020.9054232",
+      "doi": "10.1109/ICASSP40776.2020.9054232",
+      "source": "ICASSP 2020 official program / IEEE Xplore / Crossref / ResearchGate author full text",
+      "date_added": "2026-07-23",
+      "publication_date": "2020-05",
+      "presentation_date": "2020-05-08",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-22 during the 2026-07-23 seven-day scan; ICASSP program and ResearchGate author-uploaded full text were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The author-uploaded full text states that HPRNN is for weather radar echo extrapolation and reports experiments on the HKO-7 radar echo dataset."
+    },
+    {
+      "title": "Multi-Channel Weather Radar Echo Extrapolation with Convolutional Recurrent Neural Networks",
+      "url": "https://doi.org/10.3390/rs11192303",
+      "doi": "10.3390/rs11192303",
+      "source": "Remote Sensing / MDPI / Crossref",
+      "date_added": "2026-07-23",
+      "publication_date": "2019-10-02",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-22 during the 2026-07-23 seven-day scan; MDPI/Crossref abstract was checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI/Crossref abstract identifies the task as 3D radar echo extrapolation in precipitation nowcasting using convolutional recurrent neural networks."
+    },
+    {
+      "title": "Toward a Deep-Learning-Network-Based Convective Weather Initiation Algorithm From the Joint Observations of Fengyun-4A Geostationary Satellite and Radar for 0-1h Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2023.3262557",
+      "doi": "10.1109/JSTARS.2023.3262557",
+      "source": "IEEE J-STARS / Crossref / ResearchGate author full text",
+      "date_added": "2026-07-23",
+      "publication_date": "2023",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-22 during the 2026-07-23 seven-day scan; author-uploaded full text was checked for radar-data evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The author-uploaded full text states that CWNNet uses Fengyun-4A geostationary satellite and ground-based Doppler weather radar data from the last 0-1 hour to predict future radar reflectivity factor maps."
+    },
+    {
+      "title": "A Novel Multi-Input Multi-Output Recurrent Neural Network Based on Multimodal Fusion and Spatiotemporal Prediction for 0-4 Hour Precipitation Nowcasting",
+      "url": "https://doi.org/10.3390/atmos12121596",
+      "doi": "10.3390/atmos12121596",
+      "source": "Atmosphere / MDPI / Crossref",
+      "date_added": "2026-07-23",
+      "publication_date": "2021-11-29",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-22 during the 2026-07-23 seven-day scan; MDPI/Crossref abstract was checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI/Crossref abstract states that MFSP-Net uses precipitation grid data, radar echo data, and reanalysis data as inputs and evaluates on a Southeast China dataset."
+    },
+    {
+      "title": "PiMMNet: Introducing Multi-Modal Precipitation Nowcasting via a Physics-informed Perspective",
+      "url": "https://doi.org/10.1145/3746027.3755436",
+      "doi": "10.1145/3746027.3755436",
+      "source": "ACM Multimedia / Crossref / Semantic Scholar / official GitHub metadata",
+      "date_added": "2026-07-23",
+      "publication_date": "2025-10-27",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-22 during the 2026-07-23 seven-day scan; ACM, Semantic Scholar, and GitHub metadata were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Semantic Scholar abstract states that PiMMNet estimates a physics-constrained velocity field from multi-modal radar and satellite inputs and evaluates on two real-world multi-modal meteorological datasets."
     }
   ]
 }
