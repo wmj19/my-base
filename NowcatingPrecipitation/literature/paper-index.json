@@ -2910,6 +2910,39 @@
       "indexed_evidence": "Crossref metadata showed indexed date 2026-07-22 during the 2026-07-23 seven-day scan; ACM, Semantic Scholar, and GitHub metadata were checked.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Semantic Scholar abstract states that PiMMNet estimates a physics-constrained velocity field from multi-modal radar and satellite inputs and evaluates on two real-world multi-modal meteorological datasets."
+    },
+    {
+      "title": "METEO-DLNet: Quantitative Precipitation Nowcasting Net Based on Meteorological Features and Deep Learning",
+      "url": "https://doi.org/10.3390/rs16061063",
+      "doi": "10.3390/rs16061063",
+      "source": "Remote Sensing / MDPI / Crossref / ResearchGate full-text preview",
+      "date_added": "2026-07-27",
+      "publication_date": "2024-03-17",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-24 during the 2026-07-27 seven-day scan; Crossref abstract and ResearchGate/MDPI full-text preview were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Crossref abstract frames the method around radar echo extrapolation, and the ResearchGate/MDPI full-text preview describes a radar echo image prediction framework evaluated on a radar echo test set."
+    },
+    {
+      "title": "A Radar Reflectivity Image Prediction Method: The Spatial MIM + Pix2Pix",
+      "url": "https://doi.org/10.3390/rs15235554",
+      "doi": "10.3390/rs15235554",
+      "source": "Remote Sensing / MDPI / Crossref / ResearchGate full-text preview",
+      "date_added": "2026-07-27",
+      "publication_date": "2023-11-29",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-23 during the 2026-07-27 seven-day scan; MDPI and ResearchGate full-text preview were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI/ResearchGate full-text preview states that the method predicts radar reflectivity images and evaluates on NOAA dual-polarization weather radar data from Oklahoma, United States."
+    },
+    {
+      "title": "WinG-LSTM: a precipitation nowcasting model integrating swin transformer and LSTM",
+      "url": "https://doi.org/10.1007/s00704-026-06079-0",
+      "doi": "10.1007/s00704-026-06079-0",
+      "source": "Theoretical and Applied Climatology / Springer / Crossref / ResearchGate preview",
+      "date_added": "2026-07-27",
+      "publication_date": "2026-02-14",
+      "indexed_evidence": "The Springer page surfaced as a newly crawled priority-dataset search result during the 2026-07-27 scan; formal Crossref indexed date is 2026-03-21.",
+      "priority_dataset_match": "CIKM; ShangHai",
+      "radar_dataset_evidence": "Springer metadata describes precipitation nowcasting as spatiotemporal extrapolation of radar echo images, and the ResearchGate/Springer preview reports evaluation on CIKM2017 and Shanghai Radar datasets."
     }
   ]
 }
