@@ -2943,6 +2943,17 @@
       "indexed_evidence": "The Springer page surfaced as a newly crawled priority-dataset search result during the 2026-07-27 scan; formal Crossref indexed date is 2026-03-21.",
       "priority_dataset_match": "CIKM; ShangHai",
       "radar_dataset_evidence": "Springer metadata describes precipitation nowcasting as spatiotemporal extrapolation of radar echo images, and the ResearchGate/Springer preview reports evaluation on CIKM2017 and Shanghai Radar datasets."
+    },
+    {
+      "title": "Flood forecasting based on radar precipitation nowcasting using U-net and its improved models",
+      "url": "https://doi.org/10.1016/j.jhydrol.2024.130871",
+      "doi": "10.1016/j.jhydrol.2024.130871",
+      "source": "Journal of Hydrology / Elsevier / Crossref / ScienceDirect",
+      "date_added": "2026-07-30",
+      "publication_date": "2024-03",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-29 during the 2026-07-30 seven-day scan; Elsevier API, Crossref, and ScienceDirect snippets were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Elsevier and Crossref metadata identify the work as radar precipitation nowcasting using U-Net and improved models; ScienceDirect snippets state that U-Net variants are applied to radar echo extrapolation and precipitation nowcasting, with keywords including radar echo maps."
     }
   ]
 }
