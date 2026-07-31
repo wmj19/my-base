@@ -2954,6 +2954,50 @@
       "indexed_evidence": "Crossref metadata showed indexed date 2026-07-29 during the 2026-07-30 seven-day scan; Elsevier API, Crossref, and ScienceDirect snippets were checked.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Elsevier and Crossref metadata identify the work as radar precipitation nowcasting using U-Net and improved models; ScienceDirect snippets state that U-Net variants are applied to radar echo extrapolation and precipitation nowcasting, with keywords including radar echo maps."
+    },
+    {
+      "title": "SRDiff: A Cross-Modal Diffusion Model for Satellite-to-Radar Translation in Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2026.3686188",
+      "doi": "10.1109/TGRS.2026.3686188",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / IEEE Xplore / NUS publication page / ResearchGate metadata",
+      "date_added": "2026-07-31",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-30 during the 2026-07-31 seven-day scan; IEEE, NUS, and ResearchGate metadata were checked.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The title and IEEE/Crossref metadata define the task as satellite-to-radar translation for precipitation nowcasting; NUS and ResearchGate abstracts state that SRDiff aligns satellite channels with radar reflectivity and evaluates on SEVIR and Sat2Rdr, then integrates generated radar fields with radar-based nowcasting models."
+    },
+    {
+      "title": "PEDNet: A Predictive Encoder–Decoder Network with Multi-Scale Global–Local Modeling for Radar Precipitation Nowcasting",
+      "url": "https://doi.org/10.3390/atmos17050479",
+      "doi": "10.3390/atmos17050479",
+      "source": "Atmosphere / MDPI / Crossref",
+      "date_added": "2026-07-31",
+      "publication_date": "2026-05-08",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-30 during the 2026-07-31 seven-day scan; MDPI/Crossref abstract was checked.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The MDPI/Crossref abstract states that PEDNet is for radar precipitation nowcasting and reports experiments on the KNMI radar dataset and SEVIR VIL benchmark dataset."
+    },
+    {
+      "title": "CSPP-RNN: A Precipitation Nowcasting Approach That Couples Similar Precipitation Processes with Sequence-to-Sequence RNNs",
+      "url": "https://doi.org/10.3390/w18111261",
+      "doi": "10.3390/w18111261",
+      "source": "Water / MDPI / Crossref / Scilit metadata",
+      "date_added": "2026-07-31",
+      "publication_date": "2026-05-22",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-30 during the 2026-07-31 seven-day scan; MDPI/Crossref and Scilit metadata were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI/Crossref abstract states that CSPP-RNN is evaluated using radar data from Beijing Daxing station and compared with ConvLSTM for precipitation nowcasting."
+    },
+    {
+      "title": "MSF-PhyDRNN: A Physics-Driven Multi-Source Fusion Recurrent Neural Network for Short-Term Thunderstorm Gale Nowcasting",
+      "url": "https://doi.org/10.3390/rs18091334",
+      "doi": "10.3390/rs18091334",
+      "source": "Remote Sensing / MDPI / Crossref / Semantic Scholar",
+      "date_added": "2026-07-31",
+      "publication_date": "2026-04-27",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-07-30 during the 2026-07-31 seven-day scan; MDPI/Crossref and Semantic Scholar metadata were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI/Crossref abstract states that MSF-PhyDRNN fuses radar composite reflectivity and surface wind field data for short-term thunderstorm gale nowcasting, with experiments on Jiangsu and South China datasets."
     }
   ]
 }
