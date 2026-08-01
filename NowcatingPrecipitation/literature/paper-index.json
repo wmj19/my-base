@@ -2998,6 +2998,17 @@
       "indexed_evidence": "Crossref metadata showed indexed date 2026-07-30 during the 2026-07-31 seven-day scan; MDPI/Crossref and Semantic Scholar metadata were checked.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The MDPI/Crossref abstract states that MSF-PhyDRNN fuses radar composite reflectivity and surface wind field data for short-term thunderstorm gale nowcasting, with experiments on Jiangsu and South China datasets."
+    },
+    {
+      "title": "ConCast: a CBAM-enhanced SimVP with temporal consistency regularization for precipitation nowcasting",
+      "url": "https://www.oaepublish.com/articles/ir.2026.21",
+      "doi": "10.20517/ir.2026.21",
+      "source": "Intelligence & Robotics / OAE Publishing / Crossref",
+      "date_added": "2026-08-01",
+      "publication_date": "2026-07-31",
+      "indexed_evidence": "Crossref metadata showed created and indexed dates on 2026-07-31 during the 2026-08-01 seven-day scan; the OAE article page and PDF were checked.",
+      "priority_dataset_match": "ShangHai; SEVIR",
+      "radar_dataset_evidence": "The OAE/Crossref abstract states that ConCast is an enhanced SimVP for radar-based precipitation nowcasting evaluated on Shanghai-Radar and SEVIR; the dataset section states Shanghai-Radar was collected by a dual-polarization weather monitoring radar in Pudong, and SEVIR uses the VIL modality with NEXRAD radar mosaics."
     }
   ]
 }
