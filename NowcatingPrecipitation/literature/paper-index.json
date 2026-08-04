@@ -3009,6 +3009,40 @@
       "indexed_evidence": "Crossref metadata showed created and indexed dates on 2026-07-31 during the 2026-08-01 seven-day scan; the OAE article page and PDF were checked.",
       "priority_dataset_match": "ShangHai; SEVIR",
       "radar_dataset_evidence": "The OAE/Crossref abstract states that ConCast is an enhanced SimVP for radar-based precipitation nowcasting evaluated on Shanghai-Radar and SEVIR; the dataset section states Shanghai-Radar was collected by a dual-polarization weather monitoring radar in Pudong, and SEVIR uses the VIL modality with NEXRAD radar mosaics."
+    },
+    {
+      "title": "DB-RNN: An RNN for Precipitation Nowcasting Deblurring",
+      "url": "https://doi.org/10.1109/JSTARS.2024.3365612",
+      "doi": "10.1109/JSTARS.2024.3365612",
+      "source": "IEEE J-STARS / Crossref / Harbin Institute of Technology publication page / ResearchGate author-version preview",
+      "date_added": "2026-08-04",
+      "publication_date": "2024-01",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-08-03 during the 2026-08-04 seven-day scan; the HIT publication page and ResearchGate author-version preview were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The ResearchGate author-version abstract states that DB-RNN experiments use the HKO-7 and DWD-12 radar datasets for radar video prediction / precipitation nowcasting."
+    },
+    {
+      "title": "STUNNER: Radar Echo Extrapolation Model Based on Spatiotemporal Fusion Neural Network",
+      "url": "https://doi.org/10.1109/TGRS.2023.3268187",
+      "doi": "10.1109/TGRS.2023.3268187",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / Crossref / ResearchGate abstract page",
+      "date_added": "2026-08-04",
+      "publication_date": "2023-01",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-08-03 during the 2026-08-04 seven-day scan; IEEE metadata and ResearchGate abstract were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The ResearchGate abstract states that STUNNER is a deep-learning radar echo extrapolation model for precipitation nowcasting, uses radar echo sequence data, and compares against five models on two public datasets."
+    },
+    {
+      "title": "REE-TTT: Highly Adaptive Radar Echo Extrapolation Based on Test-Time Training",
+      "url": "https://arxiv.org/abs/2601.01605",
+      "doi": "10.48550/arXiv.2601.01605",
+      "arxiv_id": "2601.01605",
+      "source": "arXiv",
+      "date_added": "2026-08-04",
+      "publication_date": "2026-01-04",
+      "indexed_evidence": "The arXiv-domain recency search surfaced this locally new paper during the 2026-08-04 seven-day scan; the official arXiv v1 date is 2026-01-04.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv HTML experiment section states that REE-TTT uses Beijing composite reflectivity data from Beijing Meteorological Station Z9010 and Hangzhou composite reflectivity data from Hangzhou Meteorological Station Z9571."
     }
   ]
 }
