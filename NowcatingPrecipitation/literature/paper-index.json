@@ -3043,6 +3043,51 @@
       "indexed_evidence": "The arXiv-domain recency search surfaced this locally new paper during the 2026-08-04 seven-day scan; the official arXiv v1 date is 2026-01-04.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The arXiv HTML experiment section states that REE-TTT uses Beijing composite reflectivity data from Beijing Meteorological Station Z9010 and Hangzhou composite reflectivity data from Hangzhou Meteorological Station Z9571."
+    },
+    {
+      "title": "QWRF-Net: A Quantum-Wavelet Framework with Rectified Flow for Short-Term Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2608.01626",
+      "doi": "10.48550/arXiv.2608.01626",
+      "arxiv_id": "2608.01626",
+      "source": "arXiv",
+      "date_added": "2026-08-05",
+      "publication_date": "2026-08-03",
+      "indexed_evidence": "arXiv v1 was submitted on 2026-08-03 and surfaced during the 2026-08-05 seven-day scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The arXiv abstract states that experiments use KNMI radar and SEVIR benchmarks; the arXiv HTML methodology states that SEVIR uses VIL and KNMI uses radar-based precipitation fields."
+    },
+    {
+      "title": "Hierarchical Transformer With Lightweight Attention for Radar-Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/LGRS.2024.3359229",
+      "doi": "10.1109/LGRS.2024.3359229",
+      "source": "IEEE Geoscience and Remote Sensing Letters / Crossref / ResearchGate / DBLP / GitHub",
+      "date_added": "2026-08-05",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-08-04 during the 2026-08-05 seven-day scan; ResearchGate abstract, DBLP, and project repository were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "IEEE/Crossref identify the paper as radar-based precipitation nowcasting; the ResearchGate abstract reports HTLA experiments, and related author/literature pages state that HTLA is based on the KNMI radar dataset."
+    },
+    {
+      "title": "Precipitation nowcasting using transformer-based generative models and transfer learning for improved disaster preparedness",
+      "url": "https://doi.org/10.1016/j.jag.2024.103962",
+      "doi": "10.1016/j.jag.2024.103962",
+      "source": "International Journal of Applied Earth Observation and Geoinformation / Elsevier / Crossref / ResearchGate author full-text preview",
+      "date_added": "2026-08-05",
+      "publication_date": "2024-07-01",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-08-03 during the 2026-08-05 seven-day scan; ScienceDirect and ResearchGate full-text preview were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The ResearchGate/author full-text preview states that the model uses radar composite data from 10 South Korean weather radars and radar reflective data from 2018-2022."
+    },
+    {
+      "title": "Advection-Free Convolutional Neural Network for Convective Rainfall Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2023.3238016",
+      "doi": "10.1109/JSTARS.2023.3238016",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / Crossref / IEEE Xplore / GitHub / FMI B2Share / ResearchGate",
+      "date_added": "2026-08-05",
+      "publication_date": "2023",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-08-01 during the 2026-08-05 seven-day scan; IEEE, ResearchGate, GitHub, and FMI B2Share pages were checked.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The IEEE/ResearchGate abstract reports experiments on Finnish weather radar data; the FMI B2Share data page states that the composites can be transformed to radar reflectivity."
     }
   ]
 }
