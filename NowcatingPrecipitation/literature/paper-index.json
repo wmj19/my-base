@@ -3088,6 +3088,17 @@
       "indexed_evidence": "Crossref metadata showed indexed date 2026-08-01 during the 2026-08-05 seven-day scan; IEEE, ResearchGate, GitHub, and FMI B2Share pages were checked.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The IEEE/ResearchGate abstract reports experiments on Finnish weather radar data; the FMI B2Share data page states that the composites can be transformed to radar reflectivity."
+    },
+    {
+      "title": "A Multi-Scale Enhanced U-Net-based Diffusion Model for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2026.3717287",
+      "doi": "10.1109/JSTARS.2026.3717287",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / Crossref / ResearchGate full-text preview / GitHub",
+      "date_added": "2026-08-06",
+      "publication_date": "2026",
+      "indexed_evidence": "IEEE Xplore surfaced as Published last week in the 2026-08-06 recency scan; Crossref metadata shows created date 2026-07-27 and deposited/indexed date 2026-07-28. Earlier local scans deferred this paper because accessible dataset evidence was insufficient; the 2026-08-06 IEEE/ResearchGate PDF preview exposed the datasets.",
+      "priority_dataset_match": "ShangHai; SEVIR",
+      "radar_dataset_evidence": "The IEEE/ResearchGate PDF preview states that WaveCastNet experiments are conducted on the Southern Anhui Mountain Precipitation dataset and two public datasets, SEVIR and Shanghai Radar; the same preview identifies Shanghai Radar as a radar dataset and reports VIL-based prediction visualizations."
     }
   ]
 }
