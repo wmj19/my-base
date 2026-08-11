@@ -3099,6 +3099,18 @@
       "indexed_evidence": "IEEE Xplore surfaced as Published last week in the 2026-08-06 recency scan; Crossref metadata shows created date 2026-07-27 and deposited/indexed date 2026-07-28. Earlier local scans deferred this paper because accessible dataset evidence was insufficient; the 2026-08-06 IEEE/ResearchGate PDF preview exposed the datasets.",
       "priority_dataset_match": "ShangHai; SEVIR",
       "radar_dataset_evidence": "The IEEE/ResearchGate PDF preview states that WaveCastNet experiments are conducted on the Southern Anhui Mountain Precipitation dataset and two public datasets, SEVIR and Shanghai Radar; the same preview identifies Shanghai Radar as a radar dataset and reports VIL-based prediction visualizations."
+    },
+    {
+      "title": "FreCast: Refining Radar Echo Intensity via Phase-Preserving Amplitude Residual Diffusion for Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2608.08436",
+      "doi": "10.48550/arXiv.2608.08436",
+      "arxiv_id": "2608.08436",
+      "source": "arXiv / arXiv HTML",
+      "date_added": "2026-08-11",
+      "publication_date": "2026-08-09",
+      "indexed_evidence": "arXiv v1 was submitted on 2026-08-09 and surfaced during the 2026-08-11 seven-day scan.",
+      "priority_dataset_match": "SEVIR; ShangHai / Shanghai Radar",
+      "radar_dataset_evidence": "The arXiv abstract defines precipitation nowcasting as predicting future radar echoes from historical radar echo sequences; the arXiv HTML experiment section states that FreCast uses SEVIR, MeteoNet, and Shanghai Radar radar precipitation nowcasting datasets."
     }
   ]
 }
