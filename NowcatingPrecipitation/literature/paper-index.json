@@ -3111,6 +3111,17 @@
       "indexed_evidence": "arXiv v1 was submitted on 2026-08-09 and surfaced during the 2026-08-11 seven-day scan.",
       "priority_dataset_match": "SEVIR; ShangHai / Shanghai Radar",
       "radar_dataset_evidence": "The arXiv abstract defines precipitation nowcasting as predicting future radar echoes from historical radar echo sequences; the arXiv HTML experiment section states that FreCast uses SEVIR, MeteoNet, and Shanghai Radar radar precipitation nowcasting datasets."
+    },
+    {
+      "title": "DSTP: A Dual-Domain Spatio-Temporal Predictive Network for weather radar precipitation nowcasting",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0169809526005302",
+      "doi": "10.1016/j.atmosres.2026.109266",
+      "source": "ScienceDirect / Crossref",
+      "date_added": "2026-08-12",
+      "publication_date": "2026-08",
+      "indexed_evidence": "ScienceDirect surfaced the paper as published today during the 2026-08-12 Asia/Shanghai scan; Crossref metadata shows created date 2026-08-11 and indexed date 2026-08-11 UTC.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "ScienceDirect snippets identify the task as weather radar precipitation nowcasting and state that DSTP is evaluated on two public weather radar precipitation nowcasting datasets, including SEVIR and MeteoNet."
     }
   ]
 }
