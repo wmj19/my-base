@@ -3122,6 +3122,17 @@
       "indexed_evidence": "ScienceDirect surfaced the paper as published today during the 2026-08-12 Asia/Shanghai scan; Crossref metadata shows created date 2026-08-11 and indexed date 2026-08-11 UTC.",
       "priority_dataset_match": "SEVIR",
       "radar_dataset_evidence": "ScienceDirect snippets identify the task as weather radar precipitation nowcasting and state that DSTP is evaluated on two public weather radar precipitation nowcasting datasets, including SEVIR and MeteoNet."
+    },
+    {
+      "title": "Disentangling Spatial-Temporal Features for Controllable Factors Learning in Precipitation Nowcasting",
+      "url": "https://doi.org/10.1029/2026JH001361",
+      "doi": "10.1029/2026JH001361",
+      "source": "Crossref / AGU Journal of Geophysical Research: Machine Learning and Computation / ResearchGate / Zenodo",
+      "date_added": "2026-08-14",
+      "publication_date": "2026-08-07",
+      "indexed_evidence": "Crossref metadata shows online publication, created date, and indexed date all on 2026-08-07 UTC; the paper surfaced during the 2026-08-14 seven-day scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The Crossref abstract reports qualitative and quantitative experiments on SEVIR; the SEVIR open-data description identifies SEVIR as including NEXRAD radar mosaics / radar-derived VIL."
     }
   ]
 }
