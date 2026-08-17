@@ -3133,6 +3133,28 @@
       "indexed_evidence": "Crossref metadata shows online publication, created date, and indexed date all on 2026-08-07 UTC; the paper surfaced during the 2026-08-14 seven-day scan.",
       "priority_dataset_match": "SEVIR",
       "radar_dataset_evidence": "The Crossref abstract reports qualitative and quantitative experiments on SEVIR; the SEVIR open-data description identifies SEVIR as including NEXRAD radar mosaics / radar-derived VIL."
+    },
+    {
+      "title": "RadarDiff: A Conditional Diffusion Model with Time-Aware Context and Mixed Attention for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1109/JSTARS.2026.3722210",
+      "doi": "10.1109/JSTARS.2026.3722210",
+      "source": "Crossref / IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / ResearchGate full-text",
+      "date_added": "2026-08-17",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref metadata shows created, deposited, and indexed dates on 2026-08-11 UTC; the ResearchGate full-text page was checked for abstract, method, dataset, and data-availability evidence.",
+      "priority_dataset_match": "ShangHai / Shanghai Radar",
+      "radar_dataset_evidence": "The ResearchGate full-text experiment section states that RadarDiff uses the Shanghai radar echo dataset, with preprocessed composite reflectivity data from the Pudong station from October 2015 to July 2018."
+    },
+    {
+      "title": "PstpNet: Dual-Branch Physics-Guided U-Net With Multiscale Spatio-Temporal Disentanglement for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/JSTARS.2026.3722192",
+      "doi": "10.1109/JSTARS.2026.3722192",
+      "source": "Crossref / IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / ResearchGate full-text",
+      "date_added": "2026-08-17",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref metadata shows created, deposited, and indexed dates on 2026-08-10 UTC; the ResearchGate full-text page was checked for abstract, method, dataset, and data-availability evidence.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The ResearchGate full-text defines precipitation nowcasting as predicting future radar reflectivity sequences from historical observations and reports experiments on KNMI-NL50 radar echo maps plus SEVIR VIL frames."
     }
   ]
 }
