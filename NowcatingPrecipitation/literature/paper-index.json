@@ -3155,6 +3155,17 @@
       "indexed_evidence": "Crossref metadata shows created, deposited, and indexed dates on 2026-08-10 UTC; the ResearchGate full-text page was checked for abstract, method, dataset, and data-availability evidence.",
       "priority_dataset_match": "SEVIR",
       "radar_dataset_evidence": "The ResearchGate full-text defines precipitation nowcasting as predicting future radar reflectivity sequences from historical observations and reports experiments on KNMI-NL50 radar echo maps plus SEVIR VIL frames."
+    },
+    {
+      "title": "Event-Guided Spatiotemporal Transformer with Conditional Diffusion Refinement for High-Intensity Precipitation Nowcasting",
+      "url": "https://doi.org/10.3390/rs18162771",
+      "doi": "10.3390/rs18162771",
+      "source": "Crossref / MDPI Remote Sensing",
+      "date_added": "2026-08-18",
+      "publication_date": "2026-08-16",
+      "indexed_evidence": "Crossref metadata shows published-online date 2026-08-16 and created, deposited, and indexed dates on 2026-08-17 UTC; the MDPI article surfaced during the 2026-08-18 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Crossref/MDPI abstract states that EGN-Nowcast is evaluated under the KNMI radar setting using the KNMI radar dataset from 2016 to 2025."
     }
   ]
 }
