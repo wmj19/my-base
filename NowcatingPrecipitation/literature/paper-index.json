@@ -3166,6 +3166,39 @@
       "indexed_evidence": "Crossref metadata shows published-online date 2026-08-16 and created, deposited, and indexed dates on 2026-08-17 UTC; the MDPI article surfaced during the 2026-08-18 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The Crossref/MDPI abstract states that EGN-Nowcast is evaluated under the KNMI radar setting using the KNMI radar dataset from 2016 to 2025."
+    },
+    {
+      "title": "Two-Stage UA-GAN for Precipitation Nowcasting",
+      "url": "https://doi.org/10.3390/rs14235948",
+      "doi": "10.3390/rs14235948",
+      "source": "Crossref / MDPI Remote Sensing / MDPI PDF",
+      "date_added": "2026-08-20",
+      "publication_date": "2022-11-24",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-08-18 UTC during the 2026-08-20 seven-day scan; the MDPI PDF was checked for radar dataset evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI PDF dataset section states that the paper uses the public HKO-7 radar echo map dataset from Hong Kong Observatory, containing seven years of radar echo data from 2009 to 2015; experiments use previous radar echo frames to predict future radar echo frames."
+    },
+    {
+      "title": "A Hybrid Approach to Physical and Deep Learning Models for Radar-Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2025.3560454",
+      "doi": "10.1109/TGRS.2025.3560454",
+      "source": "Crossref / IEEE Transactions on Geoscience and Remote Sensing / author-lab PDF",
+      "date_added": "2026-08-20",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-08-18 UTC during the 2026-08-20 seven-day scan; an author-lab PDF was checked for abstract, method, and radar rainfall dataset details.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The accessible PDF data section states that the study uses South Korea Ministry of Environment composite radar rainfall data from 2016 to 2021 as input for PySTEPS and RainNet nowcasting models, with 1 km spatial and 10 min temporal resolution."
+    },
+    {
+      "title": "Assimilation of S-Band Radar Echo Extrapolation Data-Based on the GAN-rcLSTM Model",
+      "url": "https://doi.org/10.1029/2024JD043132",
+      "doi": "10.1029/2024JD043132",
+      "source": "Crossref / AGU Journal of Geophysical Research: Atmospheres / OpenAlex",
+      "date_added": "2026-08-20",
+      "publication_date": "2025-08-09",
+      "indexed_evidence": "Crossref metadata showed indexed date 2026-08-17 UTC and OpenAlex showed updated date 2026-08-18 during the 2026-08-20 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Crossref abstract states that the GAN-rcLSTM model extrapolates S-band radar echo mosaics at 3 km altitude from seven radars in Guangdong and assimilates WREE data to improve short-term forecasts."
     }
   ]
 }
