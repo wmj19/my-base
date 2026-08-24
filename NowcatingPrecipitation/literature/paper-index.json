@@ -3199,6 +3199,18 @@
       "indexed_evidence": "Crossref metadata showed indexed date 2026-08-17 UTC and OpenAlex showed updated date 2026-08-18 during the 2026-08-20 seven-day scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The Crossref abstract states that the GAN-rcLSTM model extrapolates S-band radar echo mosaics at 3 km altitude from seven radars in Guangdong and assimilates WREE data to improve short-term forecasts."
+    },
+    {
+      "title": "A Diffusion-Based Framework for High-Resolution Precipitation Forecasting over CONUS",
+      "url": "https://doi.org/10.1175/AIES-D-26-0067.1",
+      "doi": "10.1175/AIES-D-26-0067.1",
+      "arxiv_id": "2512.09059",
+      "source": "Crossref / American Meteorological Society Artificial Intelligence for the Earth Systems / arXiv",
+      "date_added": "2026-08-24",
+      "publication_date": "2026-08-17",
+      "indexed_evidence": "Crossref metadata shows created, deposited, indexed, and published-print dates on 2026-08-17 UTC; the formal AMS/AIES DOI surfaced during the 2026-08-24 seven-day scan. The arXiv v1 was submitted on 2025-12-09.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Crossref/AMS abstract states that the diffusion framework compares strategies using past observations from the Multi-Radar Multi-Sensor (MRMS) system and HRRR forecasts; the arXiv HTML dataset section states that the study uses hourly 1 km MRMS QPE fields from 2021-03-01 to 2025-02-28."
     }
   ]
 }
