@@ -3211,6 +3211,17 @@
       "indexed_evidence": "Crossref metadata shows created, deposited, indexed, and published-print dates on 2026-08-17 UTC; the formal AMS/AIES DOI surfaced during the 2026-08-24 seven-day scan. The arXiv v1 was submitted on 2025-12-09.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The Crossref/AMS abstract states that the diffusion framework compares strategies using past observations from the Multi-Radar Multi-Sensor (MRMS) system and HRRR forecasts; the arXiv HTML dataset section states that the study uses hourly 1 km MRMS QPE fields from 2021-03-01 to 2025-02-28."
+    },
+    {
+      "title": "PCFNet: frequency- and field-guided dual-polarization radar echo image sequence prediction",
+      "url": "https://doi.org/10.1007/s11760-026-05666-y",
+      "doi": "10.1007/s11760-026-05666-y",
+      "source": "Crossref / Springer Nature Link / Signal, Image and Video Processing",
+      "date_added": "2026-08-25",
+      "publication_date": "2026-08-25",
+      "indexed_evidence": "Crossref metadata shows online publication, created, deposited, and indexed dates on 2026-08-25 UTC; Springer Nature Link lists the online date as 2026-08-25.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "Springer abstract states that PCFNet is for radar echo nowcasting and reports experiments on the NJU-CPOL dataset and Huidong ZS009 observations; the Springer data availability statement identifies NJU-CPOL as a public dual-polarization radar dataset."
     }
   ]
 }
