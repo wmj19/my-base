@@ -3222,6 +3222,94 @@
       "indexed_evidence": "Crossref metadata shows online publication, created, deposited, and indexed dates on 2026-08-25 UTC; Springer Nature Link lists the online date as 2026-08-25.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "Springer abstract states that PCFNet is for radar echo nowcasting and reports experiments on the NJU-CPOL dataset and Huidong ZS009 observations; the Springer data availability statement identifies NJU-CPOL as a public dual-polarization radar dataset."
+    },
+    {
+      "title": "Radar Based Precipitation Nowcasting Prediction by Using Deep Learning Techniques",
+      "url": "https://doi.org/10.1051/e3sconf/202340504003",
+      "doi": "10.1051/e3sconf/202340504003",
+      "source": "Crossref / EDP Sciences E3S Web of Conferences / E3S PDF",
+      "date_added": "2026-08-27",
+      "publication_date": "2023-07-26",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-21 UTC; the E3S PDF was checked for radar echo dataset and Shanghai radar evidence.",
+      "priority_dataset_match": "ShangHai / Shanghai Radar",
+      "radar_dataset_evidence": "The E3S PDF states that the model combines CNN and LSTM on a radar echo dataset; its dataset section describes radar reflections from Weather Surveillance Radar in Shanghai, China, with about 170,000 Doppler radar intensity images from late 2015 to Q3 2018 at 6 min intervals."
+    },
+    {
+      "title": "NeXtNow: A Convolutional Deep Learning Model for the Prediction of Weather Radar Data for Nowcasting Purposes",
+      "url": "https://doi.org/10.3390/rs14163890",
+      "doi": "10.3390/rs14163890",
+      "source": "Crossref / MDPI Remote Sensing / MDPI PDF",
+      "date_added": "2026-08-27",
+      "publication_date": "2022-08-11",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-23 UTC; the MDPI PDF was checked for NMA and MET radar dataset details.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI PDF states that the NMA case study used Doppler single-polarization radar data from central Romania, including base reflectivity and base velocity products, and that the MET case study used composite reflectivity values from multiple radars."
+    },
+    {
+      "title": "RaDiT: A Differential Transformer-Based Hybrid Deep Learning Model for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.3390/rs17121976",
+      "doi": "10.3390/rs17121976",
+      "source": "Crossref / MDPI Remote Sensing / MDPI PDF",
+      "date_added": "2026-08-27",
+      "publication_date": "2025-06-06",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-23 UTC; the MDPI PDF was checked for CMARC radar reflectivity and SEVIR VIL dataset evidence.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The MDPI PDF dataset section states that RaDiT uses CMA radar reflectivity data (CMARC) from the national radar composite network and SEVIR VIL mosaics; the abstract defines the task as radar echo extrapolation from sequential radar reflectivity inputs."
+    },
+    {
+      "title": "A Forecast-Refinement Neural Network Based on DyConvGRU and U-Net for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1109/access.2023.3280932",
+      "doi": "10.1109/ACCESS.2023.3280932",
+      "source": "Crossref / IEEE Access / IEEE metadata snippets",
+      "date_added": "2026-08-27",
+      "publication_date": "2023",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-24 UTC; IEEE metadata snippets were checked for the Shanghai radar dataset and radar echo extrapolation evidence.",
+      "priority_dataset_match": "ShangHai / Shanghai Radar",
+      "radar_dataset_evidence": "IEEE metadata snippets state that the method is for radar echo extrapolation and was evaluated through experiments on a radar dataset from Shanghai, China, reporting POD, CSI, HSS, and FAR."
+    },
+    {
+      "title": "MissPred: A Robust Two-Stage Radar Echo Extrapolation Algorithm for Incomplete Sequences",
+      "url": "https://doi.org/10.3390/rs17122066",
+      "doi": "10.3390/rs17122066",
+      "source": "Crossref / MDPI Remote Sensing / MDPI PDF",
+      "date_added": "2026-08-27",
+      "publication_date": "2025-06-16",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-23 UTC; the MDPI PDF was checked for CMA national radar data and Shandong radar reflectivity evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI PDF data section states that the study uses CMA national radar data over Shandong Province from October 2022 to July 2024, with 1 km spatial and 6 min temporal resolution, selecting radar reflectivity data for precipitation events."
+    },
+    {
+      "title": "A Generative Adversarial and Spatiotemporal Differential Fusion Method in Radar Echo Extrapolation",
+      "url": "https://doi.org/10.3390/rs15225329",
+      "doi": "10.3390/rs15225329",
+      "source": "Crossref / MDPI Remote Sensing / MDPI PDF",
+      "date_added": "2026-08-27",
+      "publication_date": "2023-11-12",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-25 UTC; the MDPI PDF was checked for Shijiazhuang and Nanjing radar echo dataset evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI PDF experiment section states that STDGAN is evaluated on real radar echo datasets, including Shijiazhuang radar echo data and a Nanjing public dual-polarized radar echo dataset, predicting future radar echo sequences."
+    },
+    {
+      "title": "Weather Radar Echo Extrapolation with Dynamic Weight Loss",
+      "url": "https://doi.org/10.3390/rs15123138",
+      "doi": "10.3390/rs15123138",
+      "source": "Crossref / MDPI Remote Sensing / MDPI PDF",
+      "date_added": "2026-08-27",
+      "publication_date": "2023-06-15",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-25 UTC; the MDPI PDF was checked for NJU-CPOL weather radar dataset details.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI PDF states that radar reflectivity is predicted using Nanjing University C-band Polarimetric (NJU-CPOL) weather radar data from 2014 to 2019, including 268 precipitation events at 6 min intervals."
+    },
+    {
+      "title": "Improving Nowcasting of Intense Convective Precipitation by Incorporating Dual-Polarization Radar Variables into Generative Adversarial Networks",
+      "url": "https://doi.org/10.3390/s24154895",
+      "doi": "10.3390/s24154895",
+      "source": "Crossref / MDPI Sensors / MDPI PDF",
+      "date_added": "2026-08-27",
+      "publication_date": "2024-07-28",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-25 UTC; the MDPI PDF was checked for NJU_CPOL_update2308 dual-polarization radar variable evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MDPI PDF experiment section states that the NJU_CPOL_update2308 dataset represents severe convective precipitation nowcasting with continuous multi-frame dual-polarization radar grid data ZH, ZDR, and KDP at 6 min intervals."
     }
   ]
 }
