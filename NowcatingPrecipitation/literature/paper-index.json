@@ -3310,6 +3310,72 @@
       "indexed_evidence": "Crossref metadata shows indexed date 2026-08-25 UTC; the MDPI PDF was checked for NJU_CPOL_update2308 dual-polarization radar variable evidence.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The MDPI PDF experiment section states that the NJU_CPOL_update2308 dataset represents severe convective precipitation nowcasting with continuous multi-frame dual-polarization radar grid data ZH, ZDR, and KDP at 6 min intervals."
+    },
+    {
+      "title": "Nowcasting of Extreme Precipitation Using Deep Generative Models",
+      "url": "https://doi.org/10.1109/ICASSP49357.2023.10094988",
+      "doi": "10.1109/ICASSP49357.2023.10094988",
+      "source": "Crossref / IEEE ICASSP / TU Delft Research Portal / GitHub",
+      "date_added": "2026-08-28",
+      "publication_date": "2023-06-04",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-28 UTC; the TU Delft Research Portal and official GitHub repository were checked for abstract, method, PySTEPS comparison, and radar-data workflow evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official GitHub README describes transforming radar data to latent-space token sequences and testing nowcasting; the TU Delft record describes precipitation nowcasting with VQGAN + Transformer and PySTEPS comparison."
+    },
+    {
+      "title": "Enhanced rainfall nowcasting using deep learning models incorporating polarimetric radar data",
+      "url": "https://doi.org/10.1007/s11069-025-07587-4",
+      "doi": "10.1007/s11069-025-07587-4",
+      "source": "Crossref / Springer Nature Link / Natural Hazards",
+      "date_added": "2026-08-28",
+      "publication_date": "2025-08-18",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-28 UTC; the Springer Nature Link page was checked for abstract, data availability, polarimetric variables, and NJU-CPOL evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Springer abstract states that the work performs deep learning radar echo extrapolation for rainfall nowcasting and fuses polarimetric radar variables ZH, ZDR, and KDP; the data availability and abbreviations identify the Pan et al. (2021) dataset and NJU-CPOL."
+    },
+    {
+      "title": "A new strong convective precipitation forecasting method based on attention mechanism and spatio-temporal reasoning",
+      "url": "https://doi.org/10.1038/s41598-024-68951-1",
+      "doi": "10.1038/s41598-024-68951-1",
+      "source": "Crossref / Scientific Reports / Nature",
+      "date_added": "2026-08-28",
+      "publication_date": "2024-08-16",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-28 UTC; the Nature full text was checked for data availability, input-output setting, radar variables, and forecast horizon evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Nature article data availability statement lists NJU-CPOL dual-polarization radar data and precipitation grid data; the method section states that ZH, ZDR, and KDP at multiple heights are used to predict future ZH sequences for the following hour."
+    },
+    {
+      "title": "Nowcasting Heavy Rainfall With Convolutional Long Short-Term Memory Networks: A Pixelwise Modeling Approach",
+      "url": "https://doi.org/10.1109/JSTARS.2024.3383397",
+      "doi": "10.1109/JSTARS.2024.3383397",
+      "source": "Crossref / IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / Kyungpook National University research portal / ResearchGate snippets",
+      "date_added": "2026-08-28",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-28 UTC; the KNU research portal and ResearchGate/IEEE snippets were checked for abstract, lead-time, and radar reflectivity evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The KNU portal keywords identify dual-polarimetric weather radar and rainfall nowcasting; ResearchGate/IEEE snippets state that the input is past radar images and the output is the predicted radar reflectivity image."
+    },
+    {
+      "title": "Unveiling the Role of Weighted Loss Functions in Deep Learning-Based Nowcasting of Extreme Rainfall Events",
+      "url": "https://doi.org/10.1109/TGRS.2025.3592853",
+      "doi": "10.1109/TGRS.2025.3592853",
+      "source": "Crossref / IEEE Transactions on Geoscience and Remote Sensing / ADS / author-lab publication page",
+      "date_added": "2026-08-28",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-28 UTC; ADS metadata, IEEE PDF snippets, and the author-lab publication page were checked for radar rainfall data and weighted-loss nowcasting evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "ADS metadata lists radar rainfall data as a keyword; IEEE PDF snippets state that 538 Automatic Weather Stations were used to correct or complement radar rainfall data in a ConvLSTM-based extreme rainfall nowcasting study."
+    },
+    {
+      "title": "Spatiotemporal deep learning fusion of radar, infrared, and geospatial data for typhoon rainfall estimation in Taiwan",
+      "url": "https://doi.org/10.1007/s12145-025-01985-9",
+      "doi": "10.1007/s12145-025-01985-9",
+      "source": "Crossref / Springer Nature Link / Earth Science Informatics / ADS / ResearchGate snippets",
+      "date_added": "2026-08-28",
+      "publication_date": "2025-08-06",
+      "indexed_evidence": "Crossref metadata shows indexed date 2026-08-28 UTC; Springer, ADS, and ResearchGate snippets were checked for radar-included fusion inputs, typhoon events, and 1-6 h forecast evidence.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Springer abstract and ADS/ResearchGate snippets state that RSFM fuses rainfall accumulation, radar reflectivity, infrared satellite imagery, and geospatial data to produce 1-6 h rainfall forecasts for 36 typhoon events in Taiwan."
     }
   ]
 }
