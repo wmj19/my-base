@@ -3376,6 +3376,86 @@
       "indexed_evidence": "Crossref metadata shows indexed date 2026-08-28 UTC; Springer, ADS, and ResearchGate snippets were checked for radar-included fusion inputs, typhoon events, and 1-6 h forecast evidence.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The Springer abstract and ADS/ResearchGate snippets state that RSFM fuses rainfall accumulation, radar reflectivity, infrared satellite imagery, and geospatial data to produce 1-6 h rainfall forecasts for 36 typhoon events in Taiwan."
+    },
+    {
+      "title": "Evaluating AI-Based Nowcasting Algorithms for Germany",
+      "url": "https://event.fourwaves.com/erad2026/abstracts/a55e65fa-86f3-437c-a82b-89884d85b570",
+      "source": "ERAD 2026 / Fourwaves official presentation page",
+      "date_added": "2026-08-31",
+      "publication_date": "2026-08-27",
+      "indexed_evidence": "The official ERAD 2026 schedule lists this work as a poster presentation on 2026-08-27 during the conference held from 2026-08-24 to 2026-08-28.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract states that classical and AI-based high-resolution precipitation nowcasting algorithms are evaluated on the German radar network across lead times, precipitation intensities, weather regimes, and high-impact cases."
+    },
+    {
+      "title": "Quantitative Precipitation Estimation Experiment Based on X-band Dual-polarization Phased-array Weather Radars",
+      "url": "https://event.fourwaves.com/erad2026/abstracts/c06f9a64-0980-4419-81f6-82470ef59a44",
+      "source": "ERAD 2026 / Fourwaves official presentation page",
+      "date_added": "2026-08-31",
+      "publication_date": "2026-08-27",
+      "indexed_evidence": "The official ERAD 2026 schedule lists this work as an oral presentation in the AI in Radar Meteorology session on 2026-08-27.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract describes experiments using three X-band dual-polarization phased-array weather radars in Lushui, Hubei, and a diffusion-attention model that fuses radar extrapolation with regional NWP background fields for 1-3 h precipitation forecasts."
+    },
+    {
+      "title": "Deep Learning-Based Short-Term Rainfall Forecasting for Streamflow Prediction in Small Watersheds",
+      "url": "https://event.fourwaves.com/erad2026/abstracts/9b1eb2d7-ed6b-42ea-9d62-3ffc21ed0bbe",
+      "source": "ERAD 2026 / Fourwaves official presentation page",
+      "date_added": "2026-08-31",
+      "publication_date": "2026-08-27",
+      "indexed_evidence": "The official ERAD 2026 schedule lists this work as a poster presentation on 2026-08-27.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract states that multiple deep-learning approaches use MRMS radar-derived QPE as the primary input to generate high-resolution rainfall forecasts up to 3 h over the Kansas City metropolitan area."
+    },
+    {
+      "title": "KARL: AI-Driven Convective Cell Detection and Tracking on DWD’s Pan-European EuComXL Radar Composite for Aviation Weather Services",
+      "url": "https://event.fourwaves.com/erad2026/abstracts/4b5ac7b2-1301-4849-b55e-92df1e1e8a21",
+      "source": "ERAD 2026 / Fourwaves official presentation page",
+      "date_added": "2026-08-31",
+      "publication_date": "2026-08-25",
+      "indexed_evidence": "The official ERAD 2026 schedule lists this work as a poster presentation on 2026-08-25.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract states that a U-Net processes DWD EuComXL radar-composite VII, VIL, and maximum-reflectivity fields with LINET lightning, while optical flow and a dynamic Kalman filter produce stable 60 min convective-cell nowcasts."
+    },
+    {
+      "title": "A comparative analysis of deep learning approaches for radar precipitation nowcasting in Italy",
+      "url": "https://event.fourwaves.com/erad2026/abstracts/3c2cc9f0-5a4b-412e-b6e5-284c96bc2513",
+      "source": "ERAD 2026 / Fourwaves official presentation page",
+      "date_added": "2026-08-31",
+      "publication_date": "2026-08-27",
+      "indexed_evidence": "The official ERAD 2026 schedule lists this work as a poster presentation on 2026-08-27.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract states that recurrent convolutional, attention, and Transformer nowcasting models are trained and evaluated on a multi-year dataset from the Italian national weather radar network across precipitation thresholds and lead times."
+    },
+    {
+      "title": "Graph attention networks for interpretable weather radar-based precipitation nowcasting",
+      "url": "https://event.fourwaves.com/erad2026/abstracts/7093ec40-ea05-4c7e-83b6-b01d570d1eca",
+      "source": "ERAD 2026 / Fourwaves official presentation page",
+      "date_added": "2026-08-31",
+      "publication_date": "2026-08-27",
+      "indexed_evidence": "The official ERAD 2026 schedule lists this work as an oral presentation in the AI in Radar Meteorology session on 2026-08-27.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract states that the graph-attention growth-and-decay model is trained on the Finnish Meteorological Institute lowest-altitude weather radar composite and combined with optical-flow echo advection."
+    },
+    {
+      "title": "Radar-Based Precipitation Nowcasting in Slovakia: Performance Improvements Using a U-Net-Based Meta-Architecture",
+      "url": "https://event.fourwaves.com/erad2026/abstracts/7d5f71a8-7223-4e2d-a467-54977d27200a",
+      "source": "ERAD 2026 / Fourwaves official presentation page",
+      "date_added": "2026-08-31",
+      "publication_date": "2026-08-27",
+      "indexed_evidence": "The official ERAD 2026 schedule lists this work as a poster presentation on 2026-08-27.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract states that U-Net-based L-Class meta-models use reflectivity and CAPPI products from the Slovak Hydrometeorological Institute radar network plus lightning and six radar-nowcasting baseline outputs for forecasts up to 60 min."
+    },
+    {
+      "title": "The Open-Source MLCast Initiative: Reproducible Machine-Learning-based Nowcasting in EUMETNET E-AI",
+      "url": "https://event.fourwaves.com/erad2026/abstracts/c14e90fd-46ab-468a-9a56-49a72e4c4a80",
+      "source": "ERAD 2026 / Fourwaves official presentation page",
+      "date_added": "2026-08-31",
+      "publication_date": "2026-08-27",
+      "indexed_evidence": "The official ERAD 2026 schedule lists this work as an oral presentation in the AI in Radar Meteorology session on 2026-08-27.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract states that the first MLCast release focuses on radar-based precipitation nowcasting, harmonizes ML-ready datasets from several European radar networks, and trains and evaluates reference nowcasting models on those shared radar datasets."
     }
   ]
 }
