@@ -3456,6 +3456,141 @@
       "indexed_evidence": "The official ERAD 2026 schedule lists this work as an oral presentation in the AI in Radar Meteorology session on 2026-08-27.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The official abstract states that the first MLCast release focuses on radar-based precipitation nowcasting, harmonizes ML-ready datasets from several European radar networks, and trains and evaluates reference nowcasting models on those shared radar datasets."
+    },
+    {
+      "title": "GenONet: A Generative operator Network for High-Resolution Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2609.00544",
+      "doi": "10.48550/arXiv.2609.00544",
+      "arxiv_id": "2609.00544",
+      "source": "arXiv",
+      "date_added": "2026-09-07",
+      "publication_date": "2026-09-01",
+      "indexed_evidence": "arXiv v1 was submitted on 2026-09-01 and surfaced during the 2026-09-07 seven-day scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The paper's experiment section states that the main task uses 2008-2018 KNMI national radar-reflectivity composites at 5 min and 1 km resolution, with 15 input frames and 36 forecast frames."
+    },
+    {
+      "title": "SR2-GAN: A Novel Generative Adversarial Network for Radar Image Sequence Nowcasting",
+      "url": "https://link.springer.com/article/10.1007/s11036-026-02532-6",
+      "doi": "10.1007/s11036-026-02532-6",
+      "source": "Mobile Networks and Applications / Springer Nature",
+      "date_added": "2026-09-07",
+      "publication_date": "2026-09-04",
+      "indexed_evidence": "Springer and Crossref list the version of record as published and indexed on 2026-09-04.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The publisher abstract states that experiments use radar data from the Pha Din station in Vietnam and the DWD radar dataset in Germany; the data-availability statement links both repositories."
+    },
+    {
+      "title": "Fourier Amplitude and Correlation Loss: Beyond Using L2 Loss for Skillful Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2410.23159",
+      "doi": "10.52202/079017-3173",
+      "arxiv_id": "2410.23159",
+      "source": "Advances in Neural Information Processing Systems 37 / arXiv",
+      "date_added": "2026-09-07",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref indexed the formal NeurIPS proceedings DOI on 2026-09-01; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The paper evaluates the proposed Fourier amplitude and correlation losses on the SEVIR VIL, MeteoNet radar-reflectivity, and HKO-7 radar-echo datasets across deterministic and generative nowcasting models."
+    },
+    {
+      "title": "MoCast: Learning Turbulent Motions Under Physical Guidance for Precipitation Nowcasting",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/38628",
+      "doi": "10.1609/aaai.v40i19.38628",
+      "source": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "date_added": "2026-09-07",
+      "publication_date": "2026-03-14",
+      "indexed_evidence": "Crossref refreshed the AAAI article index on 2026-09-03; the formal paper surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "SEVIR; ShangHai / Shanghai Radar",
+      "radar_dataset_evidence": "The official paper evaluates MoCast on SEVIR VIL, MeteoNet radar reflectivity, and Shanghai Pudong dual-polarization weather-radar echo sequences."
+    },
+    {
+      "title": "SimCast: Enhancing Precipitation Nowcasting with Short-to-Long Term Knowledge Distillation",
+      "url": "https://arxiv.org/abs/2510.07953",
+      "doi": "10.1109/icme59968.2025.11209905",
+      "arxiv_id": "2510.07953",
+      "source": "2025 IEEE International Conference on Multimedia and Expo / arXiv",
+      "date_added": "2026-09-07",
+      "publication_date": "2025-06-30",
+      "indexed_evidence": "Crossref refreshed the ICME proceedings record on 2026-09-03; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The paper defines the task as future radar-sequence prediction and reports experiments on the SEVIR, HKO-7, and MeteoNet radar benchmarks."
+    },
+    {
+      "title": "Forecastformer: Spatiotemporal Decoupled Transformer and Diffusion Models for Severe Convective Storm Nowcasting",
+      "url": "https://ieeexplore.ieee.org/document/11124902/",
+      "doi": "10.1109/tgrs.2025.3598918",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing",
+      "date_added": "2026-09-07",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref refreshed the IEEE journal record on 2026-09-04; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "ShangHai / Shanghai Radar",
+      "radar_dataset_evidence": "The publisher record and paper abstract materials state that Forecastformer is evaluated on regional radar-reflectivity datasets from Jiangsu Province and Shanghai."
+    },
+    {
+      "title": "Spatiotemporal Feature Fusion Transformer for Precipitation Nowcasting via Feature Crossing",
+      "url": "https://www.mdpi.com/2072-4292/16/14/2685",
+      "doi": "10.3390/rs16142685",
+      "source": "Remote Sensing",
+      "date_added": "2026-09-07",
+      "publication_date": "2024-07-22",
+      "indexed_evidence": "Crossref refreshed the Remote Sensing article index on 2026-09-03; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The dataset section states that the model is trained and tested on 20,393 SEVIR events using the WSR-88D/NEXRAD VIL radar mosaic modality as both input and forecast target."
+    },
+    {
+      "title": "Two-Stage Spatiotemporal Context Refinement Network for Precipitation Nowcasting",
+      "url": "https://www.mdpi.com/2072-4292/13/21/4285",
+      "doi": "10.3390/rs13214285",
+      "source": "Remote Sensing",
+      "date_added": "2026-09-07",
+      "publication_date": "2021-10-25",
+      "indexed_evidence": "Crossref refreshed the Remote Sensing article index on 2026-09-05; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The dataset section states that experiments use 2017-2019 3 km CAPPI reflectivity mosaics from seven S-band radars supplied by the Guangdong Meteorological Bureau."
+    },
+    {
+      "title": "MSSTNet: A Multi-Scale Spatiotemporal Prediction Neural Network for Precipitation Nowcasting",
+      "url": "https://www.mdpi.com/2072-4292/15/1/137",
+      "doi": "10.3390/rs15010137",
+      "source": "Remote Sensing",
+      "date_added": "2026-09-07",
+      "publication_date": "2022-12-26",
+      "indexed_evidence": "Crossref refreshed the Remote Sensing article index on 2026-09-05; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The experiment section states that the real-weather dataset contains quality-controlled basic-reflectivity products from a dual-polarization Doppler weather radar at 6 min and 1 km resolution."
+    },
+    {
+      "title": "Contextual Sa-Attention Convolutional LSTM for Precipitation Nowcasting: A Spatiotemporal Sequence Forecasting View",
+      "url": "https://ieeexplore.ieee.org/document/9618869/",
+      "doi": "10.1109/jstars.2021.3128522",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+      "date_added": "2026-09-07",
+      "publication_date": "2021",
+      "indexed_evidence": "Crossref refreshed the IEEE journal record on 2026-09-04; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The paper evaluates the contextual self-attention ConvLSTM on the HKO-7 weather-radar echo benchmark using POD, FAR, and CSI precipitation metrics."
+    },
+    {
+      "title": "Comparative study of cloud evolution for rainfall nowcasting using AI-based deep learning algorithms",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022169424009892",
+      "doi": "10.1016/j.jhydrol.2024.131593",
+      "source": "Journal of Hydrology",
+      "date_added": "2026-09-07",
+      "publication_date": "2024-08",
+      "indexed_evidence": "Crossref refreshed the Journal of Hydrology record on 2026-09-01; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The publisher abstract states that three deep-learning algorithms are evaluated on a Guangdong, China radar-echo mosaic dataset across weak, medium, and strong rainfall cases."
+    },
+    {
+      "title": "A hybrid of RainNet and genetic algorithm in nowcasting prediction",
+      "url": "https://link.springer.com/article/10.1007/s12145-023-01120-6",
+      "doi": "10.1007/s12145-023-01120-6",
+      "source": "Earth Science Informatics",
+      "date_added": "2026-09-07",
+      "publication_date": "2023-10-31",
+      "indexed_evidence": "Crossref refreshed the Springer article index on 2026-09-04; it surfaced during the 2026-09-07 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The publisher paper abstract states that RainNet plus genetic-algorithm tuning is evaluated on German Weather Service DWD radar images for the next 5 min nowcast."
     }
   ]
 }
