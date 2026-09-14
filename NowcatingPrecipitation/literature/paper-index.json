@@ -3591,6 +3591,150 @@
       "indexed_evidence": "Crossref refreshed the Springer article index on 2026-09-04; it surfaced during the 2026-09-07 scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The publisher paper abstract states that RainNet plus genetic-algorithm tuning is evaluated on German Weather Service DWD radar images for the next 5 min nowcast."
+    },
+    {
+      "title": "GSWarpNet: Decoupled warp-and-refine radar echo nowcasting with physics-regularized flow supervision",
+      "url": "https://doi.org/10.1016/j.srs.2026.100500",
+      "doi": "10.1016/j.srs.2026.100500",
+      "source": "Science of Remote Sensing / Elsevier",
+      "date_added": "2026-09-14",
+      "publication_date": "2026-09",
+      "indexed_evidence": "Crossref indexed the formal Science of Remote Sensing record on 2026-09-09; the article was published in the 2026-09 scan window.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The title defines a radar-echo nowcasting task, and the retrievable experiment description reports cross-domain evaluation on X-band radar and SRadar (SHMU) radar datasets."
+    },
+    {
+      "title": "MM-Dy: A Multimodal Dynamic Channel Fusion Method for Rainfall Nowcasting",
+      "url": "https://ieeexplore.ieee.org/document/11676482/",
+      "doi": "10.1109/icccbda69573.2026.11676482",
+      "source": "2026 11th International Conference on Cloud Computing and Big Data Analytics / IEEE",
+      "date_added": "2026-09-14",
+      "publication_date": "2026-04",
+      "indexed_evidence": "Crossref indexed the IEEE conference paper on 2026-09-12; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The official conference-program abstract states that experiments use the multimodal SEVIR dataset for 1 h rainfall nowcasting; the model includes the NEXRAD-derived VIL radar modality."
+    },
+    {
+      "title": "Towards a More Realistic and Detailed Deep-Learning-Based Radar Echo Extrapolation Method",
+      "url": "https://www.mdpi.com/2072-4292/14/1/24",
+      "doi": "10.3390/rs14010024",
+      "source": "Remote Sensing",
+      "date_added": "2026-09-14",
+      "publication_date": "2021-12-22",
+      "indexed_evidence": "Crossref refreshed the Remote Sensing article index on 2026-09-08; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The experiment section states that all radar-echo extrapolation experiments use the NEXRAD-derived VIL imagery from SEVIR, with 1 h observations forecasting the next 1 h or 2 h."
+    },
+    {
+      "title": "Use of Deep Learning for Weather Radar Nowcasting",
+      "url": "https://journals.ametsoc.org/view/journals/atot/38/9/JTECH-D-21-0012.1.xml",
+      "doi": "10.1175/jtech-d-21-0012.1",
+      "source": "Journal of Atmospheric and Oceanic Technology / American Meteorological Society",
+      "date_added": "2026-09-14",
+      "publication_date": "2021-09-20",
+      "indexed_evidence": "Crossref refreshed the AMS journal record on 2026-09-10; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The dataset section uses NEXRAD WSR-88D Level-II reflectivity from Dallas–Fort Worth for training and testing, plus Denver KFTG data for geographic-transfer evaluation."
+    },
+    {
+      "title": "Research on Radar Echo Extrapolation Method by Fusing Environment Grid Point Field Information",
+      "url": "https://www.mdpi.com/2073-4433/14/6/980",
+      "doi": "10.3390/atmos14060980",
+      "source": "Atmosphere",
+      "date_added": "2026-09-14",
+      "publication_date": "2023-06-05",
+      "indexed_evidence": "Crossref refreshed the Atmosphere article index on 2026-09-11; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The data section constructs 9,539 composite-reflectivity sequences from 15 China Meteorological Administration S-band Doppler radar sites and fuses them with seven ERA5 environmental fields."
+    },
+    {
+      "title": "An Long Short-Term Memory Model with Multi-Scale Context Fusion and Attention for Radar Echo Extrapolation",
+      "url": "https://www.mdpi.com/2072-4292/16/2/376",
+      "doi": "10.3390/rs16020376",
+      "source": "Remote Sensing",
+      "date_added": "2026-09-14",
+      "publication_date": "2024-01-17",
+      "indexed_evidence": "Crossref refreshed the Remote Sensing article index on 2026-09-08; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The paper evaluates CAST-LSTM on Hong Kong Observatory HKO-7 radar echoes from 2009–2015, using 10 input frames to predict the following 20 frames."
+    },
+    {
+      "title": "ConvNeuralODE-Net: A Continuous-Time Spatiotemporal Neural ODE Framework for Short-Term Precipitation Nowcasting",
+      "url": "https://ieeexplore.ieee.org/document/11333669/",
+      "doi": "10.1109/icicml67980.2025.11333669",
+      "source": "2025 4th International Conference on Image Processing, Computer Vision and Machine Learning / IEEE",
+      "date_added": "2026-09-14",
+      "publication_date": "2025-11-21",
+      "indexed_evidence": "Crossref indexed the IEEE conference paper on 2026-09-12; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The retrievable conference-paper abstract states that experiments use high-resolution SEVIR VIL data, which are derived from NEXRAD radar observations."
+    },
+    {
+      "title": "Nowcasting Multiparameter Phased-Array Weather Radar (MP-PAWR) Echoes of Localized Heavy Precipitation Using a 3D Recurrent Neural Network Trained with an Adversarial Technique",
+      "url": "https://journals.ametsoc.org/view/journals/atot/40/7/JTECH-D-22-0109.1.xml",
+      "doi": "10.1175/jtech-d-22-0109.1",
+      "source": "Journal of Atmospheric and Oceanic Technology / American Meteorological Society",
+      "date_added": "2026-09-14",
+      "publication_date": "2023-07",
+      "indexed_evidence": "Crossref refreshed the AMS journal record on 2026-09-12; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The paper trains a 3D recurrent adversarial model on 30 s MP-PAWR volumes containing horizontal reflectivity and differential reflectivity to forecast the next 10 min of localized heavy-rain echoes."
+    },
+    {
+      "title": "Convective Storm VIL and Lightning Nowcasting Using Satellite and Weather Radar Measurements Based on Multi-Task Learning Models",
+      "url": "https://link.springer.com/article/10.1007/s00376-022-2082-6",
+      "doi": "10.1007/s00376-022-2082-6",
+      "source": "Advances in Atmospheric Sciences / Springer Nature",
+      "date_added": "2026-09-14",
+      "publication_date": "2023-05",
+      "indexed_evidence": "Crossref refreshed the Springer journal record on 2026-09-12; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The publisher abstract and paper state that the multi-task U-Net uses NEXRAD vertically integrated liquid, GOES-16 infrared brightness temperatures, and GLM lightning to forecast convective VIL and lightning up to 90 min."
+    },
+    {
+      "title": "TPDTC-Net-DRA: Enhancing Nowcasting of Heavy Precipitation via Dynamic Region Attention",
+      "url": "https://www.mdpi.com/2072-4292/18/3/490",
+      "doi": "10.3390/rs18030490",
+      "source": "Remote Sensing",
+      "date_added": "2026-09-14",
+      "publication_date": "2026-02-03",
+      "indexed_evidence": "Crossref refreshed the Remote Sensing article index on 2026-09-08; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The experiment section uses 2016–2019 KNMI radar-derived precipitation images at 5 min and 1 km resolution, with nine frames forecasting the subsequent nine frames."
+    },
+    {
+      "title": "DFST-GAN: A Dynamic Flow Spatio-Temporal Generative Adversarial Network for High-Quality Precipitation Nowcasting",
+      "url": "https://www.mdpi.com/2072-4292/17/17/2974",
+      "doi": "10.3390/rs17172974",
+      "source": "Remote Sensing",
+      "date_added": "2026-09-14",
+      "publication_date": "2025-08-27",
+      "indexed_evidence": "Crossref refreshed the Remote Sensing article index on 2026-09-08; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The experiment section evaluates the dynamic-flow GAN directly on HKO-7 weather-radar echo sequences using multiple dBZ thresholds and meteorological skill scores."
+    },
+    {
+      "title": "Motion-Guided Global–Local Aggregation Transformer Network for Precipitation Nowcasting",
+      "url": "https://research.tudelft.nl/en/publications/motion-guided-global-local-aggregation-transformer-network-for-pr/",
+      "doi": "10.1109/tgrs.2022.3217639",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / TU Delft Repository",
+      "date_added": "2026-09-14",
+      "publication_date": "2022",
+      "indexed_evidence": "Crossref refreshed the IEEE journal record on 2026-09-10; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The experiment section uses only the NEXRAD-derived VIL modality from SEVIR and additionally evaluates on SRAD2018 reflectivity data collected by the Shenzhen Meteorological Bureau and Hong Kong Observatory."
+    },
+    {
+      "title": "Broad-UNet: Multi-scale feature learning for nowcasting tasks",
+      "url": "https://dspace.library.uu.nl/handle/1874/423128",
+      "doi": "10.1016/j.neunet.2021.08.036",
+      "arxiv_id": "2102.06442",
+      "source": "Neural Networks / Utrecht University Repository",
+      "date_added": "2026-09-14",
+      "publication_date": "2021-12",
+      "indexed_evidence": "Crossref refreshed the Neural Networks article index on 2026-09-08; it surfaced during the 2026-09-14 scan.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The precipitation experiment uses 2016–2019 KNMI rainfall maps derived from the De Bilt and Den Helder weather-radar stations at 5 min intervals."
     }
   ]
 }
