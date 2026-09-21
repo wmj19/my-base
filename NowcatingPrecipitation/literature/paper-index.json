@@ -3735,6 +3735,204 @@
       "indexed_evidence": "Crossref refreshed the Neural Networks article index on 2026-09-08; it surfaced during the 2026-09-14 scan.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The precipitation experiment uses 2016–2019 KNMI rainfall maps derived from the De Bilt and Den Helder weather-radar stations at 5 min intervals."
+    },
+    {
+      "title": "IRENE: A Convolutional GRU Ensemble Model for Radar Precipitation Nowcasting over Italy",
+      "url": "https://arxiv.org/abs/2609.17175",
+      "arxiv_id": "2609.17175",
+      "source": "arXiv",
+      "date_added": "2026-09-21",
+      "publication_date": "2026-09-15",
+      "indexed_evidence": "arXiv v1 was submitted on 2026-09-15 within the 2026-09-21 scan window.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The paper trains and evaluates on the 1 km, 5 min IT-DPC-SRI Italian national operational radar composite from 2021-01-01 to 2025-12-11."
+    },
+    {
+      "title": "A Diffusion Transformer-Based Radar Echo Nowcasting Model for Flash-Flood-Prone Mountainous Watersheds",
+      "url": "https://doi.org/10.2139/ssrn.7471544",
+      "doi": "10.2139/ssrn.7471544",
+      "source": "SSRN / Elsevier",
+      "date_added": "2026-09-21",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref created and indexed the SSRN record on 2026-09-16.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The author abstract states that DiT-Nowcast is evaluated on a five-year radar-mosaic dataset of severe convective events in the Xiangxi River Basin, including >=35 dBZ echoes."
+    },
+    {
+      "title": "MPDR-Net: Motion Prior Enhancement and Detail Reconstruction Network with Pareto Multi-Objective Optimization for Precipitation Nowcasting",
+      "url": "https://doi.org/10.2139/ssrn.7477254",
+      "doi": "10.2139/ssrn.7477254",
+      "source": "SSRN / Elsevier",
+      "date_added": "2026-09-21",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref created and indexed the SSRN record on 2026-09-17.",
+      "priority_dataset_match": "Unconfirmed",
+      "radar_dataset_evidence": "The author abstract explicitly derives motion and evolution priors from adjacent radar frames and reports experiments on three radar datasets, whose names are not exposed in the accessible abstract."
+    },
+    {
+      "title": "Hybrid Swin Transformer-ConvLSTM Framework for Rainfall Nowcasting",
+      "url": "https://doi.org/10.46620/ursigass26/ahra5277",
+      "doi": "10.46620/ursigass26/ahra5277",
+      "source": "URSI GASS 2026",
+      "date_added": "2026-09-21",
+      "publication_date": "2026-08",
+      "indexed_evidence": "Crossref indexed the URSI GASS 2026 paper on 2026-09-17 after its 15-22 August conference presentation.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official paper uses Bhopal C-band Doppler weather-radar rain-rate fields, with four 5 min frames forecasting the next 5-20 min."
+    },
+    {
+      "title": "Radar Nowcasting of Hail-Producing Convective Storms over Colorado and Wyoming Using GPTCast",
+      "url": "https://doi.org/10.46620/ursigass26/lsjq6020",
+      "doi": "10.46620/ursigass26/lsjq6020",
+      "source": "URSI GASS 2026",
+      "date_added": "2026-09-21",
+      "publication_date": "2026-08",
+      "indexed_evidence": "Crossref indexed the URSI GASS 2026 paper on 2026-09-17 after its 15-22 August conference presentation.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official paper trains GPTCast on radar-reflectivity composites over Colorado and Wyoming to forecast hail-producing convective storms."
+    },
+    {
+      "title": "Temporally-Weighted ConvLSTM for Radar-Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1145/3829441.3829553",
+      "doi": "10.1145/3829441.3829553",
+      "source": "Proceedings of the 2026 3rd International Conference on Machine Learning and Intelligent Computing / ACM",
+      "date_added": "2026-09-21",
+      "publication_date": "2026-04-24",
+      "indexed_evidence": "Crossref created and indexed the ACM conference-paper record on 2026-09-18.",
+      "priority_dataset_match": "Shanghai",
+      "radar_dataset_evidence": "The author abstract reports experiments on Shanghai radar data from October 2015 to July 2018, evaluated at 10, 20, and 35 dBZ over 0-72 min."
+    },
+    {
+      "title": "PhyGroup-UNet: Dynamic Physically Correlated Channel Grouping in a Lightweight UNet for Efficient Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2026.3667511",
+      "doi": "10.1109/tgrs.2026.3667511",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing",
+      "date_added": "2026-09-21",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref refreshed the IEEE record and indexed it on 2026-09-19; the earlier daily mention had excluded it as outside that scan's date window.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The retrievable author abstract evaluates dynamic wind-speed and reflectivity channel grouping on MeteoNet radar and wind data."
+    },
+    {
+      "title": "Integrating Heterogeneous Data for Deep Learning Precipitation Nowcasting",
+      "url": "https://doi.org/10.1175/WAF-D-24-0095.1",
+      "doi": "10.1175/waf-d-24-0095.1",
+      "source": "Weather and Forecasting / American Meteorological Society",
+      "date_added": "2026-09-21",
+      "publication_date": "2025-10",
+      "indexed_evidence": "Crossref refreshed the AMS journal record on 2026-09-18.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The author abstract states that Deep-QPF is trained on 10 min radar reflectivity and rain rates for Taiwan, with heterogeneous environmental fields added by DeepQPF-PONI."
+    },
+    {
+      "title": "Deep learning model for heavy rainfall nowcasting in South Korea",
+      "url": "https://doi.org/10.1016/j.wace.2024.100652",
+      "doi": "10.1016/j.wace.2024.100652",
+      "source": "Weather and Climate Extremes / Elsevier",
+      "date_added": "2026-09-21",
+      "publication_date": "2024-06",
+      "indexed_evidence": "Crossref refreshed the Elsevier journal record on 2026-09-19.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The author abstract states that the deep-learning heavy-rain model is trained with multi-year radar images and ground measurements over South Korea."
+    },
+    {
+      "title": "Improving Radar-Based Rainfall Forecasts by Long Short-Term Memory Network in Urban Basins",
+      "url": "https://doi.org/10.3390/w13060776",
+      "doi": "10.3390/w13060776",
+      "source": "Water",
+      "date_added": "2026-09-21",
+      "publication_date": "2021-03-12",
+      "indexed_evidence": "Crossref refreshed the Water article record on 2026-09-18.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The experiment feeds 25 surrounding MAPLE radar-nowcast grid points into LSTM models for 13 gauges across five South Korean cities."
+    },
+    {
+      "title": "Learning from Precipitation Events in the Wider Domain to Improve the Performance of a Deep Learning-Based Precipitation Nowcasting Model",
+      "url": "https://doi.org/10.1175/WAF-D-21-0078.1",
+      "doi": "10.1175/waf-d-21-0078.1",
+      "source": "Weather and Forecasting / American Meteorological Society",
+      "date_added": "2026-09-21",
+      "publication_date": "2022-06",
+      "indexed_evidence": "Crossref refreshed the AMS journal record on 2026-09-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The paper pretrains and regionally fine-tunes deep nowcasters on the Japan Meteorological Agency 1 km, 5 min nationwide radar-precipitation dataset."
+    },
+    {
+      "title": "MSDM v1.0: A machine learning model for precipitation nowcasting over eastern China using multisource data",
+      "url": "https://doi.org/10.5194/gmd-14-4019-2021",
+      "doi": "10.5194/gmd-14-4019-2021",
+      "source": "Geoscientific Model Development",
+      "date_added": "2026-09-21",
+      "publication_date": "2021-06-29",
+      "indexed_evidence": "Crossref refreshed the GMD article record on 2026-09-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The model uses eastern-China flood-season radar, satellite, and precipitation data from 2017-2018 to predict radar echoes recursively to 120 min and then estimate rainfall rate."
+    },
+    {
+      "title": "GAN-argcPredNet v1.0: a generative adversarial model for radar echo extrapolation based on convolutional recurrent units",
+      "url": "https://doi.org/10.5194/gmd-15-1467-2022",
+      "doi": "10.5194/gmd-15-1467-2022",
+      "source": "Geoscientific Model Development",
+      "date_added": "2026-09-21",
+      "publication_date": "2022-02-18",
+      "indexed_evidence": "Crossref refreshed the GMD article record on 2026-09-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The paper evaluates GAN-argcPredNet on a Shenzhen, China radar dataset using POD, CSI, and FAR across rainfall-intensity thresholds."
+    },
+    {
+      "title": "RAP-Net: Region Attention Predictive Network for precipitation nowcasting",
+      "url": "https://doi.org/10.5194/gmd-15-5407-2022",
+      "doi": "10.5194/gmd-15-5407-2022",
+      "source": "Geoscientific Model Development",
+      "date_added": "2026-09-21",
+      "publication_date": "2022-07-15",
+      "indexed_evidence": "Crossref refreshed the final GMD article record on 2026-09-16; its discussion-paper record was also refreshed during the scan window.",
+      "priority_dataset_match": "CIKM",
+      "radar_dataset_evidence": "The experiment section uses the CIKM AnalytiCup 2017 RadarCIKM dataset over Shenzhen, with 10,000 training and 4,000 test sequences."
+    },
+    {
+      "title": "Enhancing the Encoding-Forecasting Model for Precipitation Nowcasting by Putting High Emphasis on the Latest Data of the Time Step",
+      "url": "https://doi.org/10.3390/atmos12020261",
+      "doi": "10.3390/atmos12020261",
+      "source": "Atmosphere",
+      "date_added": "2026-09-21",
+      "publication_date": "2021-02-16",
+      "indexed_evidence": "Crossref refreshed the Atmosphere article record on 2026-09-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The paper evaluates weighted broadcasting in a data-driven radar-extrapolation model on Korea Meteorological Administration radar-precipitation imagery, including >=30 mm/h heavy rain."
+    },
+    {
+      "title": "Spacetime Separable Latent Diffusion Model With Intensity Structure Information for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2024.3444789",
+      "doi": "10.1109/tgrs.2024.3444789",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing",
+      "date_added": "2026-09-21",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref refreshed the IEEE journal record on 2026-09-17.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official author repository explicitly loads and trains on MRMS data; MRMS is an operational multi-radar precipitation mosaic. The second paper dataset could not be confirmed from accessible materials."
+    },
+    {
+      "title": "A deep learning based approach with adversarial regularization for Doppler weather radar ECHO prediction",
+      "url": "https://doi.org/10.1109/IGARSS.2017.8128174",
+      "doi": "10.1109/igarss.2017.8128174",
+      "source": "2017 IEEE International Geoscience and Remote Sensing Symposium",
+      "date_added": "2026-09-21",
+      "publication_date": "2017-07",
+      "indexed_evidence": "Crossref refreshed the IEEE conference-paper record on 2026-09-15.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The author abstract reports Doppler weather-radar echo-state prediction and precipitation skill scores on data from Seattle, Washington, USA."
+    },
+    {
+      "title": "Enhancing Radar-Based Precipitation Nowcasting Model with AI-Predicted Precipitation Intensity Change Rates",
+      "url": "https://doi.org/10.5194/egusphere-egu25-16130",
+      "doi": "10.5194/egusphere-egu25-16130",
+      "source": "EGU General Assembly 2025 conference abstract",
+      "date_added": "2026-09-21",
+      "publication_date": "2025-03-15",
+      "indexed_evidence": "Crossref refreshed the EGU conference-abstract record on 2026-09-18.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract trains RainNet on radar-derived precipitation-intensity change rates from 2021-2023 and validates on 2020 data before coupling the output to a radar extrapolation model."
     }
   ]
 }
