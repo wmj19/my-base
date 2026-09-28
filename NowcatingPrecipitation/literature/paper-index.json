@@ -3933,6 +3933,95 @@
       "indexed_evidence": "Crossref refreshed the EGU conference-abstract record on 2026-09-18.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The official abstract trains RainNet on radar-derived precipitation-intensity change rates from 2021-2023 and validates on 2020 data before coupling the output to a radar extrapolation model."
+    },
+    {
+      "title": "WeatherDiagFlow: Evidence-Grounded Radar Nowcasting with Diagnostic Flow Refinement",
+      "url": "https://arxiv.org/abs/2609.29772",
+      "doi": "10.48550/arXiv.2609.29772",
+      "arxiv_id": "2609.29772",
+      "source": "arXiv",
+      "date_added": "2026-09-28",
+      "publication_date": "2026-09-24",
+      "indexed_evidence": "arXiv v1 was submitted on 2026-09-24 within the scan window.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The arXiv abstract explicitly reports radar-nowcasting experiments on FJRADAR and evaluates strong-echo forecast skill."
+    },
+    {
+      "title": "Deep learning-based radar–gauge fusion for 6–18 min surface rainfall nowcasting in Mexico City: an event-based evaluation for urban flood monitoring",
+      "url": "https://doi.org/10.2139/ssrn.7518762",
+      "doi": "10.2139/ssrn.7518762",
+      "source": "SSRN Electronic Journal",
+      "date_added": "2026-09-28",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref created and indexed the SSRN record on 2026-09-24.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The author abstract explicitly uses Mexico City C-band radar reflectivity fused with observations from 46 rain gauges across 12 convective events for 6-18 min rainfall nowcasting."
+    },
+    {
+      "title": "Hybrid GA-PSO Hyperparameter Optimization for ConvLSTM-Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1007/978-3-032-38809-4_18",
+      "doi": "10.1007/978-3-032-38809-4_18",
+      "source": "Springer Nature / Computer Science On-line Conference 2026",
+      "date_added": "2026-09-28",
+      "publication_date": "2026-09-26",
+      "indexed_evidence": "The Springer conference chapter was published online on 2026-09-26; its Crossref record was created during the scan window.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Springer abstract explicitly evaluates ConvLSTM on a synthetic radar dataset and the real MeteoNet weather-radar dataset. MeteoNet is not the priority MetNet dataset."
+    },
+    {
+      "title": "Precipitation nowcasting based on ConvLSTM-UNet deep spatiotemporal network",
+      "url": "https://doi.org/10.1117/1.JEI.33.4.043053",
+      "doi": "10.1117/1.jei.33.4.043053",
+      "source": "Journal of Electronic Imaging",
+      "date_added": "2026-09-28",
+      "publication_date": "2024-08-21",
+      "indexed_evidence": "Crossref created and indexed the SPIE article record on 2026-09-23 and 2026-09-24.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The SPIE paper and official author repository use KNMI radar-derived precipitation maps from 2016-2019 at 5-minute intervals, totaling about 420,000 images."
+    },
+    {
+      "title": "HybridFlow: A Hybrid Velocity Generation Framework for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2025.3646177",
+      "doi": "10.1109/tgrs.2025.3646177",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing",
+      "date_added": "2026-09-28",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref refreshed the IEEE journal record on 2026-09-24.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The accessible abstract reports experiments on the Swedish and operational U.S. MRMS radar-precipitation datasets, including CSI improvements at strong-rain thresholds."
+    },
+    {
+      "title": "Reliable precipitation nowcasting using probabilistic diffusion models",
+      "url": "https://doi.org/10.1088/1748-9326/ad2891",
+      "doi": "10.1088/1748-9326/ad2891",
+      "source": "Environmental Research Letters",
+      "date_added": "2026-09-28",
+      "publication_date": "2024-02-12",
+      "indexed_evidence": "Crossref refreshed the IOP article record on 2026-09-23; the full paper exposed radar-data details that were unavailable during earlier scans.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The data section uses the public UK Met Office radar-network dataset released with DGMR: 1-km, 5-minute radar precipitation from 2015-2019, with about 11,000 samples used in this study."
+    },
+    {
+      "title": "Computer Vision in Precipitation Nowcasting: Applying Image Quality Assessment Metrics for Training Deep Neural Networks",
+      "url": "https://doi.org/10.3390/atmos10050244",
+      "doi": "10.3390/atmos10050244",
+      "source": "Atmosphere",
+      "date_added": "2026-09-28",
+      "publication_date": "2019-05-02",
+      "indexed_evidence": "Crossref refreshed the MDPI article record on 2026-09-27.",
+      "priority_dataset_match": "Unconfirmed",
+      "radar_dataset_evidence": "The publisher abstract explicitly defines radar-echo extrapolation experiments that encode five radar images and forecast the next ten images; accessible index metadata does not expose the dataset name."
+    },
+    {
+      "title": "A Generative Adversarial Gated Recurrent Unit Model for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/LGRS.2019.2926776",
+      "doi": "10.1109/lgrs.2019.2926776",
+      "source": "IEEE Geoscience and Remote Sensing Letters",
+      "date_added": "2026-09-28",
+      "publication_date": "2020-04",
+      "indexed_evidence": "Crossref refreshed the IEEE journal record on 2026-09-27.",
+      "priority_dataset_match": "Unconfirmed",
+      "radar_dataset_evidence": "The paper abstract explicitly defines the target as radar-echo-map extrapolation and evaluates GA-ConvGRU against ConvGRU and optical flow on real radar datasets."
     }
   ]
 }
