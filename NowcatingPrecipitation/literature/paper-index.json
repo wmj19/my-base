@@ -4022,6 +4022,29 @@
       "indexed_evidence": "Crossref refreshed the IEEE journal record on 2026-09-27.",
       "priority_dataset_match": "Unconfirmed",
       "radar_dataset_evidence": "The paper abstract explicitly defines the target as radar-echo-map extrapolation and evaluates GA-ConvGRU against ConvGRU and optical flow on real radar datasets."
+    },
+    {
+      "title": "Just Weather Scoring: Efficient End-to-End Nowcasting with Distributional Diffusion",
+      "url": "https://arxiv.org/abs/2610.12189",
+      "doi": "10.48550/arXiv.2610.12189",
+      "arxiv_id": "2610.12189",
+      "source": "arXiv",
+      "date_added": "2026-10-12",
+      "publication_date": "2026-10-08",
+      "indexed_evidence": "arXiv v1 was submitted on 2026-10-08 within the scan window.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The paper evaluates end-to-end radar-space diffusion on SEVIR NEXRAD VIL and MeteoNet weather-radar reflectivity, using historical radar frames to forecast future radar sequences. MeteoNet is not the priority MetNet dataset."
+    },
+    {
+      "title": "Precipitation nowcasting model based on multi-source data fusion and efficient additive attention",
+      "url": "https://doi.org/10.1038/s41598-026-72326-z",
+      "doi": "10.1038/s41598-026-72326-z",
+      "source": "Scientific Reports",
+      "date_added": "2026-10-12",
+      "publication_date": "2026-10-09",
+      "indexed_evidence": "The Scientific Reports article and its Crossref record were published and indexed on 2026-10-09 within the scan window.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The full paper uses 6-minute basic-reflectivity images from the Nanjing weather radar, cropped to a 400 by 400 grid, together with Jiangsu automatic weather-station observations to predict 1-3 hour station precipitation."
     }
   ]
 }
