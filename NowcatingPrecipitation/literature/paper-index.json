@@ -4045,6 +4045,50 @@
       "indexed_evidence": "The Scientific Reports article and its Crossref record were published and indexed on 2026-10-09 within the scan window.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The full paper uses 6-minute basic-reflectivity images from the Nanjing weather radar, cropped to a 400 by 400 grid, together with Jiangsu automatic weather-station observations to predict 1-3 hour station precipitation."
+    },
+    {
+      "title": "FBAP-Net: A Frequency-Band-Aware Amplitude–Phase Network for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2026.3742897",
+      "doi": "10.1109/tgrs.2026.3742897",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / IEEE Xplore",
+      "date_added": "2026-10-19",
+      "publication_date": "2026-10-13",
+      "indexed_evidence": "IEEE Xplore published the Early Access article on 2026-10-13 and Crossref created the DOI record within the scan window.",
+      "priority_dataset_match": "CIKM; ShangHai / Shanghai",
+      "radar_dataset_evidence": "The official IEEE Xplore abstract defines the task as radar-echo nowcasting and reports experiments on the CIKM 2017 and Shanghai 2020 radar datasets, including high-reflectivity echo metrics."
+    },
+    {
+      "title": "SegTrans-Diff: A Segmented Spatiotemporal Transformer With Echo-Aware Diffusion Refinement for Long-Lead Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1109/TGRS.2026.3740026",
+      "doi": "10.1109/tgrs.2026.3740026",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / IEEE Xplore",
+      "date_added": "2026-10-19",
+      "publication_date": "2026-10-06",
+      "indexed_evidence": "Crossref re-indexed the main record on 2026-10-17 and its supplemental-material record on 2026-10-16; the official IEEE abstract newly exposed verifiable dataset evidence during this scan.",
+      "priority_dataset_match": "ShangHai / Shanghai",
+      "radar_dataset_evidence": "The official IEEE Xplore abstract explicitly evaluates 0-3 hour radar-echo extrapolation on the Shanghai radar echo dataset and reports pixel-wise and neighborhood strong-echo skill."
+    },
+    {
+      "title": "MultiPredNet: Multi-Source Fusion and Multi-Objective Learning for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1109/CCRIS71163.2026.11721786",
+      "doi": "10.1109/ccris71163.2026.11721786",
+      "source": "2026 7th International Conference on Control, Robotics and Intelligent System / IEEE Xplore",
+      "date_added": "2026-10-19",
+      "publication_date": "2026-08-28--2026-08-30",
+      "indexed_evidence": "IEEE Xplore added the conference paper on 2026-10-13 within the scan window.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official IEEE Xplore abstract reports experiments on a Shanxi Province radar dataset and predicts future radar echoes by fusing radar temporal features, meteorological variables, and static topography."
+    },
+    {
+      "title": "Identification of Atmospheric Dynamics of a Tropical Hail Event and Application of Radar Reflectivity Nowcasting Using a UNet-ConvLSTM2D Deep Learning Model",
+      "url": "https://journal3.upgris.ac.id/index.php/lpt/article/view/1087",
+      "doi": "10.26877/lpt.v5i3.1087",
+      "source": "Lontar Physics Today",
+      "date_added": "2026-10-19",
+      "publication_date": "2026-10-19",
+      "indexed_evidence": "The official article became available online on 2026-10-19 and Crossref created and indexed its DOI record on 2026-10-18.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The full paper trains and validates UNet-ConvLSTM2D on 8-minute CMAX reflectivity sequences from the Soekarno-Hatta C-band weather radar (January 2023 to October 2024) and tests 8-56 minute forecasts on the 2024-10-28 Depok hail event."
     }
   ]
 }
