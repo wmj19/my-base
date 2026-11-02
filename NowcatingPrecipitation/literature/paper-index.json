@@ -4292,6 +4292,105 @@
       "indexed_evidence": "Crossref refreshed the MDPI article record on 2026-10-23.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The RadarJS experiments use six-minute composite reflectivity from seven Jiangsu Doppler weather radars during 2017-2018, with one-hour and three-hour targets."
+    },
+    {
+      "title": "Terrain-Modulated Multi-Polarimetric Fusion for Efficient Volumetric Radar Nowcasting",
+      "url": "https://www.mdpi.com/2072-4292/18/21/3707",
+      "doi": "10.3390/rs18213707",
+      "source": "Remote Sensing / MDPI",
+      "date_added": "2026-11-02",
+      "publication_date": "2026-10-28",
+      "indexed_evidence": "Crossref created and indexed the MDPI article record on 2026-10-28.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The GridRad-Severe experiments use 2019-2023 three-dimensional operational radar mosaics with reflectivity, ZDR, KDP, rhoHV, Doppler spectrum width, and terrain conditioning."
+    },
+    {
+      "title": "SMMP-Net: A Sliding Multi-Model Progressive Spatiotemporal Fusion Network via Dynamic KAN-Fourier for Radar-Based Precipitation Nowcasting",
+      "url": "https://doi.org/10.1016/j.inffus.2026.104908",
+      "doi": "10.1016/j.inffus.2026.104908",
+      "source": "Information Fusion / Elsevier",
+      "date_added": "2026-11-02",
+      "publication_date": "2026-10-28",
+      "indexed_evidence": "The article was published online on 2026-10-28; Crossref created the record on 2026-10-29 and refreshed it on 2026-10-31.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The experiments use KNMI radar precipitation maps and SEVIR VIL radar products for future precipitation-field prediction; Moving MNIST is only an additional video benchmark."
+    },
+    {
+      "title": "A Dual-Loop Sliding-Window Framework for Physically Consistent Precipitation Nowcasting",
+      "url": "https://doi.org/10.1007/s00343-026-6189-y",
+      "doi": "10.1007/s00343-026-6189-y",
+      "source": "Journal of Oceanology and Limnology / Springer",
+      "date_added": "2026-11-02",
+      "publication_date": "2026-10-30",
+      "indexed_evidence": "Springer published the article Online First and Crossref created the record on 2026-10-30.",
+      "priority_dataset_match": "None (MeteoNet is not MetNet)",
+      "radar_dataset_evidence": "The experiments use MeteoNet radar-derived precipitation sequences and evaluate future precipitation maps at 0.1, 1, and 5 mm/h thresholds."
+    },
+    {
+      "title": "MAFNet: Multimodal Asymmetric Fusion Network for Radar Echo Extrapolation",
+      "url": "https://www.mdpi.com/2072-4292/16/19/3597",
+      "doi": "10.3390/rs16193597",
+      "source": "Remote Sensing / MDPI",
+      "date_added": "2026-11-02",
+      "publication_date": "2024-09-26",
+      "indexed_evidence": "Crossref refreshed the MDPI article record on 2026-11-01.",
+      "priority_dataset_match": "None (MeteoNet is not MetNet)",
+      "radar_dataset_evidence": "The MeteoNet and RAIN-F experiments fuse radar, satellite, and ground observations; the MeteoNet setup predicts the next hour of radar echoes from past multimodal observations."
+    },
+    {
+      "title": "DiffREE: Feature-Conditioned Diffusion Model for Radar Echo Extrapolation",
+      "url": "https://doi.org/10.1007/s11227-024-06577-w",
+      "doi": "10.1007/s11227-024-06577-w",
+      "source": "The Journal of Supercomputing / Springer / Research Square",
+      "date_added": "2026-11-02",
+      "publication_date": "2024-10-18",
+      "indexed_evidence": "Crossref refreshed the Springer article record on 2026-11-01.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The experiments use observed Jiangsu radar-station echo sequences, with two hours of radar history used to forecast the following two hours and evaluation at radar dBZ thresholds."
+    },
+    {
+      "title": "Deep Neural Network Based on Adversarial Training for Short-Term High-Resolution Precipitation Nowcasting from Radar Echo Images",
+      "url": "https://jol.iocasjournals.cn/en/article/doi/10.1007/s00343-025-4354-3/",
+      "doi": "10.1007/s00343-025-4354-3",
+      "source": "Journal of Oceanology and Limnology / Springer",
+      "date_added": "2026-11-02",
+      "publication_date": "2025-08-26",
+      "indexed_evidence": "Crossref refreshed the Springer article record on 2026-10-30.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The full paper trains and evaluates SimVP-GAN with SEVIR vertical-integrated-liquid radar products from 2017-2019, using 44,760 training sequences and 12,144 test sequences."
+    },
+    {
+      "title": "Lightweight AI-Powered Precipitation Nowcasting",
+      "url": "https://www.the-innovation.org/article/doi/10.59717/j.xinn-geo.2024.100066",
+      "doi": "10.59717/j.xinn-geo.2024.100066",
+      "source": "The Innovation Geoscience",
+      "date_added": "2026-11-02",
+      "publication_date": "2024-04-18",
+      "indexed_evidence": "Crossref refreshed the journal article record on 2026-10-30.",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The full paper evaluates SEVIR VIL radar-to-radar nowcasting and multimodal combinations of VIL with infrared, visible, and lightning channels for forecasts up to 60 minutes."
+    },
+    {
+      "title": "LSTMAtU-Net: A Precipitation Nowcasting Model Based on ECSA Module",
+      "url": "https://www.mdpi.com/1424-8220/23/13/5785",
+      "doi": "10.3390/s23135785",
+      "source": "Sensors / MDPI",
+      "date_added": "2026-11-02",
+      "publication_date": "2023-06-21",
+      "indexed_evidence": "Crossref refreshed the MDPI article record on 2026-10-31.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The Jiangsu competition data combine six-minute station precipitation with quality-controlled one-kilometer mosaics from multiple S-band weather radars, covering 0-70 dBZ and forecasts up to two hours."
+    },
+    {
+      "title": "SCRD: A Spatiotemporal Cues-Guided Residual Diffusion Model for Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/LGRS.2024.3486112",
+      "doi": "10.1109/lgrs.2024.3486112",
+      "source": "IEEE Geoscience and Remote Sensing Letters / IEEE Xplore",
+      "date_added": "2026-11-02",
+      "publication_date": "2024-10-24",
+      "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-10-28.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract evaluates the residual diffusion model on a real-world radar echo dataset and compares heavy-rainfall accuracy and image clarity with MCVD and deterministic models."
     }
   ]
 }
