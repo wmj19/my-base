@@ -4391,6 +4391,72 @@
       "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-10-28.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The official abstract evaluates the residual diffusion model on a real-world radar echo dataset and compares heavy-rainfall accuracy and image clarity with MCVD and deterministic models."
+    },
+    {
+      "title": "Precip-UNetGAN: An Attention-Guided Multi-Scale GAN for Radar-Based Precipitation Nowcasting with Metric-Oriented Optimization",
+      "url": "https://www.researchsquare.com/article/rs-10727857/v1",
+      "doi": "10.21203/rs.3.rs-10727857/v1",
+      "source": "Research Square / Crossref",
+      "date_added": "2026-11-09",
+      "publication_date": "2026-11-04",
+      "indexed_evidence": "Research Square posted version 1 and Crossref created the preprint record on 2026-11-04.",
+      "priority_dataset_match": "ShangHai / Shanghai",
+      "radar_dataset_evidence": "The full preprint trains on KNMI gauge-adjusted radar-derived precipitation accumulations and reproduces the ranking after dataset-specific training on the Shanghai radar dataset."
+    },
+    {
+      "title": "An Individual Motion-Driven Artificial Intelligence Method for Precipitation Forecasting Using Radar Image Sequencing",
+      "url": "https://ieeexplore.ieee.org/document/10630542/",
+      "doi": "10.1109/tgrs.2024.3439871",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / IEEE Xplore",
+      "date_added": "2026-11-09",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-11-04.",
+      "priority_dataset_match": "Unconfirmed",
+      "radar_dataset_evidence": "The official abstract defines the task as forecasting future radar precipitation sequences from historical radar precipitation sequences and evaluates the IMD-AI method on radar-image prediction."
+    },
+    {
+      "title": "ResTUnet: A Novel Neural Network Model for Nowcasting Using Radar Echo Sequences by Ground-Based Remote Sensing",
+      "url": "https://www.mdpi.com/2072-4292/16/24/4792",
+      "doi": "10.3390/rs16244792",
+      "source": "Remote Sensing / MDPI",
+      "date_added": "2026-11-09",
+      "publication_date": "2024-12-23",
+      "indexed_evidence": "Crossref refreshed the MDPI article record on 2026-11-04.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The full paper constructs a dataset from Zhengzhou East Airport ground-radar observations in July-August 2022 and predicts fifteen future six-minute echo frames for a 90-minute horizon."
+    },
+    {
+      "title": "Fusion of Dual Wind Component for Radar Echo Nowcasting Based on a Deep Learning Model",
+      "url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EA004128",
+      "doi": "10.1029/2024ea004128",
+      "source": "Earth and Space Science / AGU / Wiley",
+      "date_added": "2026-11-09",
+      "publication_date": "2025-09-24",
+      "indexed_evidence": "Crossref refreshed the Wiley article record on 2026-11-06.",
+      "priority_dataset_match": "None (MeteoNet is not MetNet)",
+      "radar_dataset_evidence": "The experiments use five-minute MeteoNet radar reflectivity as the primary input and future 0-60 minute prediction target, fused with ERA5 U/V wind at 700 and 850 hPa."
+    },
+    {
+      "title": "Weather Radar Echo Prediction Method Based on Convolution Neural Network and Long Short-Term Memory Networks for Sustainable E-Agriculture",
+      "url": "https://doi.org/10.1016/j.jclepro.2021.126776",
+      "doi": "10.1016/j.jclepro.2021.126776",
+      "source": "Journal of Cleaner Production / Elsevier",
+      "date_added": "2026-11-09",
+      "publication_date": "2021-05-20",
+      "indexed_evidence": "Crossref refreshed the Elsevier article record on 2026-11-06.",
+      "priority_dataset_match": "None (Tianchi IEEE ICDM 2018 is not CIKM 2017)",
+      "radar_dataset_evidence": "The experiments use the Standardized Radar Dataset 2018 from the Ali Tianchi IEEE ICDM 2018 Global Meteorological AI Challenge, containing six-minute 0-80 dBZ weather-radar sequences."
+    },
+    {
+      "title": "A Strategy to Set Up Test Dataset and Evaluation Benchmark for Radar Nowcasting of Precipitation in Italy",
+      "url": "https://ieeexplore.ieee.org/document/10993291/",
+      "doi": "10.1109/jstars.2025.3568185",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / IEEE Xplore",
+      "date_added": "2026-11-09",
+      "publication_date": "2025-05-08",
+      "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-11-08.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The benchmark uses 111,955 five-minute, one-kilometer gauge-adjusted surface-rainfall frames from the Italian operational C- and X-band radar network and compares RainNet, SimVP, and RadCGAN with six Lagrangian methods."
     }
   ]
 }
