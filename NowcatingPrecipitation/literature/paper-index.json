@@ -4457,6 +4457,50 @@
       "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-11-08.",
       "priority_dataset_match": "None",
       "radar_dataset_evidence": "The benchmark uses 111,955 five-minute, one-kilometer gauge-adjusted surface-rainfall frames from the Italian operational C- and X-band radar network and compares RainNet, SimVP, and RadCGAN with six Lagrangian methods."
+    },
+    {
+      "title": "DGAFNet: A Dual-Branch Gradually Cross-Attention Fusion Network for Precipitation Nowcasting",
+      "url": "https://ieeexplore.ieee.org/document/11789773/",
+      "doi": "10.1109/tgrs.2026.3752461",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / IEEE Xplore",
+      "date_added": "2026-11-16",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref created the formal IEEE journal record on 2026-11-11 UTC (2026-11-12 Asia/Shanghai).",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The official abstract states that DGAFNet fuses radar and satellite observations, uses a radar branch with ASPP for multi-scale echo features, and evaluates high-intensity precipitation on SEVIR."
+    },
+    {
+      "title": "ResSE-ConvLSTM and CNN-Based Architecture for Radar Nowcasting and Convective Storm Detection",
+      "url": "https://ieeexplore.ieee.org/document/11783381/",
+      "doi": "10.1109/access.2026.3751718",
+      "source": "IEEE Access / IEEE Xplore",
+      "date_added": "2026-11-16",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref created the formal IEEE Access record on 2026-11-09 UTC (2026-11-10 Asia/Shanghai).",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract trains ResSE-ConvLSTM on polarimetric Doppler weather-radar data to predict future radar-reflectivity PPI images from 10 minutes to 6 hours and detects storms from the predicted radar fields."
+    },
+    {
+      "title": "Fed-Cast: Federated Training and Evaluation Workflow for Generative Precipitation Nowcasting Across Climate-Diverse Regions",
+      "url": "https://ieeexplore.ieee.org/document/11761224/",
+      "doi": "10.1109/escience70237.2026.00057",
+      "source": "IEEE eScience 2026 / IEEE Xplore",
+      "date_added": "2026-11-16",
+      "publication_date": "2026-09-28",
+      "indexed_evidence": "The conference paper was presented in September 2026; Crossref first created its record on 2026-11-13 UTC (2026-11-14 Asia/Shanghai).",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The experiments partition NOAA MRMS radar-derived precipitation-rate archives across seven climate-region clients and train DGMR nowcasters locally with federated parameter aggregation."
+    },
+    {
+      "title": "Evaluating Direct and Autoregressive Forecasting Protocols for Neural Nowcasting",
+      "url": "https://ieeexplore.ieee.org/document/11761277/",
+      "doi": "10.1109/escience70237.2026.00087",
+      "source": "IEEE eScience 2026 / IEEE Xplore",
+      "date_added": "2026-11-16",
+      "publication_date": "2026-09-28",
+      "indexed_evidence": "The conference short paper was presented in September 2026; Crossref first created its record on 2026-11-13 UTC (2026-11-14 Asia/Shanghai).",
+      "priority_dataset_match": "SEVIR",
+      "radar_dataset_evidence": "The precipitation experiments compare direct and autoregressive forecasting on SEVIR radar-derived VIL sequences and the DWD-12 German weather-radar precipitation benchmark; Moving MNIST is only an auxiliary non-weather dataset."
     }
   ]
 }
