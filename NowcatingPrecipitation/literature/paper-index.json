@@ -4501,6 +4501,126 @@
       "indexed_evidence": "The conference short paper was presented in September 2026; Crossref first created its record on 2026-11-13 UTC (2026-11-14 Asia/Shanghai).",
       "priority_dataset_match": "SEVIR",
       "radar_dataset_evidence": "The precipitation experiments compare direct and autoregressive forecasting on SEVIR radar-derived VIL sequences and the DWD-12 German weather-radar precipitation benchmark; Moving MNIST is only an auxiliary non-weather dataset."
+    },
+    {
+      "title": "ForeSay: Tell the Future in Words, Branch the Details in Noise for Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2611.20815",
+      "doi": "10.48550/arxiv.2611.20815",
+      "arxiv_id": "2611.20815",
+      "source": "arXiv",
+      "date_added": "2026-11-23",
+      "submission_date": "2026-11-16",
+      "priority_dataset_match": "CIKM; Shanghai; SEVIR",
+      "radar_dataset_evidence": "The paper takes historical radar frames as input and evaluates on six radar or radar-derived precipitation datasets: Swedish Precipitation, MRMS, SEVIR, MeteoNet, Shanghai, and CIKM."
+    },
+    {
+      "title": "CorrectCast: Selective Multimodal Context for Scale-Aware Residual Correction in Precipitation Nowcasting",
+      "url": "https://arxiv.org/abs/2611.22178",
+      "doi": "10.48550/arxiv.2611.22178",
+      "arxiv_id": "2611.22178",
+      "source": "arXiv",
+      "date_added": "2026-11-23",
+      "submission_date": "2026-11-17",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The MRB and CONUS experiments use NOAA Multi-Radar Multi-Sensor QPE as the precipitation field and align it with GNSS-derived precipitable water vapor for residual correction."
+    },
+    {
+      "title": "HM-SimVP: Hyperedge Interaction and Intensity Refinement for Heavy Precipitation Nowcasting",
+      "url": "https://www.mdpi.com/2073-4433/17/11/1129",
+      "doi": "10.3390/atmos17111129",
+      "source": "Atmosphere / MDPI",
+      "date_added": "2026-11-23",
+      "publication_date": "2026-11-16",
+      "priority_dataset_match": "None (MeteoNet is not MetNet)",
+      "radar_dataset_evidence": "CMPAS combines station observations with radar observations and radar products, while the MeteoNet experiment uses a crop from a northwestern France weather-radar composite."
+    },
+    {
+      "title": "HSR-Net: A High-Frequency Structure Refinement Network for Latent-Space Radar Nowcasting",
+      "url": "https://ieeexplore.ieee.org/document/11778107/",
+      "doi": "10.1109/lgrs.2026.3750851",
+      "source": "IEEE Geoscience and Remote Sensing Letters / IEEE Xplore",
+      "date_added": "2026-11-23",
+      "publication_date": "2026",
+      "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-11-20.",
+      "priority_dataset_match": "CIKM; SEVIR",
+      "radar_dataset_evidence": "The official abstract describes a radar-specific VAE and reports experiments on CIKM AnalytiCup 2017 and SEVIR radar or radar-derived VIL sequences."
+    },
+    {
+      "title": "Extreme Precipitation Nowcasting Using Multitask Latent Diffusion Models",
+      "url": "https://doi.org/10.1109/TGRS.2025.3564916",
+      "doi": "10.1109/tgrs.2025.3564916",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / IEEE Xplore",
+      "date_added": "2026-11-23",
+      "publication_date": "2025",
+      "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-11-21.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The method decomposes precipitation radar images by intensity and evaluates the multitask latent diffusion model on NOAA MRMS radar-derived precipitation images."
+    },
+    {
+      "title": "CMFPN: A Cross-Modal Fusion Prediction Network for Precipitation Nowcasting",
+      "url": "https://ieeexplore.ieee.org/document/10587570/",
+      "doi": "10.1109/ccdc62350.2024.10587570",
+      "source": "2024 Chinese Control and Decision Conference / IEEE Xplore",
+      "date_added": "2026-11-23",
+      "publication_date": "2024-05-25",
+      "indexed_evidence": "Crossref refreshed the IEEE conference-paper record on 2026-11-21.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The official abstract reports precipitation-nowcasting experiments on a real-world South China radar-echo dataset against PredRNN++, TrajGRU, Rainformer, and SimVP."
+    },
+    {
+      "title": "Focal Frame Loss: A Simple but Effective Loss for Precipitation Nowcasting",
+      "url": "https://ieeexplore.ieee.org/document/9844172/",
+      "doi": "10.1109/jstars.2022.3194522",
+      "source": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing / IEEE Xplore",
+      "date_added": "2026-11-23",
+      "publication_date": "2022",
+      "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-11-20.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The experiments use HKO-7 single-Doppler-radar echo maps and DWD-12 composites produced from 17 German Weather Service Doppler radars."
+    },
+    {
+      "title": "TU2Net-GAN: A temporal precipitation nowcasting model with multiple decoding modules",
+      "url": "https://doi.org/10.1016/j.patrec.2023.12.025",
+      "doi": "10.1016/j.patrec.2023.12.025",
+      "source": "Pattern Recognition Letters / Elsevier",
+      "date_added": "2026-11-23",
+      "publication_date": "2024-02",
+      "indexed_evidence": "Crossref refreshed the Elsevier article record on 2026-11-21.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The experiments use the open NIMROD-UK-1km rainfall-radar product from 2016-2019 to predict future radar-derived rainfall maps."
+    },
+    {
+      "title": "SMG-Net: A SimVP-Based Collaborative Model for Radar Echo Extrapolation in Precipitation Nowcasting",
+      "url": "https://www.mdpi.com/2073-4433/17/5/452",
+      "doi": "10.3390/atmos17050452",
+      "source": "Atmosphere / MDPI",
+      "date_added": "2026-11-23",
+      "publication_date": "2026-04-29",
+      "indexed_evidence": "Crossref refreshed the MDPI article record on 2026-11-17.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The study constructs 6-minute regional weather-radar reflectivity sequences over Sichuan, normalizes 0-65 dBZ values, and predicts ten future frames from ten historical frames."
+    },
+    {
+      "title": "MDTNet: Multiscale Deformable Transformer Network With Fourier Space Losses Toward Fine-Scale Spatiotemporal Precipitation Nowcasting",
+      "url": "https://doi.org/10.1109/TGRS.2024.3414934",
+      "doi": "10.1109/tgrs.2024.3414934",
+      "source": "IEEE Transactions on Geoscience and Remote Sensing / IEEE Xplore",
+      "date_added": "2026-11-23",
+      "publication_date": "2024",
+      "indexed_evidence": "Crossref refreshed the IEEE article record on 2026-11-19.",
+      "priority_dataset_match": "Unconfirmed; the accessible official abstract does not name the VIL dataset",
+      "radar_dataset_evidence": "The official abstract learns multiscale echo contexts and reports experiments on two real precipitation datasets, including a radar-derived vertically integrated liquid product."
+    },
+    {
+      "title": "GAN-argcPredNet v2.0: a radar echo extrapolation model based on spatiotemporal process enhancement",
+      "url": "https://gmd.copernicus.org/articles/17/399/2024/",
+      "doi": "10.5194/gmd-17-399-2024",
+      "source": "Geoscientific Model Development / Copernicus",
+      "date_added": "2026-11-23",
+      "publication_date": "2024-01-16",
+      "indexed_evidence": "Crossref refreshed the Copernicus article record on 2026-11-21.",
+      "priority_dataset_match": "None",
+      "radar_dataset_evidence": "The open article states that experiments use a southern China radar dataset and evaluate future radar echoes and heavy-rainfall thresholds."
     }
   ]
 }
